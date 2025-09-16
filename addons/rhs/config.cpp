@@ -600,7 +600,7 @@ class cfgWeapons
 	class sr_rhs_altyn_novisor_ess_clearSky: rhs_altyn_novisor_ess
 	{
 		author="RHS, Rad";
-		displayName="Altyn (No visor, ESS) [Clearsky]";
+		displayName="Altyn (ESS) [Clearsky]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\rhs_altyn_black_co.paa"
@@ -609,7 +609,7 @@ class cfgWeapons
 	class sr_rhs_6b26_duty: rhs_6b26_digi
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet";
+		displayName="6B26 [Duty]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b27_duty_co.paa"
@@ -618,7 +618,7 @@ class cfgWeapons
 	class sr_rhs_6b26_noCover_duty: rhs_6b26_green
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet (No cover) [Duty]";
+		displayName="6B26 (No cover) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b27_duty_co.paa"
@@ -627,7 +627,7 @@ class cfgWeapons
 	class sr_rhs_6b26_bala_duty: rhs_6b26_digi_bala
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet (Balaclava) [Duty]";
+		displayName="6B26 (Balaclava) [Duty]";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -642,7 +642,7 @@ class cfgWeapons
 	class sr_rhs_6b26_ess_duty: rhs_6b26_digi_ess
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet (Goggles) [Duty]";
+		displayName="6B26 (ESS) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b27_duty_co.paa"
@@ -651,7 +651,7 @@ class cfgWeapons
 	class sr_rhs_6b26_ess_bala_duty: rhs_6b26_digi_ess_bala
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet (Balaclava, Goggles) [Duty]";
+		displayName="6B26 (ESS/Balaclava) [Duty]";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -666,7 +666,7 @@ class cfgWeapons
 	class sr_rhs_6b26_military_01: rhs_6b26_digi
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet [Military]";
+		displayName="6B26 [Military 1]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b27_mili_co.paa"
@@ -675,7 +675,7 @@ class cfgWeapons
 	class sr_rhs_6b26_bala_military_01: rhs_6b26_digi_bala
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet (Balaclava) [Military]";
+		displayName="6B26 (Balaclava) [Military]";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -690,7 +690,7 @@ class cfgWeapons
 	class sr_rhs_6b26_ess_military_01: rhs_6b26_digi_ess
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet (Goggles) [Military]";
+		displayName="6B26 (ESS) [Military 1]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b27_mili_co.paa"
@@ -699,7 +699,7 @@ class cfgWeapons
 	class sr_rhs_6b26_ess_bala_military_01: rhs_6b26_digi_ess_bala
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet (Balaclava, Goggles) [Military]";
+		displayName="6B26 (ESS/Balaclava) [Military]";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -714,7 +714,7 @@ class cfgWeapons
 	class sr_rhs_6b26_military_02: rhs_6b26_digi
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet v2 [Military]";
+		displayName="6B26 [Military 2]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b27_mili2_co.paa"
@@ -723,7 +723,7 @@ class cfgWeapons
 	class sr_rhs_6b26_noCover_military: rhs_6b26_green
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet v2 (No cover) [Military]";
+		displayName="6B26 (No Cover) [Military]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b27_mili2_co.paa"
@@ -732,7 +732,7 @@ class cfgWeapons
 	class sr_rhs_6b26_bala_military_02: rhs_6b26_digi_bala
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet v2(Balaclava) [Military]";
+		displayName="6B26 (Balaclava) [Military 2]";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -747,7 +747,7 @@ class cfgWeapons
 	class sr_rhs_6b26_ess_military_02: rhs_6b26_digi_ess
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet v2(Goggles) [Military]";
+		displayName="6B26 (ESS) [Military 2]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b27_mili2_co.paa"
@@ -756,7 +756,7 @@ class cfgWeapons
 	class sr_rhs_6b26_ess_bala_military_02: rhs_6b26_digi_ess_bala
 	{
 		author="RHS, Rad";
-		displayName="6b26 Helmet v2(Balaclava, Goggles) [Military]";
+		displayName="6B26 (ESS/Balaclava) [Military 2]";
 		hiddenSelections[]=
 		{
 			"Camo1",
