@@ -63,7 +63,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\vanilla\data\H_beret_duty_red.paa"
+			"\vanilla\data\beret_duty_red.paa"
 		};
 		allowedslots[]={801,901,701};
 	};
@@ -83,7 +83,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\vanilla\data\H_beret_duty_blk.paa"
+			"\vanilla\data\beret_duty_blk.paa"
 		};
 		allowedslots[]={801,901,701};
 	};
