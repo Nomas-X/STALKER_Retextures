@@ -12,7 +12,7 @@ class CfgGlasses
 {
 	class rhs_balaclava;
 	class rhs_balaclava1_olive;
-	class sc_balaclava1_black: rhs_balaclava1_olive
+	class sr_rhs_balaclava1_black: rhs_balaclava1_olive
 	{
 		displayName="[Duty] Balaclava (Double)";
 		hiddenSelectionsTextures[]=
@@ -21,7 +21,7 @@ class CfgGlasses
 		};
 		author="RHS, Rad";
 	};
-	class sc_balaclava2_black: rhs_balaclava
+	class sr_rhs_balaclava_black: rhs_balaclava
 	{
 		displayName="[Duty] Balaclava (Single)";
 		hiddenSelectionsTextures[]=
