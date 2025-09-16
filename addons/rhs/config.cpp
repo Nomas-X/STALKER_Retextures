@@ -90,10 +90,10 @@ class CfgVehicles
 		};
 	};
 	class rhs_6sh122_gloves_v1_base;
-	class sc_6sh122_mili1: rhs_6sh122_gloves_v1_base
+	class sr_rhs_6sh122_gloves_military_01: rhs_6sh122_gloves_v1_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_6sh122_mili1";
+		uniformClass="sr_rhs_uniform_6sh122_gloves_military_01";
 		model="\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base_gloves.p3d";
 		hiddenSelectionsTextures[]=
 		{
@@ -102,10 +102,10 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
-	class sc_6sh122_mili2: rhs_6sh122_gloves_v1_base
+	class sr_rhs_6sh122_gloves_military_02: rhs_6sh122_gloves_v1_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_6sh122_mili2";
+		uniformClass="sr_rhs_uniform_6sh122_gloves_military_02";
 		model="\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base_gloves.p3d";
 		hiddenSelectionsTextures[]=
 		{
@@ -114,10 +114,10 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
-	class sc_6sh122_mili3: rhs_6sh122_gloves_v1_base
+	class sr_rhs_6sh122_gloves_military_03: rhs_6sh122_gloves_v1_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_6sh122_mili3";
+		uniformClass="sr_rhs_uniform_6sh122_gloves_military_03";
 		model="\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base_gloves.p3d";
 		hiddenSelectionsTextures[]=
 		{
@@ -127,17 +127,17 @@ class CfgVehicles
 		};
 	};
 	class rhs_afghanka_boots_base;
-	class sc_afghanka_duty: rhs_afghanka_boots_base
+	class sr_rhs_afghanka_boots_duty: rhs_afghanka_boots_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_afghanka_duty";
+		uniformClass="sr_rhs_uniform_afghanka_boots_duty";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\afghanka01_vest_co.paa",
 			"rhs\data\afghanka_pant_boots_co.paa"
 		};
 	};
-	class sc_flora_duty: rhs_afghanka_boots_base
+	class sr_rhs_m88_duty: rhs_afghanka_boots_base
 	{
 		scope=1;
 		model="\rhsafrf\addons\rhs_infantry\rhs_msv_base.p3d";
@@ -152,9 +152,9 @@ class CfgVehicles
 		{
 			"rhs\data\flora_m88_duty.paa"
 		};
-		uniformClass="sc_uniform_flora_duty";
+		uniformClass="sr_rhs_uniform_m88_duty";
 	};
-	class sc_flora_mili1: rhs_afghanka_boots_base
+	class sr_rhs_m88_military_01: rhs_afghanka_boots_base
 	{
 		scope=1;
 		model="\rhsafrf\addons\rhs_infantry\rhs_msv_base.p3d";
@@ -169,9 +169,9 @@ class CfgVehicles
 		{
 			"rhs\data\flora_m88_mili_1.paa"
 		};
-		uniformClass="sc_uniform_flora_mili1";
+		uniformClass="sr_rhs_uniform_m88_military_01";
 	};
-	class sc_flora_mili2: rhs_afghanka_boots_base
+	class sr_rhs_m88_military_02: rhs_afghanka_boots_base
 	{
 		scope=1;
 		model="\rhsafrf\addons\rhs_infantry\rhs_msv_base.p3d";
@@ -186,9 +186,9 @@ class CfgVehicles
 		{
 			"rhs\data\flora_m88_mili_2.paa"
 		};
-		uniformClass="sc_uniform_flora_mili2";
+		uniformClass="sr_rhs_uniform_m88_military_02";
 	};
-	class sc_flora_mili3: rhs_afghanka_boots_base
+	class sr_rhs_m88_military_03: rhs_afghanka_boots_base
 	{
 		scope=1;
 		model="\rhsafrf\addons\rhs_infantry\rhs_msv_base.p3d";
@@ -203,13 +203,13 @@ class CfgVehicles
 		{
 			"rhs\data\flora_m88_mili_3.paa"
 		};
-		uniformClass="sc_uniform_flora_mili3";
+		uniformClass="sr_rhs_uniform_m88_military_03";
 	};
 	class rhs_vkpo_gloves_base;
-	class sc_vkpo_duty: rhs_vkpo_gloves_base
+	class sr_rhs_vkpo_gloves_duty: rhs_vkpo_gloves_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_vkpo_duty";
+		uniformClass="sr_rhs_uniform_vkpo_gloves_duty";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\vkpo_duty_vest.paa",
@@ -217,10 +217,10 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
-	class sc_vkpo_mili1: rhs_vkpo_gloves_base
+	class sr_rhs_vkpo_gloves_military_01: rhs_vkpo_gloves_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_vkpo_mili1";
+		uniformClass="sr_rhs_uniform_vkpo_gloves_military_01";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\vkpo_mili_vest_1.paa",
@@ -228,10 +228,10 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
-	class sc_vkpo_mili2: rhs_vkpo_gloves_base
+	class sr_rhs_vkpo_gloves_military_02: rhs_vkpo_gloves_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_vkpo_mili2";
+		uniformClass="sr_rhs_uniform_vkpo_gloves_military_02";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\vkpo_mili_vest_2.paa",
@@ -239,10 +239,10 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
-	class sc_vkpo_mili3: rhs_vkpo_gloves_base
+	class sr_rhs_vkpo_gloves_military_03: rhs_vkpo_gloves_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_vkpo_mili3";
+		uniformClass="sr_rhs_uniform_vkpo_gloves_military_03";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\vkpo_mili_vest_3.paa",
@@ -250,10 +250,10 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
-	class sc_vkpo_dutyw: rhs_vkpo_gloves_base
+	class sr_rhs_vkpo_gloves_worn_duty: rhs_vkpo_gloves_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_vkpo_dutyw";
+		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_duty";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\vkpo_duty_vest.paa",
@@ -261,10 +261,10 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
-	class sc_vkpo_mili1w: rhs_vkpo_gloves_base
+	class sr_rhs_vkpo_gloves_worn_military_01: rhs_vkpo_gloves_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_vkpo_mili1w";
+		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_military_01";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\vkpo_mili_vest_1w.paa",
@@ -272,10 +272,10 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
-	class sc_vkpo_mili2w: rhs_vkpo_gloves_base
+	class sr_rhs_vkpo_gloves_worn_military_02: rhs_vkpo_gloves_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_vkpo_mili2w";
+		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_military_02";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\vkpo_mili_vest_2w.paa",
@@ -283,10 +283,10 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
-	class sc_vkpo_mili3w: rhs_vkpo_gloves_base
+	class sr_rhs_vkpo_gloves_worn_military_03: rhs_vkpo_gloves_base
 	{
 		scope=1;
-		uniformClass="sc_uniform_vkpo_mili3w";
+		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_military_03";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\vkpo_mili_vest_3w.paa",
@@ -307,163 +307,163 @@ class cfgWeapons
 	class rhs_uniform_afghanka_boots_spetsodezhda;
 	class rhs_uniform_flora_patchless;
 	class rhs_uniform_vkpo_gloves;
-	class sc_uniform_afghanka_duty: rhs_uniform_afghanka_boots_spetsodezhda
+	class sr_rhs_uniform_afghanka_boots_duty: rhs_uniform_afghanka_boots_spetsodezhda
 	{
 		displayName="Afghanka [Duty]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_afghanka_duty";
+			uniformClass="sr_rhs_afghanka_boots_duty";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_flora_duty: rhs_uniform_flora_patchless
+	class sr_rhs_uniform_m88_duty: rhs_uniform_flora_patchless
 	{
 		displayName="M88 uniform [Duty]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_flora_duty";
+			uniformClass="sr_rhs_m88_duty";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_flora_mili1: rhs_uniform_flora_patchless
+	class sr_rhs_uniform_m88_military_01: rhs_uniform_flora_patchless
 	{
 		displayName="M88 uniform v1 [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_flora_mili1";
+			uniformClass="sr_rhs_m88_military_01";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_flora_mili2: rhs_uniform_flora_patchless
+	class sr_rhs_uniform_m88_military_02: rhs_uniform_flora_patchless
 	{
 		displayName="M88 uniform v2 [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_flora_mili2";
+			uniformClass="sr_rhs_m88_military_02";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_flora_mili3: rhs_uniform_flora_patchless
+	class sr_rhs_uniform_m88_military_03: rhs_uniform_flora_patchless
 	{
 		displayName="M88 uniform v3 [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_flora_mili3";
+			uniformClass="sr_rhs_m88_military_03";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_vkpo_duty: rhs_uniform_vkpo_gloves
+	class sr_rhs_uniform_vkpo_gloves_duty: rhs_uniform_vkpo_gloves
 	{
 		displayName="VKPO (Gloves) [Duty]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_vkpo_duty";
+			uniformClass="sr_rhs_vkpo_gloves_duty";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_vkpo_mili1: rhs_uniform_vkpo_gloves
+	class sr_rhs_uniform_vkpo_gloves_military_01: rhs_uniform_vkpo_gloves
 	{
 		displayName="VKPO (Gloves, V1) [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_vkpo_mili1";
+			uniformClass="sr_rhs_vkpo_gloves_military_01";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_vkpo_mili2: rhs_uniform_vkpo_gloves
+	class sr_rhs_uniform_vkpo_gloves_military_02: rhs_uniform_vkpo_gloves
 	{
 		displayName="VKPO (Gloves, V2) [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_vkpo_mili2";
+			uniformClass="sr_rhs_vkpo_gloves_military_02";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_vkpo_mili3: rhs_uniform_vkpo_gloves
+	class sr_rhs_uniform_vkpo_gloves_military_03: rhs_uniform_vkpo_gloves
 	{
 		displayName="VKPO (Gloves, V3) [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_vkpo_mili3";
+			uniformClass="sr_rhs_vkpo_gloves_military_03";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_vkpo_dutyw: rhs_uniform_vkpo_gloves
+	class sr_rhs_uniform_vkpo_gloves_worn_duty: rhs_uniform_vkpo_gloves
 	{
 		displayName="VKPO (Gloves) worn [Duty]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_vkpo_dutyw";
+			uniformClass="sr_rhs_vkpo_gloves_worn_duty";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_vkpo_mili1w: rhs_uniform_vkpo_gloves
+	class sr_rhs_uniform_vkpo_gloves_worn_military_01: rhs_uniform_vkpo_gloves
 	{
 		displayName="VKPO (Gloves, V1) worn [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_vkpo_mili1w";
+			uniformClass="sr_rhs_vkpo_gloves_worn_military_01";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_vkpo_mili2w: rhs_uniform_vkpo_gloves
+	class sr_rhs_uniform_vkpo_gloves_worn_military_02: rhs_uniform_vkpo_gloves
 	{
 		displayName="VKPO (Gloves, V2) worn [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_vkpo_mili2w";
+			uniformClass="sr_rhs_vkpo_gloves_worn_military_02";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_vkpo_mili3w: rhs_uniform_vkpo_gloves
+	class sr_rhs_uniform_vkpo_gloves_worn_military_03: rhs_uniform_vkpo_gloves
 	{
 		displayName="VKPO (Gloves, V3) worn [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_vkpo_mili3w";
+			uniformClass="sr_rhs_vkpo_gloves_worn_military_03";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
 	class rhs_uniform_6sh122_gloves_v1;
-	class sc_uniform_6sh122_mili1: rhs_uniform_6sh122_gloves_v1
+	class sr_rhs_uniform_6sh122_gloves_military_01: rhs_uniform_6sh122_gloves_v1
 	{
 		displayName="6sh122 (Gloves, V1) [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_6sh122_mili1";
+			uniformClass="sr_rhs_6sh122_gloves_military_01";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_6sh122_mili2: rhs_uniform_6sh122_gloves_v1
+	class sr_rhs_uniform_6sh122_gloves_military_02: rhs_uniform_6sh122_gloves_v1
 	{
 		displayName="6sh122 (Gloves, V2) [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_6sh122_mili2";
+			uniformClass="sr_rhs_6sh122_gloves_military_02";
 			containerClass="Supply40";
 			mass=40;
 		};
 	};
-	class sc_uniform_6sh122_mili3: rhs_uniform_6sh122_gloves_v1
+	class sr_rhs_uniform_6sh122_gloves_military_03: rhs_uniform_6sh122_gloves_v1
 	{
 		displayName="6sh122 (Gloves, V3) [Military]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass="sc_6sh122_mili3";
+			uniformClass="sr_rhs_6sh122_gloves_military_03";
 			containerClass="Supply40";
 			mass=40;
 		};
@@ -597,7 +597,7 @@ class cfgWeapons
 	class rhs_6b26_digi_ess_bala;
 	class rhs_altyn_novisor_ess;
 	class rhs_6b26_green;
-	class sc_altyn_novisor_ess_black: rhs_altyn_novisor_ess
+	class sr_rhs_altyn_novisor_ess_clearSky: rhs_altyn_novisor_ess
 	{
 		author="RHS, Rad";
 		displayName="Altyn (No visor, ESS) [Clearsky]";
@@ -606,7 +606,7 @@ class cfgWeapons
 			"rhs\data\rhs_altyn_black_co.paa"
 		};
 	};
-	class sc_6b26_duty: rhs_6b26_digi
+	class sr_rhs_6b26_duty: rhs_6b26_digi
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet";
@@ -615,7 +615,7 @@ class cfgWeapons
 			"rhs\data\6b27_duty_co.paa"
 		};
 	};
-	class sc_6b26_duty_nc: rhs_6b26_green
+	class sr_rhs_6b26_noCover_duty: rhs_6b26_green
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet (No cover) [Duty]";
@@ -624,7 +624,7 @@ class cfgWeapons
 			"rhs\data\6b27_duty_co.paa"
 		};
 	};
-	class sc_6b26_duty_bala: rhs_6b26_digi_bala
+	class sr_rhs_6b26_bala_duty: rhs_6b26_digi_bala
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet (Balaclava) [Duty]";
@@ -639,7 +639,7 @@ class cfgWeapons
 			"rhs\data\rhs_bala2_duty_co.paa"
 		};
 	};
-	class sc_6b26_duty_ess: rhs_6b26_digi_ess
+	class sr_rhs_6b26_ess_duty: rhs_6b26_digi_ess
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet (Goggles) [Duty]";
@@ -648,7 +648,7 @@ class cfgWeapons
 			"rhs\data\6b27_duty_co.paa"
 		};
 	};
-	class sc_6b26_duty_ess_bala: rhs_6b26_digi_ess_bala
+	class sr_rhs_6b26_ess_bala_duty: rhs_6b26_digi_ess_bala
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet (Balaclava, Goggles) [Duty]";
@@ -663,7 +663,7 @@ class cfgWeapons
 			"rhs\data\rhs_bala1_duty_co.paa"
 		};
 	};
-	class sc_6b26_mili: rhs_6b26_digi
+	class sr_rhs_6b26_military_01: rhs_6b26_digi
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet [Military]";
@@ -672,7 +672,7 @@ class cfgWeapons
 			"rhs\data\6b27_mili_co.paa"
 		};
 	};
-	class sc_6b26_mili_bala: rhs_6b26_digi_bala
+	class sr_rhs_6b26_bala_military_01: rhs_6b26_digi_bala
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet (Balaclava) [Military]";
@@ -687,7 +687,7 @@ class cfgWeapons
 			"rhs\data\rhs_bala2_duty_co.paa"
 		};
 	};
-	class sc_6b26_mili_ess: rhs_6b26_digi_ess
+	class sr_rhs_6b26_ess_military_01: rhs_6b26_digi_ess
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet (Goggles) [Military]";
@@ -696,7 +696,7 @@ class cfgWeapons
 			"rhs\data\6b27_mili_co.paa"
 		};
 	};
-	class sc_6b26_mili_ess_bala: rhs_6b26_digi_ess_bala
+	class sr_rhs_6b26_ess_bala_military_01: rhs_6b26_digi_ess_bala
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet (Balaclava, Goggles) [Military]";
@@ -711,7 +711,7 @@ class cfgWeapons
 			"rhs\data\rhs_bala1_duty_co.paa"
 		};
 	};
-	class sc_6b26_mili2: rhs_6b26_digi
+	class sr_rhs_6b26_military_02: rhs_6b26_digi
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet v2 [Military]";
@@ -720,7 +720,7 @@ class cfgWeapons
 			"rhs\data\6b27_mili2_co.paa"
 		};
 	};
-	class sc_6b26_mili2_nc: rhs_6b26_green
+	class sr_rhs_6b26_noCover_military: rhs_6b26_green
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet v2 (No cover) [Military]";
@@ -729,7 +729,7 @@ class cfgWeapons
 			"rhs\data\6b27_mili2_co.paa"
 		};
 	};
-	class sc_6b26_mili2_bala: rhs_6b26_digi_bala
+	class sr_rhs_6b26_bala_military_02: rhs_6b26_digi_bala
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet v2(Balaclava) [Military]";
@@ -744,7 +744,7 @@ class cfgWeapons
 			"rhs\data\rhs_bala2_duty_co.paa"
 		};
 	};
-	class sc_6b26_mili2_ess: rhs_6b26_digi_ess
+	class sr_rhs_6b26_ess_military_02: rhs_6b26_digi_ess
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet v2(Goggles) [Military]";
@@ -753,7 +753,7 @@ class cfgWeapons
 			"rhs\data\6b27_mili2_co.paa"
 		};
 	};
-	class sc_6b26_mili2_ess_bala: rhs_6b26_digi_ess_bala
+	class sr_rhs_6b26_ess_bala_military_02: rhs_6b26_digi_ess_bala
 	{
 		author="RHS, Rad";
 		displayName="6b26 Helmet v2(Balaclava, Goggles) [Military]";

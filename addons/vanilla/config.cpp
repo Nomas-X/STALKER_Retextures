@@ -47,7 +47,7 @@ class CfgWeapons
 	class H_Beret_02;
 	class H_Cap_blk;
 	class H_Cap_Headphones;
-	class H_beret_01_duty: H_Beret_02
+	class sr_vanilla_beret_duty_01: H_Beret_02
 	{
 		scope=2;
 		scopeArsenal=2;
@@ -67,7 +67,7 @@ class CfgWeapons
 		};
 		allowedslots[]={801,901,701};
 	};
-	class H_beret_02_duty: H_Beret_02
+	class sr_vanilla_beret_duty_02: H_Beret_02
 	{
 		scope=2;
 		scopeArsenal=2;
@@ -87,7 +87,7 @@ class CfgWeapons
 		};
 		allowedslots[]={801,901,701};
 	};
-	class H_beret_01_mili: H_Beret_02
+	class sr_vanilla_beret_military_01: H_Beret_02
 	{
 		scope=2;
 		scopeArsenal=2;
@@ -107,7 +107,7 @@ class CfgWeapons
 		};
 		allowedslots[]={801,901,701};
 	};
-	class H_beret_02_mili: H_Beret_02
+	class sr_vanilla_beret_military_02: H_Beret_02
 	{
 		scope=2;
 		scopeArsenal=2;
