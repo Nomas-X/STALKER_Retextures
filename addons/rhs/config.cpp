@@ -501,7 +501,7 @@ class cfgWeapons
 		};
 		author="RHS, Rad";
 	};
-	class sc_vydra_3m_duty: rhs_vydra_3m
+	class sr_rhs_vydra_3m_duty: rhs_vydra_3m
 	{
 		displayName="Vydra-3M [Duty]";
 		hiddenSelectionsTextures[]=
@@ -552,7 +552,7 @@ class cfgWeapons
 		};
 		author="RHS, Rad";
 	};
-	class sc_vydra_3m_mili: rhs_vydra_3m
+	class sr_rhs_vydra_3m_military: rhs_vydra_3m
 	{
 		displayName="Vydra-3M [Military]";
 		hiddenSelectionsTextures[]=
