@@ -16,7 +16,7 @@ class CfgGlasses
 	class G_Bandanna_sport;
 	class sr_vanilla_G_bandanna_duty: G_bandanna_blk
 	{
-		displayName="Scarf [Duty]";
+		displayName="Bandana [Duty]";
 		hiddenSelections[]=
 		{
 			"camo"
@@ -28,7 +28,7 @@ class CfgGlasses
 	};
 	class sr_vanilla_G_bandanna_military: G_bandanna_blk
 	{
-		displayName="Scarf [Military]";
+		displayName="Bandana [Military]";
 		hiddenSelections[]=
 		{
 			"camo"

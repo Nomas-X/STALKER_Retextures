@@ -14,7 +14,7 @@ class CfgGlasses
 	class rhs_balaclava1_olive;
 	class sr_rhs_balaclava1_black: rhs_balaclava1_olive
 	{
-		displayName="[Duty] Balaclava (Double)";
+		displayName="Balaclava [Duty 2]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\rhs_bala1_duty_co.paa"
@@ -23,7 +23,7 @@ class CfgGlasses
 	};
 	class sr_rhs_balaclava_black: rhs_balaclava
 	{
-		displayName="[Duty] Balaclava (Single)";
+		displayName="Balaclava [Duty 1]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\rhs_bala2_duty_co.paa"
