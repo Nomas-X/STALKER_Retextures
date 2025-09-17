@@ -309,7 +309,7 @@ class cfgWeapons
 	class rhs_uniform_vkpo_gloves;
 	class sr_rhs_uniform_afghanka_boots_duty: rhs_uniform_afghanka_boots_spetsodezhda
 	{
-		displayName="Afghanka [Duty]";
+		displayName="M88 Sapogi [Duty]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_afghanka_boots_duty";
@@ -329,7 +329,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_m88_military_01: rhs_uniform_flora_patchless
 	{
-		displayName="M88 uniform v1 [Military]";
+		displayName="M2008 [Military 1]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_m88_military_01";
@@ -339,7 +339,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_m88_military_02: rhs_uniform_flora_patchless
 	{
-		displayName="M88 uniform v2 [Military]";
+		displayName="M2008 [Military 2]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_m88_military_02";
@@ -349,7 +349,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_m88_military_03: rhs_uniform_flora_patchless
 	{
-		displayName="M88 uniform v3 [Military]";
+		displayName="M2008 [Military 3]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_m88_military_03";
@@ -369,7 +369,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_vkpo_gloves_military_01: rhs_uniform_vkpo_gloves
 	{
-		displayName="VKPO (Gloves, V1) [Military]";
+		displayName="VKPO (Gloves) [Military 1]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_vkpo_gloves_military_01";
@@ -379,7 +379,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_vkpo_gloves_military_02: rhs_uniform_vkpo_gloves
 	{
-		displayName="VKPO (Gloves, V2) [Military]";
+		displayName="VKPO (Gloves) [Military 2]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_vkpo_gloves_military_02";
@@ -389,7 +389,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_vkpo_gloves_military_03: rhs_uniform_vkpo_gloves
 	{
-		displayName="VKPO (Gloves, V3) [Military]";
+		displayName="VKPO (Gloves) [Military 3]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_vkpo_gloves_military_03";
@@ -399,7 +399,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_vkpo_gloves_worn_duty: rhs_uniform_vkpo_gloves
 	{
-		displayName="VKPO (Gloves) worn [Duty]";
+		displayName="VKPO (Gloves, Worn) [Duty]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_vkpo_gloves_worn_duty";
@@ -409,7 +409,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_vkpo_gloves_worn_military_01: rhs_uniform_vkpo_gloves
 	{
-		displayName="VKPO (Gloves, V1) worn [Military]";
+		displayName="VKPO (Gloves, Worn) [Military 1]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_vkpo_gloves_worn_military_01";
@@ -419,7 +419,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_vkpo_gloves_worn_military_02: rhs_uniform_vkpo_gloves
 	{
-		displayName="VKPO (Gloves, V2) worn [Military]";
+		displayName="VKPO (Gloves, Worn) [Military 2]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_vkpo_gloves_worn_military_02";
@@ -429,7 +429,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_vkpo_gloves_worn_military_03: rhs_uniform_vkpo_gloves
 	{
-		displayName="VKPO (Gloves, V3) worn [Military]";
+		displayName="VKPO (Gloves, Worn) [Military 3]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_vkpo_gloves_worn_military_03";
@@ -440,7 +440,7 @@ class cfgWeapons
 	class rhs_uniform_6sh122_gloves_v1;
 	class sr_rhs_uniform_6sh122_gloves_military_01: rhs_uniform_6sh122_gloves_v1
 	{
-		displayName="6sh122 (Gloves, V1) [Military]";
+		displayName="6sh122 (Gloves) [Military 1]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_6sh122_gloves_military_01";
@@ -450,7 +450,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_6sh122_gloves_military_02: rhs_uniform_6sh122_gloves_v1
 	{
-		displayName="6sh122 (Gloves, V2) [Military]";
+		displayName="6sh122 (Gloves) [Military 2]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_6sh122_gloves_military_02";
@@ -460,7 +460,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_6sh122_gloves_military_03: rhs_uniform_6sh122_gloves_v1
 	{
-		displayName="6sh122 (Gloves, V3) [Military]";
+		displayName="6sh122 (Gloves) [Military 3]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_6sh122_gloves_military_03";
