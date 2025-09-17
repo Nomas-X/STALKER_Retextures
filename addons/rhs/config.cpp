@@ -319,7 +319,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_m88_duty: rhs_uniform_flora_patchless
 	{
-		displayName="M2008 [Duty]";
+		displayName="Model 2010 [Duty]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_m88_duty";
@@ -329,7 +329,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_m88_military_01: rhs_uniform_flora_patchless
 	{
-		displayName="M2008 [Military 1]";
+		displayName="Model 2010 [Military 1]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_m88_military_01";
@@ -339,7 +339,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_m88_military_02: rhs_uniform_flora_patchless
 	{
-		displayName="M2008 [Military 2]";
+		displayName="Model 2010 [Military 2]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_m88_military_02";
@@ -349,7 +349,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_m88_military_03: rhs_uniform_flora_patchless
 	{
-		displayName="M2008 [Military 3]";
+		displayName="Model 2010 [Military 3]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_m88_military_03";
