@@ -319,7 +319,7 @@ class cfgWeapons
 	};
 	class sr_rhs_uniform_m88_duty: rhs_uniform_flora_patchless
 	{
-		displayName="M88 uniform [Duty]";
+		displayName="M2008 [Duty]";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="sr_rhs_m88_duty";
