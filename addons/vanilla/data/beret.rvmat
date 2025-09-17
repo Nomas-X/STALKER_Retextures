@@ -11,7 +11,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="vanilla\data\beret_nohq.paa";
+	texture="z\stalker_retextures\addons\vanilla\data\beret_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{

@@ -23,7 +23,7 @@ class CfgGlasses
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\vanilla\data\bandana_duty.paa"
+			"\z\stalker_retextures\addons\vanilla\data\bandana_duty.paa"
 		};
 	};
 	class sr_vanilla_G_bandanna_military: G_bandanna_blk
@@ -35,7 +35,7 @@ class CfgGlasses
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\vanilla\data\bandana_olive.paa"
+			"\z\stalker_retextures\addons\vanilla\data\bandana_olive.paa"
 		};
 	};
 };
@@ -59,11 +59,11 @@ class CfgWeapons
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"\vanilla\data\beret.rvmat"
+			"\z\stalker_retextures\addons\vanilla\data\beret.rvmat"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\vanilla\data\beret_duty_red.paa"
+			"\z\stalker_retextures\addons\vanilla\data\beret_duty_red.paa"
 		};
 		allowedslots[]={801,901,701};
 	};
@@ -79,11 +79,11 @@ class CfgWeapons
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"\vanilla\data\beret.rvmat"
+			"\z\stalker_retextures\addons\vanilla\data\beret.rvmat"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\vanilla\data\beret_duty_blk.paa"
+			"\z\stalker_retextures\addons\vanilla\data\beret_duty_blk.paa"
 		};
 		allowedslots[]={801,901,701};
 	};
@@ -99,11 +99,11 @@ class CfgWeapons
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"\vanilla\data\beret.rvmat"
+			"\z\stalker_retextures\addons\vanilla\data\beret.rvmat"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\vanilla\data\beret_mili_gry.paa"
+			"\z\stalker_retextures\addons\vanilla\data\beret_mili_gry.paa"
 		};
 		allowedslots[]={801,901,701};
 	};
@@ -119,11 +119,11 @@ class CfgWeapons
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"\vanilla\data\beret.rvmat"
+			"\z\stalker_retextures\addons\vanilla\data\beret.rvmat"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\vanilla\data\beret_mili_grn.paa"
+			"\z\stalker_retextures\addons\vanilla\data\beret_mili_grn.paa"
 		};
 		allowedslots[]={801,901,701};
 	};

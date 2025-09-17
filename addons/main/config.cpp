@@ -5,7 +5,7 @@ class CfgPatches {
         name = ADDON_NAME;
         
         author = "$STR_aet_author";
-        authors[] = {"Nomas / Redwan S. [AET]"};
+        authors[] = {"Nomas / Redwan S."};
         
         url = "$STR_aet_URL";
         

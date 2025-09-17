@@ -12,153 +12,120 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=162;
+		nextID=208;
 	};
 	class MarkerIDProvider
 	{
 		nextID=1;
 	};
+	class LayerIndexProvider
+	{
+		nextID=1;
+	};
 	class Camera
 	{
-		pos[]={14839.017,20.71339,16413.797};
-		dir[]={-0.13065425,-0.47463298,-0.87043977};
-		up[]={-0.070464194,0.88014376,-0.46944883};
-		aside[]={-0.98892587,5.4837437e-07,0.14843836};
+		pos[]={14717.697,31.041576,16389.59};
+		dir[]={0.5366205,-0.64663303,-0.54215682};
+		up[]={0.4549318,0.76274616,-0.45962393};
+		aside[]={-0.71073431,1.2200326e-07,-0.70347935};
 	};
 };
 binarizationWanted=0;
 sourceName="testmission";
 addons[]=
 {
+	"A3_Modules_F_Curator_Curator",
 	"A3_Characters_F",
-	"A3_Weapons_F_Rifles_MX",
-	"A3_Weapons_F_Acc",
-	"ace_realisticnames",
-	"ace_scopes",
-	"ace_laserpointer",
-	"A3_Weapons_F",
-	"ace_smallarms",
-	"ace_ballistics",
-	"A3_Weapons_F_Pistols_P07",
-	"ace_nightvision",
-	"ace_hearing",
-	"A3_Weapons_F_Items",
-	"ace_medical_treatment",
-	"ace_attach",
-	"ace_chemlights",
-	"A3_Weapons_F_Mark",
-	"ace_reload",
-	"A3_Weapons_F_Mark_Acc",
-	"A3_Modules_F_Curator_Curator"
+	"rhs_c_weapons",
+	"ace_compat_rhs_afrf3",
+	"rhs",
+	"A3_Characters_F_Enoch_Facewear",
+	"rhs_vanilla",
+	"SCE_Uniforms",
+	"SE_Hunting_Backpack",
+	"SE_Leather_Jacket",
+	"SE_Assault_Fatigues"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=14;
+		items=11;
 		class Item0
-		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item1
-		{
-			className="A3_Weapons_F";
-			name="Arma 3 Alpha - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item2
-		{
-			className="ace_scopes";
-			name="ACE3 - Scopes";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item3
-		{
-			className="ace_laserpointer";
-			name="ACE3 - Laser Pointer";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item4
-		{
-			className="ace_smallarms";
-			name="ACE3 - Small Arms";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item5
-		{
-			className="ace_ballistics";
-			name="ACE3 - Ballistics";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item6
-		{
-			className="ace_nightvision";
-			name="ACE3 - Night Vision";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item7
-		{
-			className="ace_hearing";
-			name="ACE3 - Hearing";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item8
-		{
-			className="ace_medical_treatment";
-			name="ACE3 - Medical Treatment";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item9
-		{
-			className="ace_attach";
-			name="ACE3 - Attach";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item10
-		{
-			className="ace_chemlights";
-			name="ACE3 - Chemlights";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item11
-		{
-			className="A3_Weapons_F_Mark";
-			name="Arma 3 Marksmen - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item12
-		{
-			className="ace_reload";
-			name="ACE3 - Reload";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item13
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item1
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="rhs_c_weapons";
+			name="AFRF Weapons Pack";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item3
+		{
+			className="ace_compat_rhs_afrf3";
+			name="ACE3 - RHS AFRF Compatibility";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item4
+		{
+			className="rhs";
+			name="rhs";
+		};
+		class Item5
+		{
+			className="A3_Characters_F_Enoch";
+			name="Arma 3 Contact Platform - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="rhs_vanilla";
+			name="rhs_vanilla";
+		};
+		class Item7
+		{
+			className="SCE_Uniforms";
+			name="SCE_Uniforms";
+			author="Akaviri13";
+		};
+		class Item8
+		{
+			className="SE_Hunting_Backpack";
+			name="SE_Hunting_Backpack";
+			author="S.T.A.L.K.E.R. Equipment";
+		};
+		class Item9
+		{
+			className="SE_Leather_Jacket";
+			name="SE_Leather_Jacket";
+			author="S.T.A.L.K.E.R. Equipment";
+		};
+		class Item10
+		{
+			className="SE_Assault_Fatigues";
+			name="SE_Assault_Fatigues";
+			author="S.T.A.L.K.E.R. Equipment";
+		};
 	};
 };
 dlcs[]=
 {
-	"Mark"
+	"RHS_AFRF",
+	"RHS_USAF"
 };
 randomSeed=1951784;
 class ScenarioData
@@ -212,228 +179,6 @@ class Mission
 	{
 		items=2;
 		class Item0
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14839.505,17.931438,16411.051};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						rank="SERGEANT";
-						init="this allowDamage false;";
-						name="P_1";
-						isPlayer=1;
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="arifle_MX_ACO_pointer_F";
-								optics="optic_Aco";
-								flashlight="acc_pointer_IR";
-								firemode="arifle_MX_ACO_pointer_F:Single";
-								class primaryMuzzleMag
-								{
-									name="30Rnd_65x39_caseless_mag";
-									ammoLeft=30;
-								};
-							};
-							class handgun
-							{
-								name="hgun_P07_F";
-								class primaryMuzzleMag
-								{
-									name="16Rnd_9x21_Mag";
-									ammoLeft=17;
-								};
-							};
-							class binocular
-							{
-								name="Rangefinder";
-							};
-							class uniform
-							{
-								typeName="U_B_CombatUniform_mcam_tshirt";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="30Rnd_65x39_caseless_mag";
-										count=2;
-										ammoLeft=30;
-									};
-								};
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="FirstAidKit";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="V_Chestrig_rgr";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=7;
-									class Item0
-									{
-										name="30Rnd_65x39_caseless_mag";
-										count=5;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="16Rnd_9x21_Mag";
-										count=2;
-										ammoLeft=17;
-									};
-									class Item2
-									{
-										name="HandGrenade";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item3
-									{
-										name="B_IR_Grenade";
-										count=2;
-										ammoLeft=1;
-									};
-									class Item4
-									{
-										name="SmokeShell";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item5
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item6
-									{
-										name="Chemlight_green";
-										count=2;
-										ammoLeft=1;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="B_Kitbag_mcamo";
-								isBackpack=1;
-								class MagazineCargo
-								{
-									items=3;
-									class Item0
-									{
-										name="100Rnd_65x39_caseless_mag";
-										count=2;
-										ammoLeft=100;
-									};
-									class Item1
-									{
-										name="100Rnd_65x39_caseless_mag_Tracer";
-										count=2;
-										ammoLeft=100;
-									};
-									class Item2
-									{
-										name="130Rnd_338_Mag";
-										count=2;
-										ammoLeft=130;
-									};
-								};
-								class ItemCargo
-								{
-									items=4;
-									class Item0
-									{
-										name="optic_tws_mg";
-										count=1;
-									};
-									class Item1
-									{
-										name="bipod_01_F_snd";
-										count=1;
-									};
-									class Item2
-									{
-										name="muzzle_snds_338_sand";
-										count=1;
-									};
-									class Item3
-									{
-										name="muzzle_snds_H";
-										count=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							hmd="NVGoggles";
-							headgear="H_HelmetB_light";
-						};
-					};
-					id=29;
-					type="B_soldier_AAR_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male05ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1.01;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=28;
-		};
-		class Item1
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -498,6 +243,1387 @@ class Mission
 				};
 				nAttributes=4;
 			};
+		};
+		class Item1
+		{
+			dataType="Layer";
+			name="STALKER TEMP";
+			class Entities
+			{
+				items=25;
+				class Item0
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14729.172,18.369408,16381.572};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								isPlayer=1;
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="sr_rhs_uniform_m88_duty";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6b23_6sh92_vog_duty";
+										isBackpack=0;
+									};
+									class backpack
+									{
+										typeName="sr_rhs_assault_umbts_duty";
+										isBackpack=1;
+									};
+									goggles="sr_rhs_balaclava_black";
+									headgear="sr_rhs_6b26_ess_duty";
+								};
+							};
+							id=163;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=162;
+					atlOffset=0.5;
+				};
+				class Item1
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14730.47,18.370081,16381.538};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="sr_rhs_uniform_afghanka_boots_duty";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6sh92_duty2";
+										isBackpack=0;
+									};
+									goggles="sr_rhs_balaclava_black";
+									headgear="sr_rhs_6b26_duty";
+								};
+							};
+							id=165;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=164;
+					atlOffset=0.5;
+				};
+				class Item2
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14738,18.001438,16379.05};
+							};
+							side="West";
+							flags=7;
+							class Attributes
+							{
+								class Inventory
+								{
+								};
+							};
+							id=167;
+							type="B_G_Survivor_F";
+							atlOffset=0.11666679;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=166;
+					atlOffset=0.11666679;
+				};
+				class Item3
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14727.678,18.369522,16381.486};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="sr_rhs_uniform_m88_duty";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_vydra_3m_duty";
+										isBackpack=0;
+									};
+									goggles="G_bandanna_blk";
+									headgear="sr_vanilla_H_beret_duty_01";
+								};
+							};
+							id=169;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=168;
+					atlOffset=0.5;
+				};
+				class Item4
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14726.637,18.369389,16381.588};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="sr_rhs_uniform_vkpo_gloves_worn_duty";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_vydra_3m_duty";
+										isBackpack=0;
+									};
+									goggles="sr_vanilla_G_bandanna_duty";
+									headgear="sr_vanilla_H_beret_duty_02";
+								};
+							};
+							id=171;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=170;
+					atlOffset=0.5;
+				};
+				class Item5
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14731.416,18.37175,16381.234};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="sr_rhs_uniform_vkpo_gloves_worn_duty";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6b23_vydra_3m_duty";
+										isBackpack=0;
+									};
+									class backpack
+									{
+										typeName="sr_rhs_assault_umbts_duty";
+										isBackpack=1;
+									};
+									goggles="sr_rhs_balaclava_black";
+									headgear="sr_rhs_6b26_ess_duty";
+								};
+							};
+							id=173;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=172;
+					atlOffset=0.5;
+				};
+				class Item6
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14746.824,18.394209,16380.835};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="SCE_ClearSky_CBRN";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_spc_patchless_clearSky";
+										isBackpack=0;
+									};
+									goggles="sr_vanilla_G_bandanna_military";
+									headgear="sr_rhs_altyn_novisor_ess_clearSky";
+								};
+							};
+							id=175;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=174;
+					atlOffset=0.5;
+				};
+				class Item7
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14745.959,18.39156,16380.963};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="SCE_ClearSky_1";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_spc_patchless_clearSky";
+										isBackpack=0;
+									};
+									goggles="sr_vanilla_G_bandanna_military";
+									headgear="sr_rhs_altyn_novisor_ess_clearSky";
+								};
+							};
+							id=177;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=176;
+					atlOffset=0.5;
+				};
+				class Item8
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14715.425,18.370934,16380.429};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="sr_rhs_uniform_6sh122_gloves_military_03";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6b23_6sh92_vog_military";
+										isBackpack=0;
+									};
+									class backpack
+									{
+										typeName="sr_rhs_assault_umbts_military";
+										isBackpack=1;
+									};
+									headgear="sr_rhs_6b26_bala_military_02";
+								};
+							};
+							id=179;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=178;
+					atlOffset=0.5;
+				};
+				class Item9
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14714.42,18.370787,16380.538};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="sr_rhs_uniform_vkpo_gloves_worn_military_01";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6b23_vydra_3m_military";
+										isBackpack=0;
+									};
+									class backpack
+									{
+										typeName="sr_rhs_assault_umbts_military";
+										isBackpack=1;
+									};
+									goggles="sr_vanilla_G_bandanna_military";
+									headgear="sr_rhs_6b26_ess_military_02";
+								};
+							};
+							id=181;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=180;
+					atlOffset=0.5;
+				};
+				class Item10
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14712.482,18.370695,16380.607};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="sr_rhs_uniform_vkpo_gloves_military_03";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6sh92_military";
+										isBackpack=0;
+									};
+									goggles="sr_vanilla_G_bandanna_military";
+									headgear="sr_vanilla_H_beret_military_02";
+								};
+							};
+							id=183;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=182;
+					atlOffset=0.5;
+				};
+				class Item11
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14711.523,18.370613,16380.668};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="sr_rhs_uniform_vkpo_gloves_military_01";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_vydra_3m_military";
+										isBackpack=0;
+									};
+									goggles="sr_vanilla_G_bandanna_military";
+									headgear="sr_vanilla_H_beret_military_01";
+								};
+							};
+							id=185;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=184;
+					atlOffset=0.5;
+				};
+				class Item12
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14713.485,18.370821,16380.513};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="sr_rhs_uniform_m88_military_02";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6b23_vydra_3m_military";
+										isBackpack=0;
+									};
+									class backpack
+									{
+										typeName="sr_rhs_assault_umbts_military";
+										isBackpack=1;
+									};
+									headgear="sr_rhs_6b26_ess_bala_military_02";
+								};
+							};
+							id=187;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=186;
+					atlOffset=0.5;
+				};
+				class Item13
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14745.053,18.389244,16380.925};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="SCE_ClearSky_2";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_spc_patchless_clearSky";
+										isBackpack=0;
+									};
+									goggles="sr_vanilla_G_bandanna_military";
+									headgear="sr_rhs_altyn_novisor_ess_clearSky";
+								};
+							};
+							id=189;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=188;
+					atlOffset=0.5;
+				};
+				class Item14
+				{
+					dataType="Comment";
+					class PositionInfo
+					{
+						position[]={14746.186,17.90505,16383.035};
+					};
+					title="Vest & Helmet Clear Sky";
+					id=190;
+					atlOffset=0.019981384;
+				};
+				class Item15
+				{
+					dataType="Comment";
+					class PositionInfo
+					{
+						position[]={14729.235,17.90505,16383.457};
+					};
+					title="Uniform, Helmet, Vest, Backpack Duty";
+					id=191;
+					atlOffset=0.0396595;
+				};
+				class Item16
+				{
+					dataType="Comment";
+					class PositionInfo
+					{
+						position[]={14713.6,17.90505,16382.498};
+					};
+					title="Uniform, Helmet, Vest, Backpack Military";
+					id=192;
+					atlOffset=0.038381577;
+				};
+				class Item17
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14820.836,18.411064,16386.434};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="SCE_Military_1";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6b23_6sh92_vog_military";
+										isBackpack=0;
+									};
+									class backpack
+									{
+										typeName="sr_rhs_assault_umbts_military";
+										isBackpack=1;
+									};
+									headgear="sr_rhs_6b26_bala_military_02";
+								};
+							};
+							id=194;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=193;
+					atlOffset=0.5;
+				};
+				class Item18
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14819.832,18.409872,16386.543};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="SCE_Military_2";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6b23_vydra_3m_military";
+										isBackpack=0;
+									};
+									class backpack
+									{
+										typeName="sr_rhs_assault_umbts_military";
+										isBackpack=1;
+									};
+									goggles="sr_vanilla_G_bandanna_military";
+									headgear="sr_rhs_6b26_ess_military_02";
+								};
+							};
+							id=196;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=195;
+					atlOffset=0.5;
+				};
+				class Item19
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14818.897,18.40859,16386.516};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="SCE_Military_3";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6b23_vydra_3m_military";
+										isBackpack=0;
+									};
+									class backpack
+									{
+										typeName="sr_rhs_assault_umbts_military";
+										isBackpack=1;
+									};
+									headgear="sr_rhs_6b26_ess_bala_military_02";
+								};
+							};
+							id=198;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=197;
+					atlOffset=0.5;
+				};
+				class Item20
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14812.753,18.400194,16386.363};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="SCE_Duty_1";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6b23_6sh92_vog_duty";
+										isBackpack=0;
+									};
+									class backpack
+									{
+										typeName="sr_rhs_assault_umbts_duty";
+										isBackpack=1;
+									};
+									goggles="sr_vanilla_G_bandanna_duty";
+									headgear="sr_vanilla_H_beret_duty_01";
+								};
+							};
+							id=200;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=199;
+					atlOffset=0.5;
+				};
+				class Item21
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14813.828,18.401617,16386.355};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="SE_Leather_Jacket_Duty";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6sh92_duty2";
+										isBackpack=0;
+									};
+									goggles="sr_rhs_balaclava_black";
+									headgear="sr_rhs_6b26_duty";
+								};
+							};
+							id=202;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=201;
+					atlOffset=0.5;
+				};
+				class Item22
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14814.954,18.403244,16386.449};
+							};
+							side="West";
+							flags=3;
+							class Attributes
+							{
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="rhs_weap_ak74m";
+										muzzle="rhs_acc_dtk";
+										firemode="rhs_weap_ak74m:Single";
+										class primaryMuzzleMag
+										{
+											name="rhs_30Rnd_545x39_7N10_AK";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="rhs_weap_makarov_pm";
+										class primaryMuzzleMag
+										{
+											name="rhs_mag_9x18_8_57N181S";
+											ammoLeft=8;
+										};
+									};
+									class uniform
+									{
+										typeName="SE_Assault_Fatigues_Duty";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="sr_rhs_6b23_vydra_3m_duty";
+										isBackpack=0;
+									};
+									class backpack
+									{
+										typeName="sr_rhs_assault_umbts_duty";
+										isBackpack=1;
+									};
+									goggles="sr_rhs_balaclava_black";
+									headgear="sr_rhs_6b26_ess_duty";
+								};
+							};
+							id=204;
+							type="B_G_Survivor_F";
+							atlOffset=0.5;
+						};
+					};
+					class Attributes
+					{
+					};
+					id=203;
+					atlOffset=0.5;
+				};
+				class Item23
+				{
+					dataType="Comment";
+					class PositionInfo
+					{
+						position[]={14817.406,17.90505,16378.61};
+					};
+					title="Showcasing compatibility with other mod";
+					id=205;
+					atlOffset=0.01035881;
+				};
+				class Item24
+				{
+					dataType="Comment";
+					class PositionInfo
+					{
+						position[]={14726.039,17.90505,16362.596};
+					};
+					title="Showcasing Most mod items";
+					id=206;
+					atlOffset=0.0018444061;
+				};
+			};
+			id=207;
+			atlOffset=0.16306686;
 		};
 	};
 };

@@ -17,7 +17,7 @@ class CfgGlasses
 		displayName="Balaclava [Duty 2]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\rhs_bala1_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\rhs_bala1_duty_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -26,7 +26,7 @@ class CfgGlasses
 		displayName="Balaclava [Duty 1]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\rhs_bala2_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\rhs_bala2_duty_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -49,7 +49,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\gearpack3_ranets_duty.paa"
+			"z\stalker_retextures\addons\rhs\data\gearpack3_ranets_duty.paa"
 		};
 	};
 	class sr_rhs_sidor_military: rhs_sidor
@@ -61,7 +61,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\gearpack3_ranets_mili.paa"
+			"z\stalker_retextures\addons\rhs\data\gearpack3_ranets_mili.paa"
 		};
 	};
 	class rhs_assault_umbts;
@@ -74,7 +74,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\gearpack3_ranets_duty.paa"
+			"z\stalker_retextures\addons\rhs\data\gearpack3_ranets_duty.paa"
 		};
 	};
 	class sr_rhs_assault_umbts_military: rhs_assault_umbts
@@ -86,7 +86,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\gearpack3_ranets_mili.paa"
+			"z\stalker_retextures\addons\rhs\data\gearpack3_ranets_mili.paa"
 		};
 	};
 	class rhs_6sh122_gloves_v1_base;
@@ -97,8 +97,8 @@ class CfgVehicles
 		model="\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base_gloves.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\122_vest_mili_1.paa",
-			"rhs\data\122_pant_mili_1.paa",
+			"z\stalker_retextures\addons\rhs\data\122_vest_mili_1.paa",
+			"z\stalker_retextures\addons\rhs\data\122_pant_mili_1.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
@@ -109,8 +109,8 @@ class CfgVehicles
 		model="\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base_gloves.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\122_vest_mili_2.paa",
-			"rhs\data\122_pant_mili_2.paa",
+			"z\stalker_retextures\addons\rhs\data\122_vest_mili_2.paa",
+			"z\stalker_retextures\addons\rhs\data\122_pant_mili_2.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
@@ -121,8 +121,8 @@ class CfgVehicles
 		model="\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base_gloves.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\122_vest_mili_3.paa",
-			"rhs\data\122_pant_mili_3.paa",
+			"z\stalker_retextures\addons\rhs\data\122_vest_mili_3.paa",
+			"z\stalker_retextures\addons\rhs\data\122_pant_mili_3.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
@@ -133,8 +133,8 @@ class CfgVehicles
 		uniformClass="sr_rhs_uniform_afghanka_boots_duty";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\afghanka01_vest_co.paa",
-			"rhs\data\afghanka_pant_boots_co.paa"
+			"z\stalker_retextures\addons\rhs\data\afghanka01_vest_co.paa",
+			"z\stalker_retextures\addons\rhs\data\afghanka_pant_boots_co.paa"
 		};
 	};
 	class sr_rhs_m88_duty: rhs_afghanka_boots_base
@@ -150,7 +150,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\flora_m88_duty.paa"
+			"z\stalker_retextures\addons\rhs\data\flora_m88_duty.paa"
 		};
 		uniformClass="sr_rhs_uniform_m88_duty";
 	};
@@ -167,7 +167,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\flora_m88_mili_1.paa"
+			"z\stalker_retextures\addons\rhs\data\flora_m88_mili_1.paa"
 		};
 		uniformClass="sr_rhs_uniform_m88_military_01";
 	};
@@ -184,7 +184,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\flora_m88_mili_2.paa"
+			"z\stalker_retextures\addons\rhs\data\flora_m88_mili_2.paa"
 		};
 		uniformClass="sr_rhs_uniform_m88_military_02";
 	};
@@ -201,7 +201,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\flora_m88_mili_3.paa"
+			"z\stalker_retextures\addons\rhs\data\flora_m88_mili_3.paa"
 		};
 		uniformClass="sr_rhs_uniform_m88_military_03";
 	};
@@ -212,8 +212,8 @@ class CfgVehicles
 		uniformClass="sr_rhs_uniform_vkpo_gloves_duty";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\vkpo_duty_vest.paa",
-			"rhs\data\vkpo_duty_pant.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_duty_vest.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_duty_pant.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
@@ -223,8 +223,8 @@ class CfgVehicles
 		uniformClass="sr_rhs_uniform_vkpo_gloves_military_01";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\vkpo_mili_vest_1.paa",
-			"rhs\data\vkpo_mili_pant_1.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_vest_1.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_pant_1.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
@@ -234,8 +234,8 @@ class CfgVehicles
 		uniformClass="sr_rhs_uniform_vkpo_gloves_military_02";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\vkpo_mili_vest_2.paa",
-			"rhs\data\vkpo_mili_pant_2.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_vest_2.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_pant_2.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
@@ -245,8 +245,8 @@ class CfgVehicles
 		uniformClass="sr_rhs_uniform_vkpo_gloves_military_03";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\vkpo_mili_vest_3.paa",
-			"rhs\data\vkpo_mili_pant_3.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_vest_3.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_pant_3.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
@@ -256,8 +256,8 @@ class CfgVehicles
 		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_duty";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\vkpo_duty_vest.paa",
-			"rhs\data\vkpo_duty_pantw.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_duty_vest.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_duty_pantw.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
@@ -267,8 +267,8 @@ class CfgVehicles
 		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_military_01";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\vkpo_mili_vest_1w.paa",
-			"rhs\data\vkpo_mili_pant_1w.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_vest_1w.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_pant_1w.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
@@ -278,8 +278,8 @@ class CfgVehicles
 		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_military_02";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\vkpo_mili_vest_2w.paa",
-			"rhs\data\vkpo_mili_pant_2w.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_vest_2w.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_pant_2w.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
@@ -289,8 +289,8 @@ class CfgVehicles
 		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_military_03";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\vkpo_mili_vest_3w.paa",
-			"rhs\data\vkpo_mili_pant_3w.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_vest_3w.paa",
+			"z\stalker_retextures\addons\rhs\data\vkpo_mili_pant_3w.paa",
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
@@ -473,9 +473,9 @@ class cfgWeapons
 		displayName="6B23 (Vydra-3M) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b23_duty_co.paa",
-			"rhs\data\gearpack1_6sh92_duty_co.paa",
-			"rhs\data\crew_equip_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b23_duty_co.paa",
+			"z\stalker_retextures\addons\rhs\data\gearpack1_6sh92_duty_co.paa",
+			"z\stalker_retextures\addons\rhs\data\crew_equip_duty_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -484,9 +484,9 @@ class cfgWeapons
 		displayName="6B23 (6Sh92/VOG/Camo) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b23_duty_co.paa",
-			"rhs\data\gearpack1_6sh92_duty_co.paa",
-			"rhs\data\crew_equip_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b23_duty_co.paa",
+			"z\stalker_retextures\addons\rhs\data\gearpack1_6sh92_duty_co.paa",
+			"z\stalker_retextures\addons\rhs\data\crew_equip_duty_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -495,9 +495,9 @@ class cfgWeapons
 		displayName="6B23 (6Sh92/VOG) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b23_duty_co.paa",
-			"rhs\data\gearpack1_6sh92_duty2_co.paa",
-			"rhs\data\crew_equip_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b23_duty_co.paa",
+			"z\stalker_retextures\addons\rhs\data\gearpack1_6sh92_duty2_co.paa",
+			"z\stalker_retextures\addons\rhs\data\crew_equip_duty_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -506,7 +506,7 @@ class cfgWeapons
 		displayName="Vydra-3M [Duty]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\crew_equip_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\crew_equip_duty_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -515,8 +515,8 @@ class cfgWeapons
 		displayName="6Sh92 (Camo) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b23_duty_co.paa",
-			"rhs\data\gearpack1_6sh92_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b23_duty_co.paa",
+			"z\stalker_retextures\addons\rhs\data\gearpack1_6sh92_duty_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -525,8 +525,8 @@ class cfgWeapons
 		displayName="6Sh92 [Duty]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b23_duty_co.paa",
-			"rhs\data\gearpack1_6sh92_duty2_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b23_duty_co.paa",
+			"z\stalker_retextures\addons\rhs\data\gearpack1_6sh92_duty2_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -535,9 +535,9 @@ class cfgWeapons
 		displayName="6B23 (Vydra-3M) [Military]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b23_mili_co.paa",
-			"rhs\data\gearpack1_6sh92_mili_co.paa",
-			"rhs\data\crew_equip_mili_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b23_mili_co.paa",
+			"z\stalker_retextures\addons\rhs\data\gearpack1_6sh92_mili_co.paa",
+			"z\stalker_retextures\addons\rhs\data\crew_equip_mili_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -546,9 +546,9 @@ class cfgWeapons
 		displayName="6B23 (6Sh92/VOG) [Military]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b23_mili_co.paa",
-			"rhs\data\gearpack1_6sh92_mili_co.paa",
-			"rhs\data\crew_equip_mili_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b23_mili_co.paa",
+			"z\stalker_retextures\addons\rhs\data\gearpack1_6sh92_mili_co.paa",
+			"z\stalker_retextures\addons\rhs\data\crew_equip_mili_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -557,7 +557,7 @@ class cfgWeapons
 		displayName="Vydra-3M [Military]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\crew_equip_mili_co.paa"
+			"z\stalker_retextures\addons\rhs\data\crew_equip_mili_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -566,8 +566,8 @@ class cfgWeapons
 		displayName="6Sh92 [Military]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b23_mili_co.paa",
-			"rhs\data\gearpack1_6sh92_mili_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b23_mili_co.paa",
+			"z\stalker_retextures\addons\rhs\data\gearpack1_6sh92_mili_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -584,10 +584,10 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\rhs_spc02_csky_co.paa",
-			"rhs\data\rhs_spc_gear1_csky_co.paa",
-			"rhs\data\rhs_spc_gear2_csky_co.paa",
-			"rhs\data\rhs_usmc_camelbak_csky_co.paa"
+			"z\stalker_retextures\addons\rhs\data\rhs_spc02_csky_co.paa",
+			"z\stalker_retextures\addons\rhs\data\rhs_spc_gear1_csky_co.paa",
+			"z\stalker_retextures\addons\rhs\data\rhs_spc_gear2_csky_co.paa",
+			"z\stalker_retextures\addons\rhs\data\rhs_usmc_camelbak_csky_co.paa"
 		};
 		author="RHS, Rad";
 	};
@@ -603,7 +603,7 @@ class cfgWeapons
 		displayName="Altyn (ESS) [Clearsky]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\rhs_altyn_black_co.paa"
+			"z\stalker_retextures\addons\rhs\data\rhs_altyn_black_co.paa"
 		};
 	};
 	class sr_rhs_6b26_duty: rhs_6b26_digi
@@ -612,7 +612,7 @@ class cfgWeapons
 		displayName="6B26 [Duty]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_duty_co.paa"
 		};
 	};
 	class sr_rhs_6b26_noCover_duty: rhs_6b26_green
@@ -621,7 +621,7 @@ class cfgWeapons
 		displayName="6B26 (No cover) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_duty_co.paa"
 		};
 	};
 	class sr_rhs_6b26_bala_duty: rhs_6b26_digi_bala
@@ -635,8 +635,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_duty_co.paa",
-			"rhs\data\rhs_bala2_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_duty_co.paa",
+			"z\stalker_retextures\addons\rhs\data\rhs_bala2_duty_co.paa"
 		};
 	};
 	class sr_rhs_6b26_ess_duty: rhs_6b26_digi_ess
@@ -645,7 +645,7 @@ class cfgWeapons
 		displayName="6B26 (ESS) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_duty_co.paa"
 		};
 	};
 	class sr_rhs_6b26_ess_bala_duty: rhs_6b26_digi_ess_bala
@@ -659,8 +659,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_duty_co.paa",
-			"rhs\data\rhs_bala1_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_duty_co.paa",
+			"z\stalker_retextures\addons\rhs\data\rhs_bala1_duty_co.paa"
 		};
 	};
 	class sr_rhs_6b26_military_01: rhs_6b26_digi
@@ -669,13 +669,13 @@ class cfgWeapons
 		displayName="6B26 [Military 1]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_mili_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_mili_co.paa"
 		};
 	};
 	class sr_rhs_6b26_bala_military_01: rhs_6b26_digi_bala
 	{
 		author="RHS, Rad";
-		displayName="6B26 (Balaclava) [Military]";
+		displayName="6B26 (Balaclava) [Military 1]";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -683,8 +683,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_mili_co.paa",
-			"rhs\data\rhs_bala2_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_mili_co.paa",
+			"z\stalker_retextures\addons\rhs\data\rhs_bala2_duty_co.paa"
 		};
 	};
 	class sr_rhs_6b26_ess_military_01: rhs_6b26_digi_ess
@@ -693,13 +693,13 @@ class cfgWeapons
 		displayName="6B26 (ESS) [Military 1]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_mili_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_mili_co.paa"
 		};
 	};
 	class sr_rhs_6b26_ess_bala_military_01: rhs_6b26_digi_ess_bala
 	{
 		author="RHS, Rad";
-		displayName="6B26 (ESS/Balaclava) [Military]";
+		displayName="6B26 (ESS/Balaclava) [Military 1]";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -707,8 +707,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_mili_co.paa",
-			"rhs\data\rhs_bala1_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_mili_co.paa",
+			"z\stalker_retextures\addons\rhs\data\rhs_bala1_duty_co.paa"
 		};
 	};
 	class sr_rhs_6b26_military_02: rhs_6b26_digi
@@ -717,7 +717,7 @@ class cfgWeapons
 		displayName="6B26 [Military 2]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_mili2_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_mili2_co.paa"
 		};
 	};
 	class sr_rhs_6b26_noCover_military: rhs_6b26_green
@@ -726,7 +726,7 @@ class cfgWeapons
 		displayName="6B26 (No Cover) [Military]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_mili2_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_mili2_co.paa"
 		};
 	};
 	class sr_rhs_6b26_bala_military_02: rhs_6b26_digi_bala
@@ -740,8 +740,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_mili2_co.paa",
-			"rhs\data\rhs_bala2_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_mili2_co.paa",
+			"z\stalker_retextures\addons\rhs\data\rhs_bala2_duty_co.paa"
 		};
 	};
 	class sr_rhs_6b26_ess_military_02: rhs_6b26_digi_ess
@@ -750,7 +750,7 @@ class cfgWeapons
 		displayName="6B26 (ESS) [Military 2]";
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_mili2_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_mili2_co.paa"
 		};
 	};
 	class sr_rhs_6b26_ess_bala_military_02: rhs_6b26_digi_ess_bala
@@ -764,8 +764,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"rhs\data\6b27_mili2_co.paa",
-			"rhs\data\rhs_bala1_duty_co.paa"
+			"z\stalker_retextures\addons\rhs\data\6b27_mili2_co.paa",
+			"z\stalker_retextures\addons\rhs\data\rhs_bala1_duty_co.paa"
 		};
 	};
 };
