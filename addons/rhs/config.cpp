@@ -470,7 +470,7 @@ class cfgWeapons
 	};
 	class sr_rhs_6b23_vydra_3m_duty: rhs_6b23_vydra_3m
 	{
-		displayName="6b23 (Vydra-3M) [Duty]";
+		displayName="6B23 (Vydra-3M) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b23_duty_co.paa",
@@ -481,7 +481,7 @@ class cfgWeapons
 	};
 	class sr_rhs_6b23_6sh92_vog_camo_duty: rhs_6b23_digi_6sh92_vog
 	{
-		displayName="6b23 (6sh92 VOG, Camo) [Duty]";
+		displayName="6B23 (6Sh92/VOG/Camo) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b23_duty_co.paa",
@@ -492,7 +492,7 @@ class cfgWeapons
 	};
 	class sr_rhs_6b23_6sh92_vog_duty: rhs_6b23_digi_6sh92_vog
 	{
-		displayName="6b23 (6sh92 VOG) [Duty]";
+		displayName="6B23 (6Sh92/VOG) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b23_duty_co.paa",
@@ -512,7 +512,7 @@ class cfgWeapons
 	};
 	class sr_rhs_6sh92_camo_duty: rhs_6sh92_digi
 	{
-		displayName="6sh92 (Camo) [Duty]";
+		displayName="6Sh92 (Camo) [Duty]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b23_duty_co.paa",
@@ -522,7 +522,7 @@ class cfgWeapons
 	};
 	class sr_rhs_6sh92_duty2: rhs_6sh92_digi
 	{
-		displayName="6sh92 [Duty]";
+		displayName="6Sh92 [Duty]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b23_duty_co.paa",
@@ -532,7 +532,7 @@ class cfgWeapons
 	};
 	class sr_rhs_6b23_vydra_3m_military: rhs_6b23_vydra_3m
 	{
-		displayName="6b23 (Vydra-3M) [Military]";
+		displayName="6B23 (Vydra-3M) [Military]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b23_mili_co.paa",
@@ -543,7 +543,7 @@ class cfgWeapons
 	};
 	class sr_rhs_6b23_6sh92_vog_military: rhs_6b23_digi_6sh92_vog
 	{
-		displayName="6b23 (6sh92 VOG) [Military]";
+		displayName="6B23 (6Sh92/VOG) [Military]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b23_mili_co.paa",
@@ -563,7 +563,7 @@ class cfgWeapons
 	};
 	class sr_rhs_6sh92_military: rhs_6sh92_digi
 	{
-		displayName="6sh92 [Military]";
+		displayName="6Sh92 [Military]";
 		hiddenSelectionsTextures[]=
 		{
 			"rhs\data\6b23_mili_co.paa",
