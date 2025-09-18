@@ -1,6 +1,6 @@
 #define MAINPREFIX z
-#define PREFIX AET
+#define PREFIX stlaker_retextures
 
-#define PREFIX_BEAUTIFIED AET Auxiliaries
+#define PREFIX_BEAUTIFIED STALKER Retextures
 
 #include "script_version.hpp"

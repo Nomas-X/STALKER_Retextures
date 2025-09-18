@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="aet">
+<Project name="stalker_retextures">
     <Package name="Main">
-        <Key ID="STR_aet_URL">
-            <English>https://github.com/Nomas-X/AET_AUX/</English>
+        <Key ID="STR_stalker_retextures_author_URL">
+            <English>https://github.com/Nomas-X/STALKER_Retextures/</English>
         </Key>
-        <Key ID="STR_aet_author">
-            <English>Antistasi Event Team</English>
+        <Key ID="STR_stalker_retextures_author">
+            <English>Nomas / Redwwan S.</English>
         </Key>
     </Package>
 </Project>

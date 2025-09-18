@@ -4,5 +4,5 @@
 #define COMPONENT_BEAUTIFIED ~TEMPLATE_ADDON~
 
 
-#include "\z\aet\addons\main\script_mod.hpp"
-#include "\z\aet\addons\main\script_macros.hpp"
+#include "\z\stalker_retextures\addons\main\script_mod.hpp"
+#include "\z\stalker_retextures\addons\main\script_macros.hpp"

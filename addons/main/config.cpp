@@ -4,10 +4,10 @@ class CfgPatches {
     class ADDON {
         name = ADDON_NAME;
         
-        author = "$STR_aet_author";
+        author = "$STR_stalker_retextures_author";
         authors[] = {"Nomas / Redwan S."};
         
-        url = "$STR_aet_URL";
+        url = "$STR_stalker_retextures_author_URL";
         
         VERSION_CONFIG;
         

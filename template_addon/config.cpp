@@ -6,10 +6,10 @@ class CfgPatches {
         // Meta information for editor
 		name = ADDON_NAME;
 
-        author = "$STR_aet_author";
+        author = "$STR_stalker_retextures_author";
         authors[] = {"Nomas / Redwan S. [AET]", "OverlordZorn [CVO]"};
         
-        url = "$STR_aet_URL";
+        url = "$STR_stalker_retextures_author_URL";
 
 		VERSION_CONFIG;
 
