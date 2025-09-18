@@ -49,7 +49,7 @@ jobs:
         - name: Update to Steam Workshop (stable)
           uses: arma-actions/workshop-upload@v1
           with:
-            itemId: '3349453883'
+            itemId: '3570164198'
             contentPath: './@STALKER_Retextures-${{ env.VERSION }}'
             changelog: |
               https://github.com/Nomas-X/STALKER_Retextures/releases/tag/${{ env.VERSION }}
