@@ -1,6 +1,37 @@
+#include "script_component.hpp"
+
+class CfgPatches {
+    class ADDON {
+        name = ADDON_NAME;
+        
+        author = "$STR_stalker_retextures_author";
+        authors[] = {"Nomas / Redwan S."};
+        
+        url = "$STR_stalker_retextures_author_URL";
+        
+        VERSION_CONFIG;
+        
+        // Addon Specific Information
+        // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game.
+		requiredVersion = 2.16;
+
+        // Required addons, used for setting load order.
+        // When any of the addons is missing, pop-up warning will appear when launching the game.
+        requiredAddons[] = {};
+
+        // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups)
+        units[] = {};
+
+        // List of weapons (CfgWeapons classes) contained in the addon.
+        weapons[] = {};
+
+    };
+};
+
+/*
 class CfgPatches
 {
-	class rhs_vanilla
+	class rhs_vanilla   // wtf?
 	{
 		units[]={};
 		weapons[]={};
@@ -8,128 +39,7 @@ class CfgPatches
 		requiredAddons[]={};
 	};
 };
-class CfgGlasses
-{
-	class G_Sport_BlackWhite;
-	class G_bandanna_blk;
-	class G_bandanna_aviator;
-	class G_Bandanna_sport;
-	class sr_vanilla_G_bandanna_duty: G_bandanna_blk
-	{
-		displayName="Bandana [Duty]";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\z\stalker_retextures\addons\vanilla\data\bandana_duty.paa"
-		};
-	};
-	class sr_vanilla_G_bandanna_military: G_bandanna_blk
-	{
-		displayName="Bandana [Military]";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\z\stalker_retextures\addons\vanilla\data\bandana_olive.paa"
-		};
-	};
-};
-class CfgWeapons
-{
-	class InventoryItem_Base_F;
-	class ItemCore;
-	class HeadgearItem;
-	class H_Beret_02;
-	class H_Cap_blk;
-	class H_Cap_Headphones;
-	class sr_vanilla_H_beret_duty_01: H_Beret_02
-	{
-		scope=2;
-		scopeArsenal=2;
-		weaponPoolAvailable=1;
-		displayName="Beret (Red) [Duty]";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"\z\stalker_retextures\addons\vanilla\data\beret.rvmat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\z\stalker_retextures\addons\vanilla\data\beret_duty_red.paa"
-		};
-		allowedslots[]={801,901,701};
-	};
-	class sr_vanilla_H_beret_duty_02: H_Beret_02
-	{
-		scope=2;
-		scopeArsenal=2;
-		weaponPoolAvailable=1;
-		displayName="Beret (Black) [Duty]";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"\z\stalker_retextures\addons\vanilla\data\beret.rvmat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\z\stalker_retextures\addons\vanilla\data\beret_duty_blk.paa"
-		};
-		allowedslots[]={801,901,701};
-	};
-	class sr_vanilla_H_beret_military_01: H_Beret_02
-	{
-		scope=2;
-		scopeArsenal=2;
-		weaponPoolAvailable=1;
-		displayName="Beret (Grey) [Military]";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"\z\stalker_retextures\addons\vanilla\data\beret.rvmat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\z\stalker_retextures\addons\vanilla\data\beret_mili_gry.paa"
-		};
-		allowedslots[]={801,901,701};
-	};
-	class sr_vanilla_H_beret_military_02: H_Beret_02
-	{
-		scope=2;
-		scopeArsenal=2;
-		weaponPoolAvailable=1;
-		displayName="Beret (Green) [Military]";
-		hiddenSelections[]=
-		{
-			"camo"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"\z\stalker_retextures\addons\vanilla\data\beret.rvmat"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\z\stalker_retextures\addons\vanilla\data\beret_mili_grn.paa"
-		};
-		allowedslots[]={801,901,701};
-	};
-};
-class cfgMods
-{
-	author="Rad";
-	timepacked="1750963545";
-};
+*/
+
+#include "CfgGlasses.hpp"
+#include "CfgWeapons.hpp"
