@@ -1,7 +1,7 @@
 class cfgWeapons
 {
 	class rhsusf_spc_patchless;
-	class GVAR(H_spc_patchless): rhsusf_spc_patchless
+	class GVAR(V_spc_patchless): rhsusf_spc_patchless
 	{
 		author = "RHS, Rad";
 		displayName = "SPC (No Patch) [Clearsky]";
@@ -13,9 +13,9 @@ class cfgWeapons
 			"camo3"
 		};
 		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\rhs_spc02_csky_co.paa),
 			QPATHTOF(data\rhs_spc_gear1_csky_co.paa),
 			QPATHTOF(data\rhs_spc_gear2_csky_co.paa),
-			QPATHTOF(data\rhs_spc02_csky_co.paa),
 			QPATHTOF(data\rhs_usmc_camelbak_csky_co.paa)
 		};
 	};
