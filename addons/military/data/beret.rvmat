@@ -11,7 +11,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="rdn\stkr_rtx\addons\duty\data\beret_nohq.paa";
+	texture="rdn\stkr_rtx\addons\military\data\beret_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{

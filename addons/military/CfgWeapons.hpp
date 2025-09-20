@@ -9,8 +9,8 @@ class CfgWeapons
 		displayName = "Beret (Grey) [Military]";
 
 		hiddenSelections[] = { "camo" };
-		hiddenSelectionsMaterials[] = { "\rdn\stkr_rtx\addons\vanilla\data\beret.rvmat" };
-		hiddenSelectionsTextures[] = { "\rdn\stkr_rtx\addons\vanilla\data\beret_mili_gry.paa" };
+		hiddenSelectionsMaterials[] = { QPATHTOF(data\beret.rvmat) };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\beret_mili_gry.paa) };
 		
         allowedslots[] = { 801, 901, 701 };
 	};
@@ -22,8 +22,8 @@ class CfgWeapons
         displayName = "Beret (Green) [Military]";
 
 		hiddenSelections[] = { "camo" };
-		hiddenSelectionsMaterials[] = { "\rdn\stkr_rtx\addons\vanilla\data\beret.rvmat" };
-		hiddenSelectionsTextures[] = { "\rdn\stkr_rtx\addons\vanilla\data\beret_mili_grn.paa" };
+		hiddenSelectionsMaterials[] = { QPATHTOF(data\beret.rvmat) };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\beret_mili_grn.paa) };
 		
         allowedslots[] = { 801, 901, 701 };
 	};
