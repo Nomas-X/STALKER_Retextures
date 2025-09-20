@@ -32,3 +32,5 @@ class CfgPatches {
 
 	};
 };
+
+#include CfgGlasses.hpp

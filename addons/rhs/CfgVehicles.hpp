@@ -6,19 +6,8 @@ class CfgVehicles
 	{
 		// class assembleInfo;
 	};
+    
 	class rhs_sidor;
-	class sr_rhs_sidor_duty: rhs_sidor
-	{
-		displayName="Sidor [Duty]";
-		hiddenSelections[]=
-		{
-			"Camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"z\stalker_retextures\addons\rhs\data\gearpack3_ranets_duty.paa"
-		};
-	};
 	class sr_rhs_sidor_military: rhs_sidor
 	{
 		displayName="Sidor [Military]";
@@ -32,18 +21,6 @@ class CfgVehicles
 		};
 	};
 	class rhs_assault_umbts;
-	class sr_rhs_assault_umbts_duty: rhs_assault_umbts
-	{
-		displayName="UMBTS Backpack [Duty]";
-		hiddenSelections[]=
-		{
-			"Camo"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"z\stalker_retextures\addons\rhs\data\gearpack3_ranets_duty.paa"
-		};
-	};
 	class sr_rhs_assault_umbts_military: rhs_assault_umbts
 	{
 		displayName="UMBTS Backpack [Military]";
@@ -59,7 +36,7 @@ class CfgVehicles
 	class rhs_6sh122_gloves_v1_base;
 	class sr_rhs_6sh122_gloves_military_01: rhs_6sh122_gloves_v1_base
 	{
-		scope=1;
+		scope = 1;
 		uniformClass="sr_rhs_uniform_6sh122_gloves_military_01";
 		model="\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base_gloves.p3d";
 		hiddenSelectionsTextures[]=
@@ -71,7 +48,7 @@ class CfgVehicles
 	};
 	class sr_rhs_6sh122_gloves_military_02: rhs_6sh122_gloves_v1_base
 	{
-		scope=1;
+		scope = 1;
 		uniformClass="sr_rhs_uniform_6sh122_gloves_military_02";
 		model="\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base_gloves.p3d";
 		hiddenSelectionsTextures[]=
@@ -83,7 +60,7 @@ class CfgVehicles
 	};
 	class sr_rhs_6sh122_gloves_military_03: rhs_6sh122_gloves_v1_base
 	{
-		scope=1;
+		scope = 1;
 		uniformClass="sr_rhs_uniform_6sh122_gloves_military_03";
 		model="\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base_gloves.p3d";
 		hiddenSelectionsTextures[]=
@@ -94,36 +71,9 @@ class CfgVehicles
 		};
 	};
 	class rhs_afghanka_boots_base;
-	class sr_rhs_afghanka_boots_duty: rhs_afghanka_boots_base
-	{
-		scope=1;
-		uniformClass="sr_rhs_uniform_afghanka_boots_duty";
-		hiddenSelectionsTextures[]=
-		{
-			"z\stalker_retextures\addons\rhs\data\afghanka01_vest_co.paa",
-			"z\stalker_retextures\addons\rhs\data\afghanka_pant_boots_co.paa"
-		};
-	};
-	class sr_rhs_m88_duty: rhs_afghanka_boots_base
-	{
-		scope=1;
-		model="\rhsafrf\addons\rhs_infantry\rhs_msv_base.p3d";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camob",
-			"insignia"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"z\stalker_retextures\addons\rhs\data\flora_m88_duty.paa"
-		};
-		uniformClass="sr_rhs_uniform_m88_duty";
-	};
 	class sr_rhs_m88_military_01: rhs_afghanka_boots_base
 	{
-		scope=1;
+		scope = 1;
 		model="\rhsafrf\addons\rhs_infantry\rhs_msv_base.p3d";
 		hiddenSelections[]=
 		{
@@ -140,7 +90,7 @@ class CfgVehicles
 	};
 	class sr_rhs_m88_military_02: rhs_afghanka_boots_base
 	{
-		scope=1;
+		scope = 1;
 		model="\rhsafrf\addons\rhs_infantry\rhs_msv_base.p3d";
 		hiddenSelections[]=
 		{
@@ -157,7 +107,7 @@ class CfgVehicles
 	};
 	class sr_rhs_m88_military_03: rhs_afghanka_boots_base
 	{
-		scope=1;
+		scope = 1;
 		model="\rhsafrf\addons\rhs_infantry\rhs_msv_base.p3d";
 		hiddenSelections[]=
 		{
@@ -173,20 +123,9 @@ class CfgVehicles
 		uniformClass="sr_rhs_uniform_m88_military_03";
 	};
 	class rhs_vkpo_gloves_base;
-	class sr_rhs_vkpo_gloves_duty: rhs_vkpo_gloves_base
-	{
-		scope=1;
-		uniformClass="sr_rhs_uniform_vkpo_gloves_duty";
-		hiddenSelectionsTextures[]=
-		{
-			"z\stalker_retextures\addons\rhs\data\vkpo_duty_vest.paa",
-			"z\stalker_retextures\addons\rhs\data\vkpo_duty_pant.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
-		};
-	};
 	class sr_rhs_vkpo_gloves_military_01: rhs_vkpo_gloves_base
 	{
-		scope=1;
+		scope = 1;
 		uniformClass="sr_rhs_uniform_vkpo_gloves_military_01";
 		hiddenSelectionsTextures[]=
 		{
@@ -197,7 +136,7 @@ class CfgVehicles
 	};
 	class sr_rhs_vkpo_gloves_military_02: rhs_vkpo_gloves_base
 	{
-		scope=1;
+		scope = 1;
 		uniformClass="sr_rhs_uniform_vkpo_gloves_military_02";
 		hiddenSelectionsTextures[]=
 		{
@@ -208,7 +147,7 @@ class CfgVehicles
 	};
 	class sr_rhs_vkpo_gloves_military_03: rhs_vkpo_gloves_base
 	{
-		scope=1;
+		scope = 1;
 		uniformClass="sr_rhs_uniform_vkpo_gloves_military_03";
 		hiddenSelectionsTextures[]=
 		{
@@ -217,20 +156,9 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
-	class sr_rhs_vkpo_gloves_worn_duty: rhs_vkpo_gloves_base
-	{
-		scope=1;
-		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_duty";
-		hiddenSelectionsTextures[]=
-		{
-			"z\stalker_retextures\addons\rhs\data\vkpo_duty_vest.paa",
-			"z\stalker_retextures\addons\rhs\data\vkpo_duty_pantw.paa",
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
-		};
-	};
 	class sr_rhs_vkpo_gloves_worn_military_01: rhs_vkpo_gloves_base
 	{
-		scope=1;
+		scope = 1;
 		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_military_01";
 		hiddenSelectionsTextures[]=
 		{
@@ -241,7 +169,7 @@ class CfgVehicles
 	};
 	class sr_rhs_vkpo_gloves_worn_military_02: rhs_vkpo_gloves_base
 	{
-		scope=1;
+		scope = 1;
 		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_military_02";
 		hiddenSelectionsTextures[]=
 		{
@@ -252,7 +180,7 @@ class CfgVehicles
 	};
 	class sr_rhs_vkpo_gloves_worn_military_03: rhs_vkpo_gloves_base
 	{
-		scope=1;
+		scope = 1;
 		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_military_03";
 		hiddenSelectionsTextures[]=
 		{

@@ -18,7 +18,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_afghanka_boots_duty";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_m88_duty: rhs_uniform_flora_patchless
@@ -28,7 +28,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_m88_duty";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_m88_military_01: rhs_uniform_flora_patchless
@@ -38,7 +38,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_m88_military_01";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_m88_military_02: rhs_uniform_flora_patchless
@@ -48,7 +48,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_m88_military_02";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_m88_military_03: rhs_uniform_flora_patchless
@@ -58,7 +58,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_m88_military_03";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_vkpo_gloves_duty: rhs_uniform_vkpo_gloves
@@ -68,7 +68,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_vkpo_gloves_duty";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_vkpo_gloves_military_01: rhs_uniform_vkpo_gloves
@@ -78,7 +78,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_vkpo_gloves_military_01";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_vkpo_gloves_military_02: rhs_uniform_vkpo_gloves
@@ -88,7 +88,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_vkpo_gloves_military_02";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_vkpo_gloves_military_03: rhs_uniform_vkpo_gloves
@@ -98,7 +98,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_vkpo_gloves_military_03";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_vkpo_gloves_worn_duty: rhs_uniform_vkpo_gloves
@@ -108,7 +108,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_vkpo_gloves_worn_duty";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_vkpo_gloves_worn_military_01: rhs_uniform_vkpo_gloves
@@ -118,7 +118,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_vkpo_gloves_worn_military_01";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_vkpo_gloves_worn_military_02: rhs_uniform_vkpo_gloves
@@ -128,7 +128,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_vkpo_gloves_worn_military_02";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_vkpo_gloves_worn_military_03: rhs_uniform_vkpo_gloves
@@ -138,7 +138,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_vkpo_gloves_worn_military_03";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class rhs_uniform_6sh122_gloves_v1;
@@ -149,7 +149,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_6sh122_gloves_military_01";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_6sh122_gloves_military_02: rhs_uniform_6sh122_gloves_v1
@@ -159,7 +159,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_6sh122_gloves_military_02";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_uniform_6sh122_gloves_military_03: rhs_uniform_6sh122_gloves_v1
@@ -169,7 +169,7 @@ class cfgWeapons
 		{
 			uniformClass="sr_rhs_6sh122_gloves_military_03";
 			containerClass="Supply40";
-			mass=40;
+			mass = 40;
 		};
 	};
 	class sr_rhs_6b23_vydra_3m_duty: rhs_6b23_vydra_3m

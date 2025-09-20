@@ -9,9 +9,9 @@ class CfgWeapons
     class H_Beret_02;
 	class sr_vanilla_H_beret_duty_01: H_Beret_02
 	{
-		scope=2;
-		scopeArsenal=2;
-		weaponPoolAvailable=1;
+		scope = 2;
+		scopeArsenal = 2;
+		weaponPoolAvailable = 1;
 		displayName="Beret (Red) [Duty]";
 		hiddenSelections[]=
 		{
@@ -29,9 +29,9 @@ class CfgWeapons
 	};
 	class sr_vanilla_H_beret_duty_02: H_Beret_02
 	{
-		scope=2;
-		scopeArsenal=2;
-		weaponPoolAvailable=1;
+		scope = 2;
+		scopeArsenal = 2;
+		weaponPoolAvailable = 1;
 		displayName="Beret (Black) [Duty]";
 		hiddenSelections[]=
 		{
@@ -49,9 +49,9 @@ class CfgWeapons
 	};
 	class sr_vanilla_H_beret_military_01: H_Beret_02
 	{
-		scope=2;
-		scopeArsenal=2;
-		weaponPoolAvailable=1;
+		scope = 2;
+		scopeArsenal = 2;
+		weaponPoolAvailable = 1;
 		displayName="Beret (Grey) [Military]";
 		hiddenSelections[]=
 		{
@@ -69,9 +69,9 @@ class CfgWeapons
 	};
 	class sr_vanilla_H_beret_military_02: H_Beret_02
 	{
-		scope=2;
-		scopeArsenal=2;
-		weaponPoolAvailable=1;
+		scope = 2;
+		scopeArsenal = 2;
+		weaponPoolAvailable = 1;
 		displayName="Beret (Green) [Military]";
 		hiddenSelections[]=
 		{
