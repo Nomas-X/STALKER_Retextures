@@ -5,7 +5,7 @@ class CfgPatches {
         name = ADDON_NAME;
         
         author = "$STR_stalker_retextures_author";
-        authors[] = {"Nomas / Redwan S."};
+        authors[] = {"Nomas / Redwan S.", "OverlordZorn [CVO]"};
         
         url = "$STR_stalker_retextures_author_URL";
         
@@ -17,7 +17,7 @@ class CfgPatches {
 
         // Required addons, used for setting load order.
         // When any of the addons is missing, pop-up warning will appear when launching the game.
-        requiredAddons[] = {"cba_main"};
+        requiredAddons[] = {};
 
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups)
         units[] = {};
