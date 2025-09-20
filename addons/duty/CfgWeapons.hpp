@@ -12,50 +12,50 @@ class cfgWeapons
 	class rhs_uniform_flora_patchless;
 	class rhs_uniform_vkpo_gloves;
 
-	class GVAR(U_afghanka_boots): rhs_uniform_afghanka_boots_spetsodezhda
+	class GVAR(U_afghanka_boots_black): rhs_uniform_afghanka_boots_spetsodezhda
 	{
 		displayName = "M88 Sapogi [Duty]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass = QGVAR(afghanka_boots);
+			uniformClass = QGVAR(afghanka_boots_black);
 			containerClass = "Supply40";
 			mass = 40;
 		};
 	};
-	class GVAR(U_m88): rhs_uniform_flora_patchless
+	class GVAR(U_model2010_black): rhs_uniform_flora_patchless
 	{
 		displayName = "Model 2010 [Duty]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass = QGVAR(m88);
+			uniformClass = QGVAR(model2010_black);
 			containerClass = "Supply40";
 			mass = 40;
 		};
 	};
 
-	class GVAR(U_vkpo_gloves): rhs_uniform_vkpo_gloves
+	class GVAR(U_vkpo_gloves_black): rhs_uniform_vkpo_gloves
 	{
 		displayName = "VKPO (Gloves) [Duty]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass = QGVAR(vkpo_gloves);
+			uniformClass = QGVAR(vkpo_gloves_black);
 			containerClass = "Supply40";
 			mass = 40;
 		};
 	};
 
-	class GVAR(U_vkpo_gloves_worn): rhs_uniform_vkpo_gloves
+	class GVAR(U_vkpo_gloves_worn_black): rhs_uniform_vkpo_gloves
 	{
 		displayName = "VKPO (Gloves, Worn) [Duty]";
 		class ItemInfo: UniformItem
 		{
-			uniformClass = QGVAR(vkpo_gloves_worn);
+			uniformClass = QGVAR(vkpo_gloves_worn_black);
 			containerClass = "Supply40";
 			mass = 40;
 		};
 	};
 
-	class GVAR(V_6b23_vydra_3m): rhs_6b23_vydra_3m
+	class GVAR(V_6b23_vydra_3m_black): rhs_6b23_vydra_3m
 	{
 		displayName = "6B23 (Vydra-3M) [Duty]";
 		hiddenSelectionsTextures[] = {
@@ -65,7 +65,7 @@ class cfgWeapons
 		};
 		author = "RHS, Rad";
 	};
-	class GVAR(V_6b23_6sh92_vog_camo): rhs_6b23_digi_6sh92_vog
+	class GVAR(V_6b23_6sh92_vog_camo_black): rhs_6b23_digi_6sh92_vog
 	{
 		displayName = "6B23 (6Sh92/VOG/Camo) [Duty]";
 		hiddenSelectionsTextures[] = {
@@ -75,7 +75,7 @@ class cfgWeapons
 		};
 		author = "RHS, Rad";
 	};
-	class GVAR(V_6b23_6sh92_vog): rhs_6b23_digi_6sh92_vog
+	class GVAR(V_6b23_6sh92_vog_black): rhs_6b23_digi_6sh92_vog
 	{
 		displayName = "6B23 (6Sh92/VOG) [Duty]";
 		hiddenSelectionsTextures[] = {
@@ -85,7 +85,7 @@ class cfgWeapons
 		};
 		author = "RHS, Rad";
 	};
-	class GVAR(V_vydra_3m): rhs_vydra_3m
+	class GVAR(V_vydra_3m_black): rhs_vydra_3m
 	{
 		displayName = "Vydra-3M [Duty]";
 		hiddenSelectionsTextures[] = {
@@ -93,7 +93,7 @@ class cfgWeapons
 		};
 		author = "RHS, Rad";
 	};
-	class GVAR(V_6sh92_camo): rhs_6sh92_digi
+	class GVAR(V_6sh92_camo_black): rhs_6sh92_digi
 	{
 		displayName = "6Sh92 (Camo) [Duty]";
 		hiddenSelectionsTextures[] = {
@@ -102,7 +102,7 @@ class cfgWeapons
 		};
 		author = "RHS, Rad";
 	};
-	class GVAR(V_6sh92): rhs_6sh92_digi
+	class GVAR(V_6sh92_black): rhs_6sh92_digi
 	{
 		displayName = "6Sh92 [Duty]";
 		hiddenSelectionsTextures[] = {
@@ -119,7 +119,7 @@ class cfgWeapons
 	class rhs_6b26_digi_ess;
 	class rhs_6b26_digi_ess_bala;
 	class rhs_6b26_green;
-	class GVAR(H_6b26): rhs_6b26_digi
+	class GVAR(H_6b26_black): rhs_6b26_digi
 	{
 		author = "RHS, Rad";
 		displayName = "6B26 [Duty]";
@@ -127,7 +127,7 @@ class cfgWeapons
 			QPATHTOF(data\6b27_duty_co.paa)
 		};
 	};
-	class GVAR(H_6b26_noCover): rhs_6b26_green
+	class GVAR(H_6b26_noCover_black): rhs_6b26_green
 	{
 		author = "RHS, Rad";
 		displayName = "6B26 (No cover) [Duty]";
@@ -135,7 +135,7 @@ class cfgWeapons
 			QPATHTOF(data\6b27_duty_co.paa)
 		};
 	};
-	class GVAR(H_6b26_bala): rhs_6b26_digi_bala {
+	class GVAR(H_6b26_bala_black): rhs_6b26_digi_bala {
 		author = "RHS, Rad";
 		displayName = "6B26 (Balaclava) [Duty]";
 		hiddenSelections[] = {
@@ -147,7 +147,7 @@ class cfgWeapons
 			QPATHTOF(data\rhs_bala2_duty_co.paa)
 		};
 	};
-	class GVAR(H_6b26_ess): rhs_6b26_digi_ess
+	class GVAR(H_6b26_ess_black): rhs_6b26_digi_ess
 	{
 		author = "RHS, Rad";
 		displayName = "6B26 (ESS) [Duty]";
@@ -155,7 +155,7 @@ class cfgWeapons
 			QPATHTOF(data\6b27_duty_co.paa)
 		};
 	};
-	class GVAR(H_6b26_ess_bala): rhs_6b26_digi_ess_bala
+	class GVAR(H_6b26_ess_bala_black): rhs_6b26_digi_ess_bala
 	{
 		author = "RHS, Rad";
 		displayName = "6B26 (ESS/Balaclava) [Duty]";
@@ -188,7 +188,7 @@ class cfgWeapons
 		allowedslots[] = {801,901,701};
 	};
 
-	class GVAR(H_beret_blk): H_Beret_02 {
+	class GVAR(H_beret_black): H_Beret_02 {
 		scope = 2;
 		scopeArsenal = 2;
 		weaponPoolAvailable = 1;

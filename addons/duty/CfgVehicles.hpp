@@ -7,14 +7,14 @@ class CfgVehicles
 	class rhs_vkpo_gloves_base;
 
     // BACKPACKS
-	class GVAR(B_sidor): rhs_sidor {
+	class GVAR(B_sidor_black): rhs_sidor {
 		displayName = "Sidor [Duty]";
 
 		hiddenSelections[] = { "Camo" };
 		hiddenSelectionsTextures[] = { QPATHTOF(data\gearpack3_ranets_duty.paa) };
 	};
 
-	class GVAR(B_assault_umbts): rhs_assault_umbts {
+	class GVAR(B_assault_umbts_black): rhs_assault_umbts {
 		displayName = "UMBTS Backpack [Duty]";
 
 		hiddenSelections[] = { "Camo" };
@@ -22,10 +22,10 @@ class CfgVehicles
 	};
 
     // UNIFORMS Weaponholders
-	class GVAR(afghanka_boots): rhs_afghanka_boots_base {
+	class GVAR(afghanka_boots_black): rhs_afghanka_boots_base {
 		scope = 1;
 		
-        uniformClass = QGVAR(U_afghanka_boots);
+        uniformClass = QGVAR(U_afghanka_boots_black);
 		
         hiddenSelectionsTextures[]= {
 			QPATHTOF(data\afghanka01_vest_co.paa),
@@ -33,10 +33,10 @@ class CfgVehicles
 		};
 	};
 
-	class GVAR(m88): rhs_afghanka_boots_base {
+	class GVAR(model2010_black): rhs_afghanka_boots_base {
 		scope = 1;
 		
-        uniformClass = QGVAR(U_m88);
+        uniformClass = QGVAR(U_model2010_black);
 		
         model = "\rhsafrf\addons\rhs_infantry\rhs_msv_base.p3d";
 		hiddenSelections[]= {
@@ -50,9 +50,9 @@ class CfgVehicles
 		};
 	};
 
-	class GVAR(vkpo_gloves): rhs_vkpo_gloves_base {
+	class GVAR(vkpo_gloves_black): rhs_vkpo_gloves_base {
 		scope = 1;
-		uniformClass = QGVAR(U_vkpo_gloves);
+		uniformClass = QGVAR(U_vkpo_gloves_black);
 
 		hiddenSelectionsTextures[]= {
 			QPATHTOF(data\vkpo_duty_vest.paa),
@@ -61,9 +61,9 @@ class CfgVehicles
 		};
 	};
 
-	class GVAR(vkpo_gloves_worn): rhs_vkpo_gloves_base {
+	class GVAR(vkpo_gloves_worn_black): rhs_vkpo_gloves_base {
 		scope = 1;
-		uniformClass = QGVAR(U_vkpo_gloves_worn);
+		uniformClass = QGVAR(U_vkpo_gloves_worn_black);
 
 		hiddenSelectionsTextures[]= {
 			QPATHTOF(data\vkpo_duty_vest.paa),
