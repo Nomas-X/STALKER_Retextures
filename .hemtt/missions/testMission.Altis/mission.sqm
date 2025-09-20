@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1;
+		nextID=2;
 	};
 	class Camera
 	{
-		pos[]={14717.697,31.041576,16389.59};
-		dir[]={0.5366205,-0.64663303,-0.54215682};
-		up[]={0.4549318,0.76274616,-0.45962393};
-		aside[]={-0.71073431,1.2200326e-07,-0.70347935};
+		pos[]={14743.688,77.949913,16381.561};
+		dir[]={-0.66899544,-0.6356535,-0.3852683};
+		up[]={-0.55089736,0.77191859,-0.31725773};
+		aside[]={-0.49906245,1.0244548e-07,0.8665877};
 	};
 };
 binarizationWanted=0;
@@ -38,9 +38,10 @@ addons[]=
 	"A3_Characters_F",
 	"rhs_c_weapons",
 	"ace_compat_rhs_afrf3",
-	"rhs",
+	"stkr_rtx_duty",
 	"A3_Characters_F_Enoch_Facewear",
-	"rhs_vanilla",
+	"stkr_rtx_military",
+	"stkr_rtx_clearsky",
 	"SCE_Uniforms",
 	"SE_Hunting_Backpack",
 	"SE_Leather_Jacket",
@@ -50,7 +51,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=11;
+		items=12;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -81,8 +82,10 @@ class AddonsMetaData
 		};
 		class Item4
 		{
-			className="rhs";
-			name="rhs";
+			className="stkr_rtx_duty";
+			name="STALKER Retextures Duty Faction";
+			author="Nomas / Redwwan S.";
+			url="https://github.com/Nomas-X/STALKER_Retextures/";
 		};
 		class Item5
 		{
@@ -93,28 +96,37 @@ class AddonsMetaData
 		};
 		class Item6
 		{
-			className="rhs_vanilla";
-			name="rhs_vanilla";
+			className="stkr_rtx_military";
+			name="STALKER Retextures Military Faction";
+			author="Nomas / Redwwan S.";
+			url="https://github.com/Nomas-X/STALKER_Retextures/";
 		};
 		class Item7
+		{
+			className="stkr_rtx_clearsky";
+			name="STALKER Retextures Clear Sky Faction";
+			author="Nomas / Redwwan S.";
+			url="https://github.com/Nomas-X/STALKER_Retextures/";
+		};
+		class Item8
 		{
 			className="SCE_Uniforms";
 			name="SCE_Uniforms";
 			author="Akaviri13";
 		};
-		class Item8
+		class Item9
 		{
 			className="SE_Hunting_Backpack";
 			name="SE_Hunting_Backpack";
 			author="S.T.A.L.K.E.R. Equipment";
 		};
-		class Item9
+		class Item10
 		{
 			className="SE_Leather_Jacket";
 			name="SE_Leather_Jacket";
 			author="S.T.A.L.K.E.R. Equipment";
 		};
-		class Item10
+		class Item11
 		{
 			className="SE_Assault_Fatigues";
 			name="SE_Assault_Fatigues";
@@ -134,7 +146,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
@@ -294,21 +306,21 @@ class Mission
 									};
 									class uniform
 									{
-										typeName="sr_rhs_uniform_m88_duty";
+										typeName="stkr_rtx_duty_U_afghanka_boots_black";
 										isBackpack=0;
 									};
 									class vest
 									{
-										typeName="sr_rhs_6b23_6sh92_vog_duty";
+										typeName="stkr_rtx_duty_V_6b23_6sh92_vog_black";
 										isBackpack=0;
 									};
 									class backpack
 									{
-										typeName="sr_rhs_assault_umbts_duty";
+										typeName="stkr_rtx_duty_B_assault_umbts_black";
 										isBackpack=1;
 									};
-									goggles="sr_rhs_balaclava_black";
-									headgear="sr_rhs_6b26_ess_duty";
+									goggles="stkr_rtx_duty_G_balaclava_1_black";
+									headgear="stkr_rtx_duty_H_6b26_ess_black";
 								};
 							};
 							id=163;
@@ -364,16 +376,16 @@ class Mission
 									};
 									class uniform
 									{
-										typeName="sr_rhs_uniform_afghanka_boots_duty";
+										typeName="stkr_rtx_duty_U_afghanka_boots_black";
 										isBackpack=0;
 									};
 									class vest
 									{
-										typeName="sr_rhs_6sh92_duty2";
+										typeName="stkr_rtx_duty_V_6sh92_camo_black";
 										isBackpack=0;
 									};
-									goggles="sr_rhs_balaclava_black";
-									headgear="sr_rhs_6b26_duty";
+									goggles="stkr_rtx_duty_G_balaclava_1_black";
+									headgear="stkr_rtx_duty_H_6b26_black";
 								};
 							};
 							id=165;
@@ -462,16 +474,16 @@ class Mission
 									};
 									class uniform
 									{
-										typeName="sr_rhs_uniform_m88_duty";
+										typeName="stkr_rtx_duty_U_afghanka_boots_black";
 										isBackpack=0;
 									};
 									class vest
 									{
-										typeName="sr_rhs_vydra_3m_duty";
+										typeName="stkr_rtx_duty_V_6b23_vydra_3m_black";
 										isBackpack=0;
 									};
 									goggles="G_bandanna_blk";
-									headgear="sr_vanilla_H_beret_duty_01";
+									headgear="stkr_rtx_duty_H_beret_black";
 								};
 							};
 							id=169;
@@ -527,16 +539,16 @@ class Mission
 									};
 									class uniform
 									{
-										typeName="sr_rhs_uniform_vkpo_gloves_worn_duty";
+										typeName="stkr_rtx_duty_U_vkpo_gloves_worn_black";
 										isBackpack=0;
 									};
 									class vest
 									{
-										typeName="sr_rhs_vydra_3m_duty";
+										typeName="stkr_rtx_duty_V_6b23_vydra_3m_black";
 										isBackpack=0;
 									};
-									goggles="sr_vanilla_G_bandanna_duty";
-									headgear="sr_vanilla_H_beret_duty_02";
+									goggles="stkr_rtx_duty_G_bandanna_black";
+									headgear="stkr_rtx_duty_H_beret_red";
 								};
 							};
 							id=171;
@@ -592,21 +604,21 @@ class Mission
 									};
 									class uniform
 									{
-										typeName="sr_rhs_uniform_vkpo_gloves_worn_duty";
+										typeName="stkr_rtx_duty_U_vkpo_gloves_worn_black";
 										isBackpack=0;
 									};
 									class vest
 									{
-										typeName="sr_rhs_6b23_vydra_3m_duty";
+										typeName="stkr_rtx_duty_V_6b23_vydra_3m_black";
 										isBackpack=0;
 									};
 									class backpack
 									{
-										typeName="sr_rhs_assault_umbts_duty";
+										typeName="stkr_rtx_duty_B_assault_umbts_black";
 										isBackpack=1;
 									};
-									goggles="sr_rhs_balaclava_black";
-									headgear="sr_rhs_6b26_ess_duty";
+									goggles="stkr_rtx_duty_G_balaclava_1_black";
+									headgear="stkr_rtx_duty_H_6b26_ess_black";
 								};
 							};
 							id=173;
@@ -667,11 +679,11 @@ class Mission
 									};
 									class vest
 									{
-										typeName="sr_rhs_spc_patchless_clearSky";
+										typeName="stkr_rtx_clearsky_V_spc_patchless";
 										isBackpack=0;
 									};
-									goggles="sr_vanilla_G_bandanna_military";
-									headgear="sr_rhs_altyn_novisor_ess_clearSky";
+									goggles="stkr_rtx_military_G_bandanna_olive";
+									headgear="stkr_rtx_clearsky_H_altyn_novisor_ess_black";
 								};
 							};
 							id=175;
@@ -732,11 +744,11 @@ class Mission
 									};
 									class vest
 									{
-										typeName="sr_rhs_spc_patchless_clearSky";
+										typeName="stkr_rtx_clearsky_V_spc_patchless";
 										isBackpack=0;
 									};
-									goggles="sr_vanilla_G_bandanna_military";
-									headgear="sr_rhs_altyn_novisor_ess_clearSky";
+									goggles="stkr_rtx_military_G_bandanna_olive";
+									headgear="stkr_rtx_clearsky_H_altyn_novisor_ess_black";
 								};
 							};
 							id=177;
@@ -792,20 +804,20 @@ class Mission
 									};
 									class uniform
 									{
-										typeName="sr_rhs_uniform_6sh122_gloves_military_03";
+										typeName="stkr_rtx_military_U_6sh122_gloves_ttsko_olive";
 										isBackpack=0;
 									};
 									class vest
 									{
-										typeName="sr_rhs_6b23_6sh92_vog_military";
+										typeName="stkr_rtx_military_V_6b23_6sh92_vog_olive";
 										isBackpack=0;
 									};
 									class backpack
 									{
-										typeName="sr_rhs_assault_umbts_military";
+										typeName="stkr_rtx_military_B_assault_umbts_olive";
 										isBackpack=1;
 									};
-									headgear="sr_rhs_6b26_bala_military_02";
+									headgear="stkr_rtx_military_H_6b26_bala_olive";
 								};
 							};
 							id=179;
@@ -861,21 +873,21 @@ class Mission
 									};
 									class uniform
 									{
-										typeName="sr_rhs_uniform_vkpo_gloves_worn_military_01";
+										typeName="stkr_rtx_military_U_vkpo_gloves_worn_surpat_green";
 										isBackpack=0;
 									};
 									class vest
 									{
-										typeName="sr_rhs_6b23_vydra_3m_military";
+										typeName="stkr_rtx_military_V_6b23_vydra_3m_olive";
 										isBackpack=0;
 									};
 									class backpack
 									{
-										typeName="sr_rhs_assault_umbts_military";
+										typeName="stkr_rtx_military_B_assault_umbts_olive";
 										isBackpack=1;
 									};
-									goggles="sr_vanilla_G_bandanna_military";
-									headgear="sr_rhs_6b26_ess_military_02";
+									goggles="stkr_rtx_military_G_bandanna_olive";
+									headgear="stkr_rtx_military_H_6b26_ess_olive";
 								};
 							};
 							id=181;
@@ -931,16 +943,16 @@ class Mission
 									};
 									class uniform
 									{
-										typeName="sr_rhs_uniform_vkpo_gloves_military_03";
+										typeName="stkr_rtx_military_U_vkpo_gloves_ttsko_olive";
 										isBackpack=0;
 									};
 									class vest
 									{
-										typeName="sr_rhs_6sh92_military";
+										typeName="stkr_rtx_military_V_6sh92_olive";
 										isBackpack=0;
 									};
-									goggles="sr_vanilla_G_bandanna_military";
-									headgear="sr_vanilla_H_beret_military_02";
+									goggles="stkr_rtx_military_G_bandanna_olive";
+									headgear="stkr_rtx_military_H_beret_green";
 								};
 							};
 							id=183;
@@ -996,16 +1008,16 @@ class Mission
 									};
 									class uniform
 									{
-										typeName="sr_rhs_uniform_vkpo_gloves_military_01";
+										typeName="stkr_rtx_military_U_vkpo_gloves_surpat_green";
 										isBackpack=0;
 									};
 									class vest
 									{
-										typeName="sr_rhs_vydra_3m_military";
+										typeName="stkr_rtx_military_V_vydra_3m_olive";
 										isBackpack=0;
 									};
-									goggles="sr_vanilla_G_bandanna_military";
-									headgear="sr_vanilla_H_beret_military_01";
+									goggles="stkr_rtx_military_G_bandanna_olive";
+									headgear="stkr_rtx_military_H_beret_grey";
 								};
 							};
 							id=185;
@@ -1061,20 +1073,20 @@ class Mission
 									};
 									class uniform
 									{
-										typeName="sr_rhs_uniform_m88_military_02";
+										typeName="stkr_rtx_military_U_model2010_emr_green";
 										isBackpack=0;
 									};
 									class vest
 									{
-										typeName="sr_rhs_6b23_vydra_3m_military";
+										typeName="stkr_rtx_military_V_6b23_vydra_3m_olive";
 										isBackpack=0;
 									};
 									class backpack
 									{
-										typeName="sr_rhs_assault_umbts_military";
+										typeName="stkr_rtx_military_B_assault_umbts_olive";
 										isBackpack=1;
 									};
-									headgear="sr_rhs_6b26_ess_bala_military_02";
+									headgear="stkr_rtx_military_H_6b26_ess_bala_olive";
 								};
 							};
 							id=187;
@@ -1135,11 +1147,11 @@ class Mission
 									};
 									class vest
 									{
-										typeName="sr_rhs_spc_patchless_clearSky";
+										typeName="stkr_rtx_clearsky_V_spc_patchless";
 										isBackpack=0;
 									};
-									goggles="sr_vanilla_G_bandanna_military";
-									headgear="sr_rhs_altyn_novisor_ess_clearSky";
+									goggles="stkr_rtx_military_G_bandanna_olive";
+									headgear="stkr_rtx_clearsky_H_altyn_novisor_ess_black";
 								};
 							};
 							id=189;
@@ -1233,15 +1245,15 @@ class Mission
 									};
 									class vest
 									{
-										typeName="sr_rhs_6b23_6sh92_vog_military";
+										typeName="stkr_rtx_military_V_6b23_6sh92_vog_olive";
 										isBackpack=0;
 									};
 									class backpack
 									{
-										typeName="sr_rhs_assault_umbts_military";
+										typeName="stkr_rtx_military_B_assault_umbts_olive";
 										isBackpack=1;
 									};
-									headgear="sr_rhs_6b26_bala_military_02";
+									headgear="stkr_rtx_military_H_6b26_bala_olive";
 								};
 							};
 							id=194;
@@ -1302,16 +1314,16 @@ class Mission
 									};
 									class vest
 									{
-										typeName="sr_rhs_6b23_vydra_3m_military";
+										typeName="stkr_rtx_military_V_6b23_vydra_3m_olive";
 										isBackpack=0;
 									};
 									class backpack
 									{
-										typeName="sr_rhs_assault_umbts_military";
+										typeName="stkr_rtx_military_B_assault_umbts_olive";
 										isBackpack=1;
 									};
-									goggles="sr_vanilla_G_bandanna_military";
-									headgear="sr_rhs_6b26_ess_military_02";
+									goggles="stkr_rtx_military_G_bandanna_olive";
+									headgear="stkr_rtx_military_H_6b26_ess_olive";
 								};
 							};
 							id=196;
@@ -1372,15 +1384,15 @@ class Mission
 									};
 									class vest
 									{
-										typeName="sr_rhs_6b23_vydra_3m_military";
+										typeName="stkr_rtx_military_V_6b23_vydra_3m_olive";
 										isBackpack=0;
 									};
 									class backpack
 									{
-										typeName="sr_rhs_assault_umbts_military";
+										typeName="stkr_rtx_military_B_assault_umbts_olive";
 										isBackpack=1;
 									};
-									headgear="sr_rhs_6b26_ess_bala_military_02";
+									headgear="stkr_rtx_military_H_6b26_ess_bala_olive";
 								};
 							};
 							id=198;
@@ -1441,16 +1453,16 @@ class Mission
 									};
 									class vest
 									{
-										typeName="sr_rhs_6b23_6sh92_vog_duty";
+										typeName="stkr_rtx_duty_V_6b23_6sh92_vog_black";
 										isBackpack=0;
 									};
 									class backpack
 									{
-										typeName="sr_rhs_assault_umbts_duty";
+										typeName="stkr_rtx_duty_B_assault_umbts_black";
 										isBackpack=1;
 									};
-									goggles="sr_vanilla_G_bandanna_duty";
-									headgear="sr_vanilla_H_beret_duty_01";
+									goggles="stkr_rtx_duty_G_bandanna_black";
+									headgear="stkr_rtx_duty_H_beret_black";
 								};
 							};
 							id=200;
@@ -1511,11 +1523,11 @@ class Mission
 									};
 									class vest
 									{
-										typeName="sr_rhs_6sh92_duty2";
+										typeName="stkr_rtx_duty_V_6sh92_camo_black";
 										isBackpack=0;
 									};
-									goggles="sr_rhs_balaclava_black";
-									headgear="sr_rhs_6b26_duty";
+									goggles="stkr_rtx_duty_G_balaclava_1_black";
+									headgear="stkr_rtx_duty_H_6b26_black";
 								};
 							};
 							id=202;
@@ -1576,16 +1588,16 @@ class Mission
 									};
 									class vest
 									{
-										typeName="sr_rhs_6b23_vydra_3m_duty";
+										typeName="stkr_rtx_duty_V_6b23_vydra_3m_black";
 										isBackpack=0;
 									};
 									class backpack
 									{
-										typeName="sr_rhs_assault_umbts_duty";
+										typeName="stkr_rtx_duty_B_assault_umbts_black";
 										isBackpack=1;
 									};
-									goggles="sr_rhs_balaclava_black";
-									headgear="sr_rhs_6b26_ess_duty";
+									goggles="stkr_rtx_duty_G_balaclava_1_black";
+									headgear="stkr_rtx_duty_H_6b26_ess_black";
 								};
 							};
 							id=204;

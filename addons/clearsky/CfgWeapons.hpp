@@ -4,7 +4,7 @@ class cfgWeapons
 	class GVAR(V_spc_patchless): rhsusf_spc_patchless
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (No Patch) [Clearsky]";
+		displayName = "SPC (Patchless) [Clearsky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -21,7 +21,7 @@ class cfgWeapons
 	};
 
 	class rhs_altyn_novisor_ess;
-	class GVAR(H_altyn_novisor_ess): rhs_altyn_novisor_ess {
+	class GVAR(H_altyn_novisor_ess_black): rhs_altyn_novisor_ess {
 		author = "RHS, Rad";
 		displayName = "Altyn (ESS) [Clearsky]";
 

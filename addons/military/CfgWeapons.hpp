@@ -1,7 +1,7 @@
 class CfgWeapons
 {
     class H_Beret_02;
-	class GVAR(H_beret_gry): H_Beret_02 {
+	class GVAR(H_beret_grey): H_Beret_02 {
 		scope = 2;
 		scopeArsenal = 2;
 		weaponPoolAvailable = 1;
@@ -14,7 +14,7 @@ class CfgWeapons
 		
         allowedslots[] = { 801, 901, 701 };
 	};
-	class GVAR(H_beret_2_grn): H_Beret_02 {
+	class GVAR(H_beret_green): H_Beret_02 {
 		scope = 2;
 		scopeArsenal = 2;
 		weaponPoolAvailable = 1;
@@ -35,130 +35,130 @@ class CfgWeapons
     class rhs_6b23_digi_6sh92_vog;
     class rhs_uniform_flora_patchless;
     class rhs_uniform_vkpo_gloves;
-    class GVAR(U_m88_1): rhs_uniform_flora_patchless
+    class GVAR(U_model2010_surpat_green): rhs_uniform_flora_patchless
     {
         displayName = "Model 2010 [Military 1]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(m88_1);
+            uniformClass = QGVAR(model2010_surpat_green);
             containerClass = "Supply40";
             mass = 40;
         };
     };
-    class GVAR(U_m88_2): rhs_uniform_flora_patchless
+    class GVAR(U_model2010_emr_green): rhs_uniform_flora_patchless
     {
         displayName = "Model 2010 [Military 2]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(m88_2);
+            uniformClass = QGVAR(model2010_emr_green);
             containerClass = "Supply40";
             mass = 40;
         };
     };
-    class GVAR(U_m88_3): rhs_uniform_flora_patchless
+    class GVAR(U_model2010_ttsko_olive): rhs_uniform_flora_patchless
     {
         displayName = "Model 2010 [Military 3]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(m88_3);
+            uniformClass = QGVAR(model2010_ttsko_olive);
             containerClass = "Supply40";
             mass = 40;
         };
     };
-    class GVAR(U_vkpo_gloves_1): rhs_uniform_vkpo_gloves
+    class GVAR(U_vkpo_gloves_surpat_green): rhs_uniform_vkpo_gloves
     {
         displayName = "VKPO (Gloves) [Military 1]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(vkpo_gloves_1);
+            uniformClass = QGVAR(vkpo_gloves_surpat_green);
             containerClass = "Supply40";
             mass = 40;
         };
     };
-    class GVAR(U_vkpo_gloves_2): rhs_uniform_vkpo_gloves
+    class GVAR(U_vkpo_gloves_emr_green): rhs_uniform_vkpo_gloves
     {
         displayName = "VKPO (Gloves) [Military 2]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(vkpo_gloves_2);
+            uniformClass = QGVAR(vkpo_gloves_emr_green);
             containerClass = "Supply40";
             mass = 40;
         };
     };
-    class GVAR(U_vkpo_gloves_3): rhs_uniform_vkpo_gloves
+    class GVAR(U_vkpo_gloves_ttsko_olive): rhs_uniform_vkpo_gloves
     {
         displayName = "VKPO (Gloves) [Military 3]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(vkpo_gloves_3);
+            uniformClass = QGVAR(vkpo_gloves_ttsko_olive);
             containerClass = "Supply40";
             mass = 40;
         };
     };
-    class GVAR(U_vkpo_gloves_worn_1): rhs_uniform_vkpo_gloves
+    class GVAR(U_vkpo_gloves_worn_surpat_green): rhs_uniform_vkpo_gloves
     {
         displayName = "VKPO (Gloves, Worn) [Military 1]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(vkpo_gloves_worn_1);
+            uniformClass = QGVAR(vkpo_gloves_worn_surpat_green);
             containerClass = "Supply40";
             mass = 40;
         };
     };
-    class GVAR(U_vkpo_gloves_worn_2): rhs_uniform_vkpo_gloves
+    class GVAR(U_vkpo_gloves_worn_emr_green): rhs_uniform_vkpo_gloves
     {
         displayName = "VKPO (Gloves, Worn) [Military 2]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(vkpo_gloves_worn_2);
+            uniformClass = QGVAR(vkpo_gloves_worn_emr_green);
             containerClass = "Supply40";
             mass = 40;
         };
     };
-    class GVAR(U_vkpo_gloves_worn_3): rhs_uniform_vkpo_gloves
+    class GVAR(U_vkpo_gloves_worn_ttsko_olive): rhs_uniform_vkpo_gloves
     {
         displayName = "VKPO (Gloves, Worn) [Military 3]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(vkpo_gloves_worn_3);
+            uniformClass = QGVAR(vkpo_gloves_worn_ttsko_olive);
             containerClass = "Supply40";
             mass = 40;
         };
     };
     class rhs_uniform_6sh122_gloves_v1;
-    class GVAR(U_6sh122_gloves_1): rhs_uniform_6sh122_gloves_v1
+    class GVAR(U_6sh122_gloves_surpat_green): rhs_uniform_6sh122_gloves_v1
     {
         displayName = "6sh122 (Gloves) [Military 1]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(6sh122_gloves_1);
+            uniformClass = QGVAR(6sh122_gloves_surpat_green);
             containerClass = "Supply40";
             mass = 40;
         };
     };
-    class GVAR(U_6sh122_gloves_2): rhs_uniform_6sh122_gloves_v1
+    class GVAR(U_6sh122_gloves_emr_green): rhs_uniform_6sh122_gloves_v1
     {
         displayName = "6sh122 (Gloves) [Military 2]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(6sh122_gloves_2);
+            uniformClass = QGVAR(6sh122_gloves_emr_green);
             containerClass = "Supply40";
             mass = 40;
         };
     };
-    class GVAR(U_6sh122_gloves_3): rhs_uniform_6sh122_gloves_v1
+    class GVAR(U_6sh122_gloves_ttsko_olive): rhs_uniform_6sh122_gloves_v1
     {
         displayName = "6sh122 (Gloves) [Military 3]";
         class ItemInfo: UniformItem
         {
-            uniformClass = QGVAR(6sh122_gloves_3);
+            uniformClass = QGVAR(6sh122_gloves_ttsko_olive);
             containerClass = "Supply40";
             mass = 40;
         };
     };
 
     // VESTS
-    class GVAR(V_6b23_vydra_3m): rhs_6b23_vydra_3m
+    class GVAR(V_6b23_vydra_3m_olive): rhs_6b23_vydra_3m
     {
         displayName = "6B23 (Vydra-3M) [Military]";
         hiddenSelectionsTextures[]=
@@ -169,7 +169,7 @@ class CfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6b23_6sh92_vog): rhs_6b23_digi_6sh92_vog
+    class GVAR(V_6b23_6sh92_vog_olive): rhs_6b23_digi_6sh92_vog
     {
         displayName = "6B23 (6Sh92/VOG) [Military]";
         hiddenSelectionsTextures[]=
@@ -180,7 +180,7 @@ class CfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_vydra_3m): rhs_vydra_3m
+    class GVAR(V_vydra_3m_olive): rhs_vydra_3m
     {
         displayName = "Vydra-3M [Military]";
         hiddenSelectionsTextures[]=
@@ -189,7 +189,7 @@ class CfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6sh92): rhs_6sh92_digi
+    class GVAR(V_6sh92_olive): rhs_6sh92_digi
     {
         displayName = "6Sh92 [Military]";
         hiddenSelectionsTextures[]=
@@ -207,7 +207,7 @@ class CfgWeapons
     class rhs_6b26_digi_bala;
     class rhs_6b26_digi_ess;
     class rhs_6b26_digi_ess_bala;
-    class GVAR(H_6b26_01): rhs_6b26_digi {
+    class GVAR(H_6b26_coyote): rhs_6b26_digi {
         author = "RHS, Rad";
         displayName = "6B26 [Military 1]";
         hiddenSelectionsTextures[]=
@@ -215,7 +215,7 @@ class CfgWeapons
             QPATHTOF(data\6b27_mili_co.paa)
         };
     };
-    class GVAR(H_6b26_bala_01): rhs_6b26_digi_bala {
+    class GVAR(H_6b26_bala_coyote): rhs_6b26_digi_bala {
         author = "RHS, Rad";
         displayName = "6B26 (Balaclava) [Military 1]";
         hiddenSelections[]=
@@ -229,7 +229,7 @@ class CfgWeapons
             QPATHTOF(data\rhs_bala2_duty_co.paa)
         };
     };
-    class GVAR(H_6b26_ess_01): rhs_6b26_digi_ess {
+    class GVAR(H_6b26_ess_coyote): rhs_6b26_digi_ess {
         author = "RHS, Rad";
         displayName = "6B26 (ESS) [Military 1]";
         hiddenSelectionsTextures[]=
@@ -237,7 +237,7 @@ class CfgWeapons
             QPATHTOF(data\6b27_mili_co.paa)
         };
     };
-    class GVAR(H_6b26_ess_bala_01): rhs_6b26_digi_ess_bala
+    class GVAR(H_6b26_ess_bala_coyote): rhs_6b26_digi_ess_bala
     {
         author = "RHS, Rad";
         displayName = "6B26 (ESS/Balaclava) [Military 1]";
@@ -252,7 +252,7 @@ class CfgWeapons
             QPATHTOF(data\rhs_bala1_duty_co.paa)
         };
     };
-    class GVAR(H_6b26_02): rhs_6b26_digi
+    class GVAR(H_6b26_olive): rhs_6b26_digi
     {
         author = "RHS, Rad";
         displayName = "6B26 [Military 2]";
@@ -261,7 +261,7 @@ class CfgWeapons
             QPATHTOF(data\6b27_mili2_co.paa)
         };
     };
-    class GVAR(H_6b26_noCover): rhs_6b26_green
+    class GVAR(H_6b26_noCover_olive): rhs_6b26_green
     {
         author = "RHS, Rad";
         displayName = "6B26 (No Cover) [Military]";
@@ -270,7 +270,7 @@ class CfgWeapons
             QPATHTOF(data\6b27_mili2_co.paa)
         };
     };
-    class GVAR(H_6b26_bala_02): rhs_6b26_digi_bala
+    class GVAR(H_6b26_bala_olive): rhs_6b26_digi_bala
     {
         author = "RHS, Rad";
         displayName = "6B26 (Balaclava) [Military 2]";
@@ -285,7 +285,7 @@ class CfgWeapons
             QPATHTOF(data\rhs_bala2_duty_co.paa)
         };
     };
-    class GVAR(H_6b26_ess_02): rhs_6b26_digi_ess
+    class GVAR(H_6b26_ess_olive): rhs_6b26_digi_ess
     {
         author = "RHS, Rad";
         displayName = "6B26 (ESS) [Military 2]";
@@ -294,7 +294,7 @@ class CfgWeapons
             QPATHTOF(data\6b27_mili2_co.paa)
         };
     };
-    class GVAR(H_6b26_ess_bala_02): rhs_6b26_digi_ess_bala
+    class GVAR(H_6b26_ess_bala_olive): rhs_6b26_digi_ess_bala
     {
         author = "RHS, Rad";
         displayName = "6B26 (ESS/Balaclava) [Military 2]";
