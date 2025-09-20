@@ -1,5 +1,5 @@
-#define MAINPREFIX z
-#define PREFIX stlaker_retextures
+#define MAINPREFIX rdn
+#define PREFIX stkr_rtx
 
 #define PREFIX_BEAUTIFIED STALKER Retextures
 

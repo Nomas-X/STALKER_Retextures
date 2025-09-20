@@ -1,33 +1,35 @@
 class CfgGlasses {
 
+    // Vanilla
     class G_bandanna_blk;
 	class GVAR(G_bandanna): G_bandanna_blk
 	{
-		displayName="Bandana [Duty]";
+		displayName = "Bandana [Duty]";
 		hiddenSelections[] = {
 			"camo"
 		};
 		hiddenSelectionsTextures[] = {
-			"\z\stalker_retextures\addons\vanilla\data\bandana_duty.paa"
+			QPATHTOF(data\bandana_duty.paa)
 		};
 	};
 
+
+    // RHS
 	class rhs_balaclava;
 	class rhs_balaclava1_olive;
-
 	class GVAR(G_balaclava_1_BLK): rhs_balaclava {
-		displayName="Balaclava [Duty 1]";
+		displayName = "Balaclava 1 [Duty]";
 		hiddenSelectionsTextures[] = {
-			"z\stalker_retextures\addons\rhs\data\rhs_bala2_duty_co.paa"
+			QPATHTOF(data\rhs_bala2_duty_co.paa)
 		};
-		author="RHS, Rad";
+		author = "RHS, Rad";
 	};
 
 	class GVAR(G_balaclava_2_BLK): rhs_balaclava1_olive {
-		displayName="Balaclava [Duty 2]";
+		displayName = "Balaclava 2 [Duty]";
 		hiddenSelectionsTextures[] = {
-			"z\stalker_retextures\addons\rhs\data\rhs_bala1_duty_co.paa"
+			QPATHTOF(data\rhs_bala1_duty_co.paa)
 		};
-		author="RHS, Rad";
+		author = "RHS, Rad";
 	};
 };

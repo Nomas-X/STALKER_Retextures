@@ -6,38 +6,39 @@ class CfgVehicles
 	class rhs_afghanka_boots_base;
 	class rhs_vkpo_gloves_base;
 
-	class GVAR(sidor): rhs_sidor {
+    // BACKPACKS
+	class GVAR(B_sidor): rhs_sidor {
 		displayName = "Sidor [Duty]";
-		hiddenSelections[] = {
-			"Camo"
-		};
-		hiddenSelectionsTextures[] = {
-			"z\stalker_retextures\addons\rhs\data\gearpack3_ranets_duty.paa"
-		};
+
+		hiddenSelections[] = { "Camo" };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\gearpack3_ranets_duty.paa) };
 	};
 
-	class GVAR(assault_umbts): rhs_assault_umbts {
-		displayName="UMBTS Backpack [Duty]";
-		hiddenSelections[] = {
-			"Camo"
-		};
-		hiddenSelectionsTextures[] = {
-			"z\stalker_retextures\addons\rhs\data\gearpack3_ranets_duty.paa"
-		};
+	class GVAR(B_assault_umbts): rhs_assault_umbts {
+		displayName = "UMBTS Backpack [Duty]";
+
+		hiddenSelections[] = { "Camo" };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\gearpack3_ranets_duty.paa) };
 	};
 
+    // UNIFORMS Weaponholders
 	class GVAR(afghanka_boots): rhs_afghanka_boots_base {
 		scope = 1;
-		uniformClass="sr_rhs_uniform_afghanka_boots_duty";
-		hiddenSelectionsTextures[]= {
-			"z\stalker_retextures\addons\rhs\data\afghanka01_vest_co.paa",
-			"z\stalker_retextures\addons\rhs\data\afghanka_pant_boots_co.paa"
+		
+        uniformClass = QGVAR(U_afghanka_boots);
+		
+        hiddenSelectionsTextures[]= {
+			QPATHTOF(data\afghanka01_vest_co.paa),
+			QPATHTOF(data\afghanka_pant_boots_co.paa)
 		};
 	};
 
 	class GVAR(m88): rhs_afghanka_boots_base {
 		scope = 1;
-		model="\rhsafrf\addons\rhs_infantry\rhs_msv_base.p3d";
+		
+        uniformClass = QGVAR(U_m88);
+		
+        model = "\rhsafrf\addons\rhs_infantry\rhs_msv_base.p3d";
 		hiddenSelections[]= {
 			"camo1",
 			"camo2",
@@ -45,27 +46,28 @@ class CfgVehicles
 			"insignia"
 		};
 		hiddenSelectionsTextures[]= {
-			"z\stalker_retextures\addons\rhs\data\flora_m88_duty.paa"
+			QPATHTOF(data\flora_m88_duty.paa)
 		};
-		uniformClass="sr_rhs_uniform_m88_duty";
 	};
 
 	class GVAR(vkpo_gloves): rhs_vkpo_gloves_base {
 		scope = 1;
-		uniformClass = "sr_rhs_uniform_vkpo_gloves_duty";
+		uniformClass = QGVAR(U_vkpo_gloves);
+
 		hiddenSelectionsTextures[]= {
-			"z\stalker_retextures\addons\rhs\data\vkpo_duty_vest.paa",
-			"z\stalker_retextures\addons\rhs\data\vkpo_duty_pant.paa",
+			QPATHTOF(data\vkpo_duty_vest.paa),
+			QPATHTOF(data\vkpo_duty_pant.paa),
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
 
 	class GVAR(vkpo_gloves_worn): rhs_vkpo_gloves_base {
 		scope = 1;
-		uniformClass="sr_rhs_uniform_vkpo_gloves_worn_duty";
+		uniformClass = QGVAR(U_vkpo_gloves_worn);
+
 		hiddenSelectionsTextures[]= {
-			"z\stalker_retextures\addons\rhs\data\vkpo_duty_vest.paa",
-			"z\stalker_retextures\addons\rhs\data\vkpo_duty_pantw.paa",
+			QPATHTOF(data\vkpo_duty_vest.paa),
+			QPATHTOF(data\vkpo_duty_pantw.paa),
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};

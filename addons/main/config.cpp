@@ -5,7 +5,7 @@ class CfgPatches {
         name = ADDON_NAME;
         
         author = "$STR_stalker_retextures_author";
-        authors[] = {"Nomas / Redwan S."};
+        authors[] = {"Nomas / Redwan S.", "OverlordZorn [CVO]"};
         
         url = "$STR_stalker_retextures_author_URL";
         

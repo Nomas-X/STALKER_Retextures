@@ -7,7 +7,7 @@ class CfgPatches {
 		name = ADDON_NAME;
 
         author = "$STR_stalker_retextures_author";
-        authors[] = {"Nomas / Redwan S. [AET]", "OverlordZorn [CVO]"};
+        authors[] = {"Nomas / Redwan S. [AET]", "RHS", "Rad", "OverlordZorn [CVO]"};
         
         url = "$STR_stalker_retextures_author_URL";
 
@@ -33,3 +33,5 @@ class CfgPatches {
 
 	};
 };
+
+#include "CfgWeapons.hpp"

@@ -9,7 +9,7 @@ extends = "base"
 workshop = [
     "450814997",  # CBA_A3's Workshop ID
 	"463939057",  # ACE3
-	"1996610193", # S.T.A.L.K.E.R. + CBRN Equipment
+	#"1996610193", # S.T.A.L.K.E.R. + CBRN Equipment
     "3499977893", # Advanced Developer Tools
     "1779063631", # ZEN
 	"623475643",  # 3den Enhanced

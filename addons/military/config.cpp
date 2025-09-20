@@ -32,3 +32,7 @@ class CfgPatches {
 
 	};
 };
+
+#include "CfgGlasses.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
