@@ -118,6 +118,9 @@ class cfgWeapons
 	class rhs_6b26_digi_bala;
 	class rhs_6b26_digi_ess;
 	class rhs_6b26_digi_ess_bala;
+	class rhs_6b26_bala_green;
+	class rhs_6b26_ess_green;
+	class rhs_6b26_ess_bala_green;
 	class rhs_6b26_green;
 	class GVAR(H_6b26_black): rhs_6b26_digi
 	{
@@ -130,7 +133,31 @@ class cfgWeapons
 	class GVAR(H_6b26_noCover_black): rhs_6b26_green
 	{
 		author = "RHS, Rad";
-		displayName = "6B26 (No cover) [Duty]";
+		displayName = "6B26 (No Cover) [Duty]";
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\6b27_duty_co.paa)
+		};
+	};
+	class GVAR(H_6b26_noCover_bala_black): rhs_6b26_bala_green
+	{
+		author = "RHS, Rad";
+		displayName = "6B26 (No Cover, Balaclava) [Duty]";
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\6b27_duty_co.paa)
+		};
+	};
+	class GVAR(H_6b26_noCover_ess_black): rhs_6b26_ess_green
+	{
+		author = "RHS, Rad";
+		displayName = "6B26 (No Cover, ESS) [Duty]";
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\6b27_duty_co.paa)
+		};
+	};
+	class GVAR(H_6b26_noCover_ess_bala_black): rhs_6b26_ess_bala_green
+	{
+		author = "RHS, Rad";
+		displayName = "6B26 (No Cover, ESS/Balaclava) [Duty]";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b27_duty_co.paa)
 		};
