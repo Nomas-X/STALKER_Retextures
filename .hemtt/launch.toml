@@ -2,6 +2,8 @@
 workshop = [
     "843577117",  # RHSUSAF
 	"843425103",  # RHSAFRF
+	"843593391",  # RHSGREF
+	"843632231",  # RHSSAF
 ]
 
 [default]
@@ -25,6 +27,12 @@ parameters = [
 	"-showScriptErrors",
 ]
 
-[Altis]
+[local]
 extends = "default"
 mission = "testMission.Altis"
+
+[local_3cb]
+workshop = [
+	"1673456286",  # 3CB Factions
+]
+extends = "local"

@@ -5,14 +5,14 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=13;
+	toggles=9;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=208;
+		nextID=258;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=4;
+		nextID=16;
 	};
 	class Camera
 	{
-		pos[]={14746.416,21.481947,16383.309};
-		dir[]={0.054648224,-0.56859809,-0.82082784};
-		up[]={0.037778124,0.82256043,-0.56741816};
-		aside[]={-0.99781382,3.3518882e-07,-0.066433921};
+		pos[]={14746.41,21.077105,16387.275};
+		dir[]={-0.022400254,-0.43149704,-0.90185273};
+		up[]={-0.010714937,0.90211481,-0.43136984};
+		aside[]={-0.99970549,-1.5666592e-07,0.024831943};
 	};
 };
 binarizationWanted=0;
@@ -45,13 +45,15 @@ addons[]=
 	"SCE_Uniforms",
 	"SE_Hunting_Backpack",
 	"SE_Leather_Jacket",
-	"SE_Assault_Fatigues"
+	"SE_Assault_Fatigues",
+	"UK3CB_Factions_GAF_B",
+	"UK3CB_Factions_Vests2"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=12;
+		items=14;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -132,12 +134,27 @@ class AddonsMetaData
 			name="SE_Assault_Fatigues";
 			author="S.T.A.L.K.E.R. Equipment";
 		};
+		class Item12
+		{
+			className="UK3CB_Factions_GAF";
+			name="3CB Factions - GAF";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item13
+		{
+			className="UK3CB_Factions_Equipment2";
+			name="3CB Factions - Equipment2";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
 	};
 };
 dlcs[]=
 {
 	"RHS_AFRF",
-	"RHS_USAF"
+	"RHS_USAF",
+	"UK3CB_Factions"
 };
 randomSeed=1951784;
 class ScenarioData
@@ -181,15 +198,14 @@ class Mission
 		windForced=1;
 		year=2035;
 		month=6;
-		day=24;
-		hour=12;
-		minute=0;
+		hour=15;
+		minute=14;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
 	};
 	class Entities
 	{
-		items=2;
+		items=3;
 		class Item0
 		{
 			dataType="Logic";
@@ -262,7 +278,7 @@ class Mission
 			name="STALKER TEMP";
 			class Entities
 			{
-				items=25;
+				items=27;
 				class Item0
 				{
 					dataType="Group";
@@ -1633,9 +1649,123 @@ class Mission
 					id=206;
 					atlOffset=0.0018444061;
 				};
+				class Item25
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14736,17.871439,16448.051};
+							};
+							side="West";
+							flags=7;
+							class Attributes
+							{
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="UK3CB_GAF_B_U_CombatSmock_03_DIGI";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="UK3CB_MD12_VEST_KHK";
+										isBackpack=0;
+									};
+									goggles="G_Bandanna_oli";
+									headgear="UK3CB_GAF_B_H_BoonieHat_DIGI";
+								};
+							};
+							id=244;
+							type="B_G_Survivor_F";
+						};
+					};
+					class Attributes
+					{
+					};
+					id=243;
+				};
+				class Item26
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14735,17.871439,16448.051};
+							};
+							side="West";
+							flags=7;
+							class Attributes
+							{
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="UK3CB_GAF_B_U_CombatSmock_03_DIGI";
+										isBackpack=0;
+									};
+									class vest
+									{
+										typeName="UK3CB_MD12_VEST_KHK";
+										isBackpack=0;
+									};
+									goggles="G_Bandanna_oli";
+									headgear="UK3CB_GAF_B_H_BoonieHat_DIGI";
+								};
+							};
+							id=246;
+							type="B_G_Survivor_F";
+						};
+					};
+					class Attributes
+					{
+					};
+					id=245;
+				};
 			};
 			id=207;
-			atlOffset=0.16306686;
+			atlOffset=0.043861389;
+		};
+		class Item2
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={12882.424,27.034277,15276.144};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=231;
+					type="B_support_GMG_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=230;
 		};
 	};
 };
