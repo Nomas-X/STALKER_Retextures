@@ -16,6 +16,13 @@ class CfgVehicles
 		hiddenSelections[] = { "Camo" };
 		hiddenSelectionsTextures[]= { QPATHTOF(data\gearpack3_ranets_mili.paa) };
 	};
+	class rhs_assault_umbts_engineer_empty;
+	class GVAR(B_assault_umbts_engineer_empty_olive): rhs_assault_umbts_engineer_empty {
+		displayName = "UMBTS Backpack (Engineer) [Military]";
+
+		hiddenSelections[] = { "Camo" };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\gearpack3_ranets_mili.paa) };
+	};
 	class rhs_6sh122_gloves_v1_base;
 	class GVAR(6sh122_gloves_surpat_green): rhs_6sh122_gloves_v1_base {
 		scope = 1;

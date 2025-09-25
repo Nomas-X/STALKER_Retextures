@@ -3,6 +3,7 @@ class CfgVehicles
 
 	class rhs_sidor;
 	class rhs_assault_umbts;
+	class rhs_assault_umbts_engineer_empty;
 	class rhs_afghanka_boots_base;
 	class rhs_vkpo_gloves_base;
 
@@ -16,6 +17,13 @@ class CfgVehicles
 
 	class GVAR(B_assault_umbts_black): rhs_assault_umbts {
 		displayName = "UMBTS Backpack [Duty]";
+
+		hiddenSelections[] = { "Camo" };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\gearpack3_ranets_duty.paa) };
+	};
+
+	class GVAR(B_assault_umbts_engineer_empty_black): rhs_assault_umbts_engineer_empty {
+		displayName = "UMBTS Backpack (Engineer) [Duty]";
 
 		hiddenSelections[] = { "Camo" };
 		hiddenSelectionsTextures[] = { QPATHTOF(data\gearpack3_ranets_duty.paa) };
