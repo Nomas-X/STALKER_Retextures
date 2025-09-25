@@ -5,7 +5,7 @@ class cfgWeapons
 	class GVAR(V_spc_patchless): rhsusf_spc_patchless
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (Patchless) [Clearsky]";
+		displayName = "SPC (Patchless) [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -14,7 +14,7 @@ class cfgWeapons
 			"camo3"
 		};
 		hiddenSelectionsTextures[] = {
-			QPATHTOF(data\rhs_spc01_csky_co.paa),
+			QPATHTOF(data\rhs_spc02_csky_co.paa),
 			QPATHTOF(data\rhs_spc_gear1_csky_co.paa),
 			QPATHTOF(data\rhs_spc_gear2_csky_co.paa),
 			QPATHTOF(data\rhs_usmc_camelbak_csky_co.paa)
@@ -25,7 +25,7 @@ class cfgWeapons
 	class GVAR(V_spc): rhsusf_spc
 	{
 		author = "RHS, Rad";
-		displayName = "SPC [Clearsky]";
+		displayName = "SPC [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -45,7 +45,7 @@ class cfgWeapons
 	class GVAR(V_spc_corpsman): rhsusf_spc_corpsman
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (Corpsman) [Clearsky]";
+		displayName = "SPC (Corpsman) [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -65,7 +65,7 @@ class cfgWeapons
 	class GVAR(V_spc_crewman): rhsusf_spc_crewman
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (Crewman) [Clearsky]";
+		displayName = "SPC (Crewman) [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -85,7 +85,7 @@ class cfgWeapons
 	class GVAR(V_spc_iar): rhsusf_spc_iar
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (IAR) [Clearsky]";
+		displayName = "SPC (IAR) [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -105,7 +105,7 @@ class cfgWeapons
 	class GVAR(V_spc_light): rhsusf_spc_light
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (Light) [Clearsky]";
+		displayName = "SPC (Light) [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -125,7 +125,7 @@ class cfgWeapons
 	class GVAR(V_spc_mg): rhsusf_spc_mg
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (Machinegunner) [Clearsky]";
+		displayName = "SPC (Machinegunner) [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -145,7 +145,7 @@ class cfgWeapons
 	class GVAR(V_spc_marksman): rhsusf_spc_marksman
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (Marksman) [Clearsky]";
+		displayName = "SPC (Marksman) [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -165,7 +165,7 @@ class cfgWeapons
 	class GVAR(V_spc_patchless_radio): rhsusf_spc_patchless_radio
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (Patchless/Radio) [Clearsky]";
+		displayName = "SPC (Patchless/Radio) [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -174,7 +174,7 @@ class cfgWeapons
 			"camo3"
 		};
 		hiddenSelectionsTextures[] = {
-			QPATHTOF(data\rhs_spc01_csky_co.paa),
+			QPATHTOF(data\rhs_spc02_csky_co.paa),
 			QPATHTOF(data\rhs_spc_gear1_csky_co.paa),
 			QPATHTOF(data\rhs_spc_gear2_csky_co.paa),
 			QPATHTOF(data\rhs_usmc_camelbak_csky_co.paa)
@@ -185,7 +185,7 @@ class cfgWeapons
 	class GVAR(V_spc_rifleman): rhsusf_spc_rifleman
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (Rifleman) [Clearsky]";
+		displayName = "SPC (Rifleman) [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -205,7 +205,7 @@ class cfgWeapons
 	class GVAR(V_spc_sniper): rhsusf_spc_sniper
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (Scout Sniper) [Clearsky]";
+		displayName = "SPC (Scout Sniper) [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -225,7 +225,7 @@ class cfgWeapons
 	class GVAR(V_spc_squadleader): rhsusf_spc_squadleader
 	{
 		author = "RHS, Rad";
-		displayName = "SPC (Squadleader) [Clearsky]";
+		displayName = "SPC (Squadleader) [Clear Sky]";
 		
         hiddenSelections[] = {
 			"camo",
@@ -245,57 +245,100 @@ class cfgWeapons
 	class rhs_altyn_novisor_ess;
 	class GVAR(H_altyn_novisor_ess_black): rhs_altyn_novisor_ess {
 		author = "RHS, Rad";
-		displayName = "Altyn (ESS) [Clearsky]";
+		displayName = "Altyn (Black, ESS) [Clear Sky]";
 
-		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_black_co.paa) };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_black_co.paa) };
+	};
+	class GVAR(H_altyn_novisor_ess_grey): rhs_altyn_novisor_ess {
+		author = "RHS, Rad";
+		displayName = "Altyn (Grey, ESS) [Clear Sky]";
+
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_grey_co.paa) };
 	};
 
 	class rhs_altyn_novisor;
 	class GVAR(H_altyn_novisor_black): rhs_altyn_novisor {
 		author = "RHS, Rad";
-		displayName = "Altyn [Clearsky]";
+		displayName = "Altyn (Black) [Clear Sky]";
 
-		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_black_co.paa) };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_black_co.paa) };
+	};
+	class GVAR(H_altyn_novisor_grey): rhs_altyn_novisor {
+		author = "RHS, Rad";
+		displayName = "Altyn (Grey) [Clear Sky]";
+
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_grey_co.paa) };
 	};
 
 	class rhs_altyn_novisor_bala;
 	class GVAR(H_altyn_novisor_bala_black): rhs_altyn_novisor_bala {
 		author = "RHS, Rad";
-		displayName = "Altyn (Balaclava) [Clearsky]";
+		displayName = "Altyn (Black, Balaclava) [Clear Sky]";
 
-		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_black_co.paa) };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_black_co.paa) };
 	};
+	class GVAR(H_altyn_novisor_bala_grey): rhs_altyn_novisor_bala {
+		author = "RHS, Rad";
+		displayName = "Altyn (Grey, Balaclava) [Clear Sky]";
+
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_grey_co.paa) };
+	};
+
 
 	class rhs_altyn_novisor_ess_bala;
 	class GVAR(H_altyn_novisor_ess_bala_black): rhs_altyn_novisor_ess_bala {
 		author = "RHS, Rad";
-		displayName = "Altyn (ESS/Balaclava) [Clearsky]";
+		displayName = "Altyn (Black, ESS/Balaclava) [Clear Sky]";
 
-		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_black_co.paa) };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_black_co.paa) };
+	};
+	class GVAR(H_altyn_novisor_ess_bala_grey): rhs_altyn_novisor_ess_bala {
+		author = "RHS, Rad";
+		displayName = "Altyn (Grey, ESS/Balaclava) [Clear Sky]";
+
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_grey_co.paa) };
 	};
 
 	class rhs_altyn_visordown;
 	class GVAR(H_altyn_visordown_black): rhs_altyn_visordown {
 		author = "RHS, Rad";
-		displayName = "Altyn (Visor Down) [Clearsky]";
+		displayName = "Altyn (Black, Visor Down) [Clear Sky]";
 
-		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_black_co.paa) };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_black_co.paa) };
+	};
+	class GVAR(H_altyn_visordown_grey): rhs_altyn_visordown {
+		author = "RHS, Rad";
+		displayName = "Altyn (Grey, Visor Down) [Clear Sky]";
+
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_grey_co.paa) };
 	};
 
 	class rhs_altyn;
 	class GVAR(H_altyn_black): rhs_altyn {
 		author = "RHS, Rad";
-		displayName = "Altyn (Visor Up) [Clearsky]";
+		displayName = "Altyn (Black, Visor Up) [Clear Sky]";
 
-		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_black_co.paa) };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_black_co.paa) };
+	};
+	class GVAR(H_altyn_grey): rhs_altyn {
+		author = "RHS, Rad";
+		displayName = "Altyn (Grey, Visor Up) [Clear Sky]";
+
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_grey_co.paa) };
 	};
 
 	class rhs_altyn_bala;
 	class GVAR(H_altyn_bala_black): rhs_altyn_bala {
 		author = "RHS, Rad";
-		displayName = "Altyn (Visor Up/Balaclava) [Clearsky]";
+		displayName = "Altyn (Black, Visor Up/Balaclava) [Clear Sky]";
 
-		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_black_co.paa) };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_black_co.paa) };
+	};
+	class GVAR(H_altyn_bala_grey): rhs_altyn_bala {
+		author = "RHS, Rad";
+		displayName = "Altyn (Grey, Visor Up/Balaclava) [Clear Sky]";
+
+		hiddenSelectionsTextures[] = { QPATHTOF(data\rhs_altyn_csky_grey_co.paa) };
 	};
 
 };
