@@ -14,7 +14,7 @@ tooltip         = "STALKER Retextures";
 tooltipOwned    = "Made for the Nomas / Redwan S.";                                                                                                          // Tool tip displayed when the mouse is left over, in the main menu
 overview        = "STALKER Retextures - Retextures of vanilla arma 3 and RHS assets to fit the S.T.AL.K.E.R. universe for Nomas / Redwan S.!";                 // Overview text, displayed from the extension menu
 description     = "Retextures of vanilla arma 3 and RHS assets to fit the S.T.AL.K.E.R. universe for Nomas / Redwan S.!";                                                     // Probably in context with action
-action          = "https://discord.gg/JZWWSBQDTH";                                                                                                // Website URL, that can accessed from the expansions menu 
+action          = "https://discord.gg/hN3nBa8TXR";                                                                                                // Website URL, that can accessed from the expansions menu 
 actionName      = "Discord";                                                                                                                        // label of button/tooltip in extension menu
 
 overviewPicture = "img\STALKER_Retextures_Logo_512x512.paa";   
