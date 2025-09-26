@@ -149,7 +149,7 @@ class cfgWeapons
 		};
 		author = "RHS, Rad";
 	};
-    class GVAR(V_6b23_olive): rhs_6b23
+    class GVAR(V_6b23_black): rhs_6b23
     {
         displayName = "[Duty] 6B23";
         hiddenSelectionsTextures[]=
@@ -159,7 +159,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6b23_6sh92_headset_olive): rhs_6b23_6sh92_headset
+    class GVAR(V_6b23_6sh92_headset_black): rhs_6b23_6sh92_headset
     {
         displayName = "[Duty] 6B23 (6Sh92/Headset)";
         hiddenSelectionsTextures[]=
@@ -169,7 +169,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6b23_6sh92_headset_mapcase_olive): rhs_6b23_6sh92_headset_mapcase
+    class GVAR(V_6b23_6sh92_headset_mapcase_black): rhs_6b23_6sh92_headset_mapcase
     {
         displayName = "[Duty] 6B23 (6Sh92/Headset/Mapcase)";
         hiddenSelectionsTextures[]=
@@ -179,7 +179,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6b23_6sh92_radio_olive): rhs_6b23_6sh92_radio
+    class GVAR(V_6b23_6sh92_radio_black): rhs_6b23_6sh92_radio
     {
         displayName = "[Duty] 6B23 (6Sh92/Radio)";
         hiddenSelectionsTextures[]=
@@ -189,7 +189,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6b23_6sh92_vog_headset_olive): rhs_6b23_6sh92_vog_headset
+    class GVAR(V_6b23_6sh92_vog_headset_black): rhs_6b23_6sh92_vog_headset
     {
         displayName = "[Duty] 6B23 (6Sh92/VOG/Headset)";
         hiddenSelectionsTextures[]=
@@ -199,7 +199,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6b23_crewofficer_olive): rhs_6b23_crewofficer
+    class GVAR(V_6b23_crewofficer_black): rhs_6b23_crewofficer
     {
         displayName = "[Duty] 6B23 (Crew Officer)";
         hiddenSelectionsTextures[]=
@@ -209,7 +209,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6b23_crew_olive): rhs_6b23_crew
+    class GVAR(V_6b23_crew_black): rhs_6b23_crew
     {
         displayName = "[Duty] 6B23 (Crew)";
         hiddenSelectionsTextures[]=
@@ -219,7 +219,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6b23_engineer_olive): rhs_6b23_engineer
+    class GVAR(V_6b23_engineer_black): rhs_6b23_engineer
     {
         displayName = "[Duty] 6B23 (Engineer)";
         hiddenSelectionsTextures[]=
@@ -229,7 +229,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6b23_medic_olive): rhs_6b23_medic
+    class GVAR(V_6b23_medic_black): rhs_6b23_medic
     {
         displayName = "[Duty] 6B23 (Medic)";
         hiddenSelectionsTextures[]=
@@ -239,7 +239,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6b23_rifleman_olive): rhs_6b23_rifleman
+    class GVAR(V_6b23_rifleman_black): rhs_6b23_rifleman
     {
         displayName = "[Duty] 6B23 (Rifleman)";
         hiddenSelectionsTextures[]=
@@ -249,7 +249,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6b23_sniper_olive): rhs_6b23_sniper
+    class GVAR(V_6b23_sniper_black): rhs_6b23_sniper
     {
         displayName = "[Duty] 6B23 (Sniper)";
         hiddenSelectionsTextures[]=
@@ -259,7 +259,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6sh92_headset_olive): rhs_6sh92_headset
+    class GVAR(V_6sh92_headset_black): rhs_6sh92_headset
     {
         displayName = "[Duty] 6Sh92 (Headset)";
         hiddenSelectionsTextures[]=
@@ -269,7 +269,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6sh92_radio_olive): rhs_6sh92_radio
+    class GVAR(V_6sh92_radio_black): rhs_6sh92_radio
     {
         displayName = "[Duty] 6Sh92 (Radio)";
         hiddenSelectionsTextures[]=
@@ -279,7 +279,7 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6sh92_vog_olive): rhs_6sh92_vog
+    class GVAR(V_6sh92_vog_black): rhs_6sh92_vog
     {
         displayName = "[Duty] 6Sh92 (VOG)";
         hiddenSelectionsTextures[]=
@@ -289,13 +289,94 @@ class cfgWeapons
         };
         author = "RHS, Rad";
     };
-    class GVAR(V_6sh92_vog_headset_olive): rhs_6sh92_vog_headset
+    class GVAR(V_6sh92_vog_headset_black): rhs_6sh92_vog_headset
     {
         displayName = "[Duty] 6Sh92 (VOG/Headset)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
             QPATHTOF(data\gearpack1_6sh92_duty2_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+
+    class GVAR(V_6b23_6sh92_headset_camo_black): rhs_6b23_6sh92_headset
+    {
+        displayName = "[Duty] 6B23 (Camo, 6Sh92/Headset)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_duty_co.paa),
+            QPATHTOF(data\gearpack1_6sh92_duty_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_6sh92_headset_mapcase_camo_black): rhs_6b23_6sh92_headset_mapcase
+    {
+        displayName = "[Duty] 6B23 (Camo, 6Sh92/Headset/Mapcase)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_duty_co.paa),
+            QPATHTOF(data\gearpack1_6sh92_duty_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_6sh92_radio_camo_black): rhs_6b23_6sh92_radio
+    {
+        displayName = "[Duty] 6B23 (Camo, 6Sh92/Radio)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_duty_co.paa),
+            QPATHTOF(data\gearpack1_6sh92_duty_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_6sh92_vog_headset_camo_black): rhs_6b23_6sh92_vog_headset
+    {
+        displayName = "[Duty] 6B23 (Camo, 6Sh92/VOG/Headset)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_duty_co.paa),
+            QPATHTOF(data\gearpack1_6sh92_duty_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6sh92_headset_camo_black): rhs_6sh92_headset
+    {
+        displayName = "[Duty] 6Sh92 (Camo, Headset)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_duty_co.paa),
+            QPATHTOF(data\gearpack1_6sh92_duty_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6sh92_radio_camo_black): rhs_6sh92_radio
+    {
+        displayName = "[Duty] 6Sh92 (Camo, Radio)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_duty_co.paa),
+            QPATHTOF(data\gearpack1_6sh92_duty_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6sh92_vog_camo_black): rhs_6sh92_vog
+    {
+        displayName = "[Duty] 6Sh92 (Camo, VOG)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_duty_co.paa),
+            QPATHTOF(data\gearpack1_6sh92_duty_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6sh92_vog_headset_camo_black): rhs_6sh92_vog_headset
+    {
+        displayName = "[Duty] 6Sh92 (Camo, VOG/Headset)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_duty_co.paa),
+            QPATHTOF(data\gearpack1_6sh92_duty_co.paa)
         };
         author = "RHS, Rad";
     };
