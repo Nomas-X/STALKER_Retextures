@@ -4,7 +4,7 @@ class CfgGlasses {
     class G_bandanna_blk;
 	class GVAR(G_bandanna_black): G_bandanna_blk
 	{
-		displayName = "Bandana [Duty]";
+		displayName = "[Duty] Bandana";
 		hiddenSelections[] = {
 			"camo"
 		};
@@ -18,7 +18,7 @@ class CfgGlasses {
 	class rhs_balaclava;
 	class rhs_balaclava1_olive;
 	class GVAR(G_balaclava_1_black): rhs_balaclava {
-		displayName = "Balaclava 1 [Duty]";
+		displayName = "[Duty] Balaclava (Single)";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\rhs_bala2_duty_co.paa)
 		};
@@ -26,7 +26,7 @@ class CfgGlasses {
 	};
 
 	class GVAR(G_balaclava_2_black): rhs_balaclava1_olive {
-		displayName = "Balaclava 2 [Duty]";
+		displayName = "[Duty] Balaclava (Double)";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\rhs_bala1_duty_co.paa)
 		};

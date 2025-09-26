@@ -4,7 +4,7 @@ class CfgVehicles
 	class rhs_sidor;
 	class GVAR(B_sidor_olive): rhs_sidor
 	{
-		displayName = "Sidor [Military]";
+		displayName = "[Military] Sidor";
 		hiddenSelections[] = { "Camo" };
 		hiddenSelectionsTextures[]= { QPATHTOF(data\gearpack3_ranets_mili.paa) };
 	};
@@ -12,13 +12,13 @@ class CfgVehicles
 	class rhs_assault_umbts;
 	class GVAR(B_assault_umbts_olive): rhs_assault_umbts
 	{
-		displayName = "UMBTS Backpack [Military]";
+		displayName = "[Military] UMBTS Backpack";
 		hiddenSelections[] = { "Camo" };
 		hiddenSelectionsTextures[]= { QPATHTOF(data\gearpack3_ranets_mili.paa) };
 	};
 	class rhs_assault_umbts_engineer_empty;
 	class GVAR(B_assault_umbts_engineer_empty_olive): rhs_assault_umbts_engineer_empty {
-		displayName = "UMBTS Backpack (Engineer) [Military]";
+		displayName = "[Military] UMBTS Backpack (Engineer)";
 
 		hiddenSelections[] = { "Camo" };
 		hiddenSelectionsTextures[] = { QPATHTOF(data\gearpack3_ranets_mili.paa) };

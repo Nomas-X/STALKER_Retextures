@@ -10,21 +10,21 @@ class CfgVehicles
 
     // BACKPACKS
 	class GVAR(B_sidor_black): rhs_sidor {
-		displayName = "Sidor [Duty]";
+		displayName = "[Duty] Sidor";
 
 		hiddenSelections[] = { "Camo" };
 		hiddenSelectionsTextures[] = { QPATHTOF(data\gearpack3_ranets_duty.paa) };
 	};
 
 	class GVAR(B_assault_umbts_black): rhs_assault_umbts {
-		displayName = "UMBTS Backpack [Duty]";
+		displayName = "[Duty] UMBTS Backpack";
 
 		hiddenSelections[] = { "Camo" };
 		hiddenSelectionsTextures[] = { QPATHTOF(data\gearpack3_ranets_duty.paa) };
 	};
 
 	class GVAR(B_assault_umbts_engineer_empty_black): rhs_assault_umbts_engineer_empty {
-		displayName = "UMBTS Backpack (Engineer) [Duty]";
+		displayName = "[Duty] UMBTS Backpack (Engineer)";
 
 		hiddenSelections[] = { "Camo" };
 		hiddenSelectionsTextures[] = { QPATHTOF(data\gearpack3_ranets_duty.paa) };

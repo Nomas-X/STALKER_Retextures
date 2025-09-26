@@ -30,7 +30,7 @@ class cfgWeapons
 
 	class GVAR(U_afghanka_boots_black): rhs_uniform_afghanka_boots_spetsodezhda
 	{
-		displayName = "M88 Sapogi [Duty]";
+		displayName = "[Duty] M88 Sapogi";
 		class ItemInfo: UniformItem
 		{
 			uniformClass = QGVAR(afghanka_boots_black);
@@ -40,7 +40,7 @@ class cfgWeapons
 	};
 	class GVAR(U_model2010_black): rhs_uniform_flora_patchless
 	{
-		displayName = "Model 2010 [Duty]";
+		displayName = "[Duty] Model 2010";
 		class ItemInfo: UniformItem
 		{
 			uniformClass = QGVAR(model2010_black);
@@ -51,7 +51,7 @@ class cfgWeapons
 
 	class GVAR(U_vkpo_gloves_black): rhs_uniform_vkpo_gloves
 	{
-		displayName = "VKPO (Gloves) [Duty]";
+		displayName = "[Duty] VKPO (Gloves)";
 		class ItemInfo: UniformItem
 		{
 			uniformClass = QGVAR(vkpo_gloves_black);
@@ -62,7 +62,7 @@ class cfgWeapons
 
 	class GVAR(U_vkpo_gloves_worn_black): rhs_uniform_vkpo_gloves
 	{
-		displayName = "VKPO (Gloves, Worn) [Duty]";
+		displayName = "[Duty] VKPO (Worn, Gloves)";
 		class ItemInfo: UniformItem
 		{
 			uniformClass = QGVAR(vkpo_gloves_worn_black);
@@ -73,7 +73,7 @@ class cfgWeapons
 
 	class GVAR(U_vkpo_black): rhs_uniform_vkpo
 	{
-		displayName = "VKPO [Duty]";
+		displayName = "[Duty] VKPO";
 		class ItemInfo: UniformItem
 		{
 			uniformClass = QGVAR(vkpo_black);
@@ -84,7 +84,7 @@ class cfgWeapons
 
 	class GVAR(U_vkpo_worn_black): rhs_uniform_vkpo
 	{
-		displayName = "VKPO (Worn) [Duty]";
+		displayName = "[Duty] VKPO (Worn)";
 		class ItemInfo: UniformItem
 		{
 			uniformClass = QGVAR(vkpo_worn_black);
@@ -95,7 +95,7 @@ class cfgWeapons
 
 	class GVAR(V_6b23_vydra_3m_black): rhs_6b23_vydra_3m
 	{
-		displayName = "6B23 (Vydra-3M) [Duty]";
+		displayName = "[Duty] 6B23 (Vydra-3M)";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b23_duty_co.paa),
 			QPATHTOF(data\gearpack1_6sh92_duty_co.paa),
@@ -105,7 +105,7 @@ class cfgWeapons
 	};
 	class GVAR(V_6b23_6sh92_vog_camo_black): rhs_6b23_digi_6sh92_vog
 	{
-		displayName = "6B23 (6Sh92/VOG/Camo) [Duty]";
+		displayName = "[Duty] 6B23 (Camo, 6Sh92/VOG)";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b23_duty_co.paa),
 			QPATHTOF(data\gearpack1_6sh92_duty_co.paa),
@@ -115,7 +115,7 @@ class cfgWeapons
 	};
 	class GVAR(V_6b23_6sh92_vog_black): rhs_6b23_digi_6sh92_vog
 	{
-		displayName = "6B23 (6Sh92/VOG) [Duty]";
+		displayName = "[Duty] 6B23 (6Sh92/VOG)";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b23_duty_co.paa),
 			QPATHTOF(data\gearpack1_6sh92_duty2_co.paa),
@@ -125,7 +125,7 @@ class cfgWeapons
 	};
 	class GVAR(V_vydra_3m_black): rhs_vydra_3m
 	{
-		displayName = "Vydra-3M [Duty]";
+		displayName = "[Duty] Vydra-3M";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\crew_equip_duty_co.paa)
 		};
@@ -133,7 +133,7 @@ class cfgWeapons
 	};
 	class GVAR(V_6sh92_camo_black): rhs_6sh92_digi
 	{
-		displayName = "6Sh92 (Camo) [Duty]";
+		displayName = "[Duty] 6Sh92 (Camo)";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b23_duty_co.paa),
 			QPATHTOF(data\gearpack1_6sh92_duty_co.paa)
@@ -142,7 +142,7 @@ class cfgWeapons
 	};
 	class GVAR(V_6sh92_black): rhs_6sh92_digi
 	{
-		displayName = "6Sh92 [Duty]";
+		displayName = "[Duty] 6Sh92";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b23_duty_co.paa),
 			QPATHTOF(data\gearpack1_6sh92_duty2_co.paa)
@@ -151,7 +151,7 @@ class cfgWeapons
 	};
     class GVAR(V_6b23_olive): rhs_6b23
     {
-        displayName = "6B23 [Duty]";
+        displayName = "[Duty] 6B23";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -161,7 +161,7 @@ class cfgWeapons
     };
     class GVAR(V_6b23_6sh92_headset_olive): rhs_6b23_6sh92_headset
     {
-        displayName = "6B23 (6Sh92/Headset) [Duty]";
+        displayName = "[Duty] 6B23 (6Sh92/Headset)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -171,7 +171,7 @@ class cfgWeapons
     };
     class GVAR(V_6b23_6sh92_headset_mapcase_olive): rhs_6b23_6sh92_headset_mapcase
     {
-        displayName = "6B23 (6Sh92/Headset/Mapcase) [Duty]";
+        displayName = "[Duty] 6B23 (6Sh92/Headset/Mapcase)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -181,7 +181,7 @@ class cfgWeapons
     };
     class GVAR(V_6b23_6sh92_radio_olive): rhs_6b23_6sh92_radio
     {
-        displayName = "6B23 (6Sh92/Radio) [Duty]";
+        displayName = "[Duty] 6B23 (6Sh92/Radio)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -191,7 +191,7 @@ class cfgWeapons
     };
     class GVAR(V_6b23_6sh92_vog_headset_olive): rhs_6b23_6sh92_vog_headset
     {
-        displayName = "6B23 (6Sh92/VOG/Headset) [Duty]";
+        displayName = "[Duty] 6B23 (6Sh92/VOG/Headset)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -201,7 +201,7 @@ class cfgWeapons
     };
     class GVAR(V_6b23_crewofficer_olive): rhs_6b23_crewofficer
     {
-        displayName = "6B23 (Crew Officer) [Duty]";
+        displayName = "[Duty] 6B23 (Crew Officer)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -211,7 +211,7 @@ class cfgWeapons
     };
     class GVAR(V_6b23_crew_olive): rhs_6b23_crew
     {
-        displayName = "6B23 (Crew) [Duty]";
+        displayName = "[Duty] 6B23 (Crew)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -221,7 +221,7 @@ class cfgWeapons
     };
     class GVAR(V_6b23_engineer_olive): rhs_6b23_engineer
     {
-        displayName = "6B23 (Engineer) [Duty]";
+        displayName = "[Duty] 6B23 (Engineer)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -231,7 +231,7 @@ class cfgWeapons
     };
     class GVAR(V_6b23_medic_olive): rhs_6b23_medic
     {
-        displayName = "6B23 (Medic) [Duty]";
+        displayName = "[Duty] 6B23 (Medic)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -241,7 +241,7 @@ class cfgWeapons
     };
     class GVAR(V_6b23_rifleman_olive): rhs_6b23_rifleman
     {
-        displayName = "6B23 (Rifleman) [Duty]";
+        displayName = "[Duty] 6B23 (Rifleman)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -251,7 +251,7 @@ class cfgWeapons
     };
     class GVAR(V_6b23_sniper_olive): rhs_6b23_sniper
     {
-        displayName = "6B23 (Sniper) [Duty]";
+        displayName = "[Duty] 6B23 (Sniper)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -261,7 +261,7 @@ class cfgWeapons
     };
     class GVAR(V_6sh92_headset_olive): rhs_6sh92_headset
     {
-        displayName = "6Sh92 (Headset) [Duty]";
+        displayName = "[Duty] 6Sh92 (Headset)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -271,7 +271,7 @@ class cfgWeapons
     };
     class GVAR(V_6sh92_radio_olive): rhs_6sh92_radio
     {
-        displayName = "6Sh92 (Radio) [Duty]";
+        displayName = "[Duty] 6Sh92 (Radio)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -281,7 +281,7 @@ class cfgWeapons
     };
     class GVAR(V_6sh92_vog_olive): rhs_6sh92_vog
     {
-        displayName = "6Sh92 (VOG) [Duty]";
+        displayName = "[Duty] 6Sh92 (VOG)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -291,7 +291,7 @@ class cfgWeapons
     };
     class GVAR(V_6sh92_vog_headset_olive): rhs_6sh92_vog_headset
     {
-        displayName = "6Sh92 (VOG/Headset) [Duty]";
+        displayName = "[Duty] 6Sh92 (VOG/Headset)";
         hiddenSelectionsTextures[]=
         {
             QPATHTOF(data\6b23_duty_co.paa),
@@ -313,7 +313,7 @@ class cfgWeapons
 	class GVAR(H_6b26_black): rhs_6b26_digi
 	{
 		author = "RHS, Rad";
-		displayName = "6B26 [Duty]";
+		displayName = "[Duty] 6B26";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b27_duty_co.paa)
 		};
@@ -321,7 +321,7 @@ class cfgWeapons
 	class GVAR(H_6b26_noCover_black): rhs_6b26_green
 	{
 		author = "RHS, Rad";
-		displayName = "6B26 (No Cover) [Duty]";
+		displayName = "[Duty] 6B26 (No Cover)";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b27_duty_co.paa)
 		};
@@ -329,7 +329,7 @@ class cfgWeapons
 	class GVAR(H_6b26_noCover_bala_black): rhs_6b26_bala_green
 	{
 		author = "RHS, Rad";
-		displayName = "6B26 (No Cover, Balaclava) [Duty]";
+		displayName = "[Duty] 6B26 (No Cover, Balaclava)";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b27_duty_co.paa)
 		};
@@ -337,7 +337,7 @@ class cfgWeapons
 	class GVAR(H_6b26_noCover_ess_black): rhs_6b26_ess_green
 	{
 		author = "RHS, Rad";
-		displayName = "6B26 (No Cover, ESS) [Duty]";
+		displayName = "[Duty] 6B26 (No Cover, ESS)";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b27_duty_co.paa)
 		};
@@ -345,14 +345,14 @@ class cfgWeapons
 	class GVAR(H_6b26_noCover_ess_bala_black): rhs_6b26_ess_bala_green
 	{
 		author = "RHS, Rad";
-		displayName = "6B26 (No Cover, ESS/Balaclava) [Duty]";
+		displayName = "[Duty] 6B26 (No Cover, ESS/Balaclava)";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b27_duty_co.paa)
 		};
 	};
 	class GVAR(H_6b26_bala_black): rhs_6b26_digi_bala {
 		author = "RHS, Rad";
-		displayName = "6B26 (Balaclava) [Duty]";
+		displayName = "[Duty] 6B26 (Balaclava)";
 		hiddenSelections[] = {
 			"Camo1",
 			"Camo2"
@@ -365,7 +365,7 @@ class cfgWeapons
 	class GVAR(H_6b26_ess_black): rhs_6b26_digi_ess
 	{
 		author = "RHS, Rad";
-		displayName = "6B26 (ESS) [Duty]";
+		displayName = "[Duty] 6B26 (ESS)";
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\6b27_duty_co.paa)
 		};
@@ -373,7 +373,7 @@ class cfgWeapons
 	class GVAR(H_6b26_ess_bala_black): rhs_6b26_digi_ess_bala
 	{
 		author = "RHS, Rad";
-		displayName = "6B26 (ESS/Balaclava) [Duty]";
+		displayName = "[Duty] 6B26 (ESS/Balaclava)";
 		hiddenSelections[] = {
 			"Camo1",
 			"Camo2"
@@ -390,7 +390,7 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Beret (Red) [Duty]";
+		displayName = "[Duty] Beret (Red)";
 		hiddenSelections[] = {
 			"camo"
 		};
@@ -407,7 +407,7 @@ class cfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Beret (Black) [Duty]";
+		displayName = "[Duty] Beret (Black)";
 		hiddenSelections[] = {
 			"camo"
 		};
