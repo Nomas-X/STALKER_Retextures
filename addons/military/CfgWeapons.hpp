@@ -35,6 +35,7 @@ class CfgWeapons
     class rhs_6b23_digi_6sh92_vog;
     class rhs_uniform_flora_patchless;
     class rhs_uniform_vkpo_gloves;
+	class rhs_uniform_vkpo;
 	class rhs_6b23;
 	class rhs_6b23_6sh92_headset;
 	class rhs_6b23_6sh92_headset_mapcase;
@@ -140,6 +141,68 @@ class CfgWeapons
             mass = 40;
         };
     };
+
+    class GVAR(U_vkpo_surpat_green): rhs_uniform_vkpo
+    {
+        displayName = "VKPO (SURPAT) [Military]";
+        class ItemInfo: UniformItem
+        {
+            uniformClass = QGVAR(vkpo_surpat_green);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+    class GVAR(U_vkpo_emr_green): rhs_uniform_vkpo
+    {
+        displayName = "VKPO (EMR) [Military]";
+        class ItemInfo: UniformItem
+        {
+            uniformClass = QGVAR(vkpo_emr_green);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+    class GVAR(U_vkpo_ttsko_olive): rhs_uniform_vkpo
+    {
+        displayName = "VKPO (TTsKO) [Military]";
+        class ItemInfo: UniformItem
+        {
+            uniformClass = QGVAR(vkpo_ttsko_olive);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+    class GVAR(U_vkpo_worn_surpat_green): rhs_uniform_vkpo
+    {
+        displayName = "VKPO (Worn, SURPAT) [Military]";
+        class ItemInfo: UniformItem
+        {
+            uniformClass = QGVAR(vkpo_worn_surpat_green);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+    class GVAR(U_vkpo_worn_emr_green): rhs_uniform_vkpo
+    {
+        displayName = "VKPO (Worn, EMR) [Military]";
+        class ItemInfo: UniformItem
+        {
+            uniformClass = QGVAR(vkpo_worn_emr_green);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+    class GVAR(U_vkpo_worn_ttsko_olive): rhs_uniform_vkpo
+    {
+        displayName = "VKPO (Worn, TTsKO) [Military]";
+        class ItemInfo: UniformItem
+        {
+            uniformClass = QGVAR(vkpo_worn_ttsko_olive);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+
     class rhs_uniform_6sh122_gloves_v1;
     class GVAR(U_6sh122_gloves_surpat_green): rhs_uniform_6sh122_gloves_v1
     {

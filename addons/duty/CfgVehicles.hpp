@@ -6,6 +6,7 @@ class CfgVehicles
 	class rhs_assault_umbts_engineer_empty;
 	class rhs_afghanka_boots_base;
 	class rhs_vkpo_gloves_base;
+	class rhs_vkpo_base;
 
     // BACKPACKS
 	class GVAR(B_sidor_black): rhs_sidor {
@@ -72,6 +73,28 @@ class CfgVehicles
 	class GVAR(vkpo_gloves_worn_black): rhs_vkpo_gloves_base {
 		scope = 1;
 		uniformClass = QGVAR(U_vkpo_gloves_worn_black);
+
+		hiddenSelectionsTextures[]= {
+			QPATHTOF(data\vkpo_duty_vest.paa),
+			QPATHTOF(data\vkpo_duty_pantw.paa),
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+
+	class GVAR(vkpo_black): rhs_vkpo_base {
+		scope = 1;
+		uniformClass = QGVAR(U_vkpo_black);
+
+		hiddenSelectionsTextures[]= {
+			QPATHTOF(data\vkpo_duty_vest.paa),
+			QPATHTOF(data\vkpo_duty_pant.paa),
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+
+	class GVAR(vkpo_worn_black): rhs_vkpo_base {
+		scope = 1;
+		uniformClass = QGVAR(U_vkpo_worn_black);
 
 		hiddenSelectionsTextures[]= {
 			QPATHTOF(data\vkpo_duty_vest.paa),

@@ -1,6 +1,6 @@
 class CfgVehicles
 {
-    
+
 	class rhs_sidor;
 	class GVAR(B_sidor_olive): rhs_sidor
 	{
@@ -159,6 +159,68 @@ class CfgVehicles
 	{
 		scope = 1;
 		uniformClass = QGVAR(U_vkpo_gloves_worn_ttsko_olive);
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\vkpo_mili_vest_3w.paa),
+			QPATHTOF(data\vkpo_mili_pant_3w.paa),
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+
+	class rhs_vkpo_base;
+	class GVAR(vkpo_surpat_green): rhs_vkpo_base
+	{
+		scope = 1;
+		uniformClass = QGVAR(U_vkpo_surpat_green);
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\vkpo_mili_vest_1.paa),
+			QPATHTOF(data\vkpo_mili_pant_1.paa),
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class GVAR(vkpo_emr_green): rhs_vkpo_base
+	{
+		scope = 1;
+		uniformClass = QGVAR(U_vkpo_emr_green);
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\vkpo_mili_vest_2.paa),
+			QPATHTOF(data\vkpo_mili_pant_2.paa),
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class GVAR(vkpo_ttsko_olive): rhs_vkpo_base
+	{
+		scope = 1;
+		uniformClass = QGVAR(U_vkpo_ttsko_olive);
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\vkpo_mili_vest_3.paa),
+			QPATHTOF(data\vkpo_mili_pant_3.paa),
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class GVAR(vkpo_worn_surpat_green): rhs_vkpo_base
+	{
+		scope = 1;
+		uniformClass = QGVAR(U_vkpo_worn_surpat_green);
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\vkpo_mili_vest_1w.paa),
+			QPATHTOF(data\vkpo_mili_pant_1w.paa),
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class GVAR(vkpo_worn_emr_green): rhs_vkpo_base
+	{
+		scope = 1;
+		uniformClass = QGVAR(U_vkpo_worn_emr_green);
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\vkpo_mili_vest_2w.paa),
+			QPATHTOF(data\vkpo_mili_pant_2w.paa),
+			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+		};
+	};
+	class GVAR(vkpo_worn_ttsko_olive): rhs_vkpo_base
+	{
+		scope = 1;
+		uniformClass = QGVAR(U_vkpo_worn_ttsko_olive);
 		hiddenSelectionsTextures[] = {
 			QPATHTOF(data\vkpo_mili_vest_3w.paa),
 			QPATHTOF(data\vkpo_mili_pant_3w.paa),

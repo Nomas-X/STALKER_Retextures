@@ -11,6 +11,7 @@ class cfgWeapons
 	class rhs_uniform_afghanka_boots_spetsodezhda;
 	class rhs_uniform_flora_patchless;
 	class rhs_uniform_vkpo_gloves;
+	class rhs_uniform_vkpo;
 	class rhs_6b23;
 	class rhs_6b23_6sh92_headset;
 	class rhs_6b23_6sh92_headset_mapcase;
@@ -65,6 +66,28 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformClass = QGVAR(vkpo_gloves_worn_black);
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+
+	class GVAR(U_vkpo_black): rhs_uniform_vkpo
+	{
+		displayName = "VKPO [Duty]";
+		class ItemInfo: UniformItem
+		{
+			uniformClass = QGVAR(vkpo_black);
+			containerClass = "Supply40";
+			mass = 40;
+		};
+	};
+
+	class GVAR(U_vkpo_worn_black): rhs_uniform_vkpo
+	{
+		displayName = "VKPO (Worn) [Duty]";
+		class ItemInfo: UniformItem
+		{
+			uniformClass = QGVAR(vkpo_worn_black);
 			containerClass = "Supply40";
 			mass = 40;
 		};
