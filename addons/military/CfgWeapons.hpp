@@ -206,7 +206,7 @@ class CfgWeapons
     class rhs_uniform_6sh122_gloves_v1;
     class GVAR(U_6sh122_gloves_surpat_green): rhs_uniform_6sh122_gloves_v1
     {
-        displayName = "[Military] 6sh122 (SURPAT, Gloves)";
+        displayName = "[Military] 6Sh122 (SURPAT, Gloves)";
         class ItemInfo: UniformItem
         {
             uniformClass = QGVAR(6sh122_gloves_surpat_green);
@@ -216,7 +216,7 @@ class CfgWeapons
     };
     class GVAR(U_6sh122_gloves_emr_green): rhs_uniform_6sh122_gloves_v1
     {
-        displayName = "[Military] 6sh122 (EMR, Gloves)";
+        displayName = "[Military] 6Sh122 (EMR, Gloves)";
         class ItemInfo: UniformItem
         {
             uniformClass = QGVAR(6sh122_gloves_emr_green);
@@ -226,10 +226,42 @@ class CfgWeapons
     };
     class GVAR(U_6sh122_gloves_ttsko_olive): rhs_uniform_6sh122_gloves_v1
     {
-        displayName = "[Military] 6sh122 (TTsKO, Gloves)";
+        displayName = "[Military] 6Sh122 (TTsKO, Gloves)";
         class ItemInfo: UniformItem
         {
             uniformClass = QGVAR(6sh122_gloves_ttsko_olive);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+
+	class rhs_uniform_6sh122_v1;
+    class GVAR(U_6sh122_surpat_green): rhs_uniform_6sh122_v1
+    {
+        displayName = "[Military] 6Sh122 (SURPAT)";
+        class ItemInfo: UniformItem
+        {
+            uniformClass = QGVAR(6sh122_surpat_green);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+    class GVAR(U_6sh122_emr_green): rhs_uniform_6sh122_v1
+    {
+        displayName = "[Military] 6Sh122 (EMR)";
+        class ItemInfo: UniformItem
+        {
+            uniformClass = QGVAR(6sh122_emr_green);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+    class GVAR(U_6sh122_ttsko_olive): rhs_uniform_6sh122_v1
+    {
+        displayName = "[Military] 6Sh122 (TTsKO)";
+        class ItemInfo: UniformItem
+        {
+            uniformClass = QGVAR(6sh122_ttsko_olive);
             containerClass = "Supply40";
             mass = 40;
         };

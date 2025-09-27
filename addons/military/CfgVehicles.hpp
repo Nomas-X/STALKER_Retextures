@@ -56,6 +56,37 @@ class CfgVehicles
 			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
 		};
 	};
+
+	class rhs_6sh122_v1_base;
+	class GVAR(6sh122_surpat_green): rhs_6sh122_v1_base {
+		scope = 1;
+		uniformClass = QGVAR(U_6sh122_surpat_green);
+		model = "\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base.p3d";
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\122_vest_mili_1.paa),
+			QPATHTOF(data\122_pant_mili_1.paa)
+		};
+	};
+	class GVAR(6sh122_emr_green): rhs_6sh122_v1_base
+	{
+		scope = 1;
+		uniformClass = QGVAR(U_6sh122_emr_green);
+		model = "\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base.p3d";
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\122_vest_mili_2.paa),
+			QPATHTOF(data\122_pant_mili_2.paa)
+		};
+	};
+	class GVAR(6sh122_ttsko_olive): rhs_6sh122_v1_base
+	{
+		scope = 1;
+		uniformClass = QGVAR(U_6sh122_ttsko_olive);
+		model = "\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base.p3d";
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\122_vest_mili_3.paa),
+			QPATHTOF(data\122_pant_mili_3.paa)
+		};
+	};
 	class rhs_afghanka_boots_base;
 	class GVAR(model2010_surpat_green): rhs_afghanka_boots_base
 	{
