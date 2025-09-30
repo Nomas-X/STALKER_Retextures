@@ -66,7 +66,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[]= {
 			QPATHTOF(data\vkpo_duty_vest.paa),
 			QPATHTOF(data\vkpo_duty_pant.paa),
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+			QPATHTOF(data\duty_gloves_co.paa)
 		};
 	};
 
@@ -77,7 +77,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[]= {
 			QPATHTOF(data\vkpo_duty_vest.paa),
 			QPATHTOF(data\vkpo_duty_pantw.paa),
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+			QPATHTOF(data\duty_gloves_co.paa)
 		};
 	};
 
@@ -88,7 +88,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[]= {
 			QPATHTOF(data\vkpo_duty_vest.paa),
 			QPATHTOF(data\vkpo_duty_pant.paa),
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+			QPATHTOF(data\duty_gloves_co.paa)
 		};
 	};
 
@@ -99,7 +99,30 @@ class CfgVehicles
 		hiddenSelectionsTextures[]= {
 			QPATHTOF(data\vkpo_duty_vest.paa),
 			QPATHTOF(data\vkpo_duty_pantw.paa),
-			"rhsafrf\addons\rhs_infantry3\ratnik\data\gloves_co.paa"
+			QPATHTOF(data\duty_gloves_co.paa)
+		};
+	};
+	
+	class rhs_6sh122_gloves_v1_base;
+	class GVAR(6sh122_gloves_black): rhs_6sh122_gloves_v1_base {
+		scope = 1;
+		uniformClass = QGVAR(U_6sh122_gloves_black);
+		model = "\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base_gloves.p3d";
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\122_vest_duty_co.paa),
+			QPATHTOF(data\122_pant_duty_co.paa),
+			QPATHTOF(data\duty_gloves_co.paa)
+		};
+	};
+
+	class rhs_6sh122_v1_base;
+	class GVAR(6sh122_black): rhs_6sh122_v1_base {
+		scope = 1;
+		uniformClass = QGVAR(U_6sh122_surpat_black);
+		model = "\rhsafrf\addons\rhs_infantry3\ratnik\rhs_emr_122_base.p3d";
+		hiddenSelectionsTextures[] = {
+			QPATHTOF(data\122_vest_duty_co.paa),
+			QPATHTOF(data\122_pant_duty_co.paa)
 		};
 	};
 };

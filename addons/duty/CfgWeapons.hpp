@@ -93,6 +93,29 @@ class cfgWeapons
 		};
 	};
 
+    class rhs_uniform_6sh122_gloves_v1;
+    class GVAR(U_6sh122_gloves_black): rhs_uniform_6sh122_gloves_v1
+    {
+        displayName = "[Duty] 6Sh122 (Gloves)";
+        class ItemInfo: UniformItem
+        {
+            uniformClass = QGVAR(6sh122_gloves_black);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+	class rhs_uniform_6sh122_v1;
+    class GVAR(U_6sh122_black): rhs_uniform_6sh122_v1
+    {
+        displayName = "[Duty] 6Sh122";
+        class ItemInfo: UniformItem
+        {
+            uniformClass = QGVAR(6sh122_black);
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+
 	class GVAR(V_6b23_vydra_3m_black): rhs_6b23_vydra_3m
 	{
 		displayName = "[Duty] 6B23 (Vydra-3M)";
