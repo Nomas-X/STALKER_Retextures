@@ -270,196 +270,386 @@ class CfgWeapons
     // VESTS
     class GVAR(V_6b23_vydra_3m_olive): rhs_6b23_vydra_3m
     {
-        displayName = "[Military] 6B23 (Vydra-3M)";
+        displayName = "[Military] 6B23 (Olive, Vydra-3M)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa),
-            QPATHTOF(data\crew_equip_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa),
+            QPATHTOF(data\Crew_equip_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_6sh92_vog_olive): rhs_6b23_digi_6sh92_vog
     {
-        displayName = "[Military] 6B23 (6Sh92/VOG)";
+        displayName = "[Military] 6B23 (Olive, 6Sh92/VOG)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa),
-            QPATHTOF(data\crew_equip_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa),
+            QPATHTOF(data\Crew_equip_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_vydra_3m_olive): rhs_vydra_3m
     {
-        displayName = "[Military] Vydra-3M";
+        displayName = "[Military] Vydra-3M (Olive)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\crew_equip_mili_co.paa)
+            QPATHTOF(data\Crew_equip_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6sh92_olive): rhs_6sh92_digi
     {
-        displayName = "[Military] 6Sh92";
+        displayName = "[Military] 6Sh92 (Olive)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_olive): rhs_6b23
     {
-        displayName = "[Military] 6B23";
+        displayName = "[Military] 6B23 (Olive)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_6sh92_headset_olive): rhs_6b23_6sh92_headset
     {
-        displayName = "[Military] 6B23 (6Sh92/Headset)";
+        displayName = "[Military] 6B23 (Olive, 6Sh92/Headset)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_6sh92_headset_mapcase_olive): rhs_6b23_6sh92_headset_mapcase
     {
-        displayName = "[Military] 6B23 (6Sh92/Headset/Mapcase)";
+        displayName = "[Military] 6B23 (Olive, 6Sh92/Headset/Mapcase)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_6sh92_radio_olive): rhs_6b23_6sh92_radio
     {
-        displayName = "[Military] 6B23 (6Sh92/Radio)";
+        displayName = "[Military] 6B23 (Olive, 6Sh92/Radio)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_6sh92_vog_headset_olive): rhs_6b23_6sh92_vog_headset
     {
-        displayName = "[Military] 6B23 (6Sh92/VOG/Headset)";
+        displayName = "[Military] 6B23 (Olive, 6Sh92/VOG/Headset)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_crewofficer_olive): rhs_6b23_crewofficer
     {
-        displayName = "[Military] 6B23 (Crew Officer)";
+        displayName = "[Military] 6B23 (Olive, Crew Officer)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_crew_olive): rhs_6b23_crew
     {
-        displayName = "[Military] 6B23 (Crew)";
+        displayName = "[Military] 6B23 (Olive, Crew)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_engineer_olive): rhs_6b23_engineer
     {
-        displayName = "[Military] 6B23 (Engineer)";
+        displayName = "[Military] 6B23 (Olive, Engineer)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_medic_olive): rhs_6b23_medic
     {
-        displayName = "[Military] 6B23 (Medic)";
+        displayName = "[Military] 6B23 (Olive, Medic)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_rifleman_olive): rhs_6b23_rifleman
     {
-        displayName = "[Military] 6B23 (Rifleman)";
+        displayName = "[Military] 6B23 (Olive, Rifleman)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6b23_sniper_olive): rhs_6b23_sniper
     {
-        displayName = "[Military] 6B23 (Sniper)";
+        displayName = "[Military] 6B23 (Olive, Sniper)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6sh92_headset_olive): rhs_6sh92_headset
     {
-        displayName = "[Military] 6Sh92 (Headset)";
+        displayName = "[Military] 6Sh92 (Olive, Headset)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6sh92_radio_olive): rhs_6sh92_radio
     {
-        displayName = "[Military] 6Sh92 (Radio)";
+        displayName = "[Military] 6Sh92 (Olive, Radio)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6sh92_vog_olive): rhs_6sh92_vog
     {
-        displayName = "[Military] 6Sh92 (VOG)";
+        displayName = "[Military] 6Sh92 (Olive, VOG)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
     class GVAR(V_6sh92_vog_headset_olive): rhs_6sh92_vog_headset
     {
-        displayName = "[Military] 6Sh92 (VOG/Headset)";
+        displayName = "[Military] 6Sh92 (Olive, VOG/Headset)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b23_mili_co.paa),
-            QPATHTOF(data\gearpack1_6sh92_mili_co.paa)
+            QPATHTOF(data\6b23_mili_olive_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_olive_co.paa)
         };
         author = "RHS, Rad";
     };
-
+    class GVAR(V_6b23_vydra_3m_khaki): rhs_6b23_vydra_3m
+    {
+        displayName = "[Military] 6B23 (Khaki, Vydra-3M)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa),
+            QPATHTOF(data\Crew_equip_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_6sh92_vog_khaki): rhs_6b23_digi_6sh92_vog
+    {
+        displayName = "[Military] 6B23 (Khaki, 6Sh92/VOG)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa),
+            QPATHTOF(data\Crew_equip_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_vydra_3m_khaki): rhs_vydra_3m
+    {
+        displayName = "[Military] Vydra-3M (Khaki)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\Crew_equip_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6sh92_khaki): rhs_6sh92_digi
+    {
+        displayName = "[Military] 6Sh92 (Khaki)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_khaki): rhs_6b23
+    {
+        displayName = "[Military] 6B23 (Khaki)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_6sh92_headset_khaki): rhs_6b23_6sh92_headset
+    {
+        displayName = "[Military] 6B23 (Khaki, 6Sh92/Headset)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_6sh92_headset_mapcase_khaki): rhs_6b23_6sh92_headset_mapcase
+    {
+        displayName = "[Military] 6B23 (Khaki, 6Sh92/Headset/Mapcase)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_6sh92_radio_khaki): rhs_6b23_6sh92_radio
+    {
+        displayName = "[Military] 6B23 (Khaki, 6Sh92/Radio)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_6sh92_vog_headset_khaki): rhs_6b23_6sh92_vog_headset
+    {
+        displayName = "[Military] 6B23 (Khaki, 6Sh92/VOG/Headset)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_crewofficer_khaki): rhs_6b23_crewofficer
+    {
+        displayName = "[Military] 6B23 (Khaki, Crew Officer)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_crew_khaki): rhs_6b23_crew
+    {
+        displayName = "[Military] 6B23 (Khaki, Crew)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_engineer_khaki): rhs_6b23_engineer
+    {
+        displayName = "[Military] 6B23 (Khaki, Engineer)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_medic_khaki): rhs_6b23_medic
+    {
+        displayName = "[Military] 6B23 (Khaki, Medic)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_rifleman_khaki): rhs_6b23_rifleman
+    {
+        displayName = "[Military] 6B23 (Khaki, Rifleman)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6b23_sniper_khaki): rhs_6b23_sniper
+    {
+        displayName = "[Military] 6B23 (Khaki, Sniper)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6sh92_headset_khaki): rhs_6sh92_headset
+    {
+        displayName = "[Military] 6Sh92 (Khaki, Headset)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6sh92_radio_khaki): rhs_6sh92_radio
+    {
+        displayName = "[Military] 6Sh92 (Khaki, Radio)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6sh92_vog_khaki): rhs_6sh92_vog
+    {
+        displayName = "[Military] 6Sh92 (Khaki, VOG)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
+    class GVAR(V_6sh92_vog_headset_khaki): rhs_6sh92_vog_headset
+    {
+        displayName = "[Military] 6Sh92 (Khaki, VOG/Headset)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b23_mili_coyote_new_co.paa),
+            QPATHTOF(data\GearPack1_6sh92_mili_coyote_new_co.paa)
+        };
+        author = "RHS, Rad";
+    };
 
     // HEADGEAR
 
@@ -471,17 +661,17 @@ class CfgWeapons
 	class rhs_6b26_bala_green;
 	class rhs_6b26_ess_green;
 	class rhs_6b26_ess_bala_green;
-    class GVAR(H_6b26_coyote): rhs_6b26_digi {
+    class GVAR(H_6b26_khaki): rhs_6b26_digi {
         author = "RHS, Rad";
-        displayName = "[Military] 6B26 (Coyote)";
+        displayName = "[Military] 6B26 (Khaki)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b27_mili_co.paa)
+            QPATHTOF(data\6b27_mili_coyote_new_co.paa)
         };
     };
-    class GVAR(H_6b26_bala_coyote): rhs_6b26_digi_bala {
+    class GVAR(H_6b26_bala_khaki): rhs_6b26_digi_bala {
         author = "RHS, Rad";
-        displayName = "[Military] 6B26 (Coyote, Balaclava)";
+        displayName = "[Military] 6B26 (Khaki, Balaclava)";
         hiddenSelections[]=
         {
             "Camo1",
@@ -489,22 +679,22 @@ class CfgWeapons
         };
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b27_mili_co.paa),
+            QPATHTOF(data\6b27_mili_coyote_new_co.paa),
             QPATHTOF(data\rhs_bala2_duty_co.paa)
         };
     };
-    class GVAR(H_6b26_ess_coyote): rhs_6b26_digi_ess {
+    class GVAR(H_6b26_ess_khaki): rhs_6b26_digi_ess {
         author = "RHS, Rad";
-        displayName = "[Military] 6B26 (Coyote, ESS)";
+        displayName = "[Military] 6B26 (Khaki, ESS)";
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b27_mili_co.paa)
+            QPATHTOF(data\6b27_mili_coyote_new_co.paa)
         };
     };
-    class GVAR(H_6b26_ess_bala_coyote): rhs_6b26_digi_ess_bala
+    class GVAR(H_6b26_ess_bala_khaki): rhs_6b26_digi_ess_bala
     {
         author = "RHS, Rad";
-        displayName = "[Military] 6B26 (Coyote, ESS/Balaclava)";
+        displayName = "[Military] 6B26 (Khaki, ESS/Balaclava)";
         hiddenSelections[]=
         {
             "Camo1",
@@ -512,7 +702,7 @@ class CfgWeapons
         };
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF(data\6b27_mili_co.paa),
+            QPATHTOF(data\6b27_mili_coyote_new_co.paa),
             QPATHTOF(data\rhs_bala1_duty_co.paa)
         };
     };

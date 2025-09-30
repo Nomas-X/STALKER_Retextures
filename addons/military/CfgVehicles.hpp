@@ -4,25 +4,60 @@ class CfgVehicles
 	class rhs_sidor;
 	class GVAR(B_sidor_olive): rhs_sidor
 	{
-		displayName = "[Military] Sidor";
+		displayName = "[Military] Sidor (Olive)";
 		hiddenSelections[] = { "Camo" };
-		hiddenSelectionsTextures[]= { QPATHTOF(data\gearpack3_ranets_mili.paa) };
+		hiddenSelectionsTextures[]= { QPATHTOF(data\GearPack3_Ranets_mili_olive_co.paa) };
+	};
+	class GVAR(B_sidor_khaki): rhs_sidor
+	{
+		displayName = "[Military] Sidor (Khaki)";
+		hiddenSelections[] = { "Camo" };
+		hiddenSelectionsTextures[]= { QPATHTOF(data\GearPack3_Ranets_mili_coyote_new_co.paa) };
 	};
 
 	class rhs_assault_umbts;
 	class GVAR(B_assault_umbts_olive): rhs_assault_umbts
 	{
-		displayName = "[Military] UMBTS Backpack";
+		displayName = "[Military] UMBTS Backpack (Olive)";
 		hiddenSelections[] = { "Camo" };
-		hiddenSelectionsTextures[]= { QPATHTOF(data\gearpack3_ranets_mili.paa) };
+		hiddenSelectionsTextures[]= { QPATHTOF(data\GearPack3_Ranets_mili_olive_co.paa) };
 	};
+	class GVAR(B_assault_umbts_khaki): rhs_assault_umbts
+	{
+		displayName = "[Military] UMBTS Backpack (Khaki)";
+		hiddenSelections[] = { "Camo" };
+		hiddenSelectionsTextures[]= { QPATHTOF(data\GearPack3_Ranets_mili_coyote_new_co.paa) };
+	};
+
 	class rhs_assault_umbts_engineer_empty;
 	class GVAR(B_assault_umbts_engineer_empty_olive): rhs_assault_umbts_engineer_empty {
-		displayName = "[Military] UMBTS Backpack (Engineer)";
+		displayName = "[Military] UMBTS Backpack (Olive, Engineer)";
 
 		hiddenSelections[] = { "Camo" };
-		hiddenSelectionsTextures[] = { QPATHTOF(data\gearpack3_ranets_mili.paa) };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\GearPack3_Ranets_mili_olive_co.paa) };
 	};
+	class GVAR(B_assault_umbts_engineer_empty_khaki): rhs_assault_umbts_engineer_empty {
+		displayName = "[Military] UMBTS Backpack (Khaki, Engineer)";
+
+		hiddenSelections[] = { "Camo" };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\GearPack3_Ranets_mili_coyote_new_co.paa) };
+	};
+
+	class rhs_medic_bag;
+	class GVAR(B_medic_bag_olive): rhs_medic_bag {
+		displayName = "[Military] Medic Bag (Olive)";
+
+		hiddenSelections[] = { "Camo" };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\GearPack3_Ranets_mili_olive_co.paa) };
+	};
+	class GVAR(B_medic_bag_khaki): rhs_medic_bag {
+		displayName = "[Military] Medic Bag (Khaki)";
+
+		hiddenSelections[] = { "Camo" };
+		hiddenSelectionsTextures[] = { QPATHTOF(data\GearPack3_Ranets_mili_coyote_new_co.paa) };
+	};	
+
+	
 	class rhs_6sh122_gloves_v1_base;
 	class GVAR(6sh122_gloves_surpat_green): rhs_6sh122_gloves_v1_base {
 		scope = 1;
