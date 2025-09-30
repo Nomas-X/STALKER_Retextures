@@ -790,4 +790,97 @@ class CfgWeapons
             QPATHTOF(data\rhs_bala1_duty_co.paa)
         };
     };
+    class GVAR(H_6b26_patchless_khaki): rhs_6b26_digi {
+        author = "RHS, Rad";
+        displayName = "[Military] 6B26 (Khaki, Patchless)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b27_mili_coyote_new_patchless_co.paa)
+        };
+    };
+    class GVAR(H_6b26_bala_patchless_khaki): rhs_6b26_digi_bala {
+        author = "RHS, Rad";
+        displayName = "[Military] 6B26 (Khaki, Patchless, Balaclava)";
+        hiddenSelections[]=
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b27_mili_coyote_new_patchless_co.paa),
+            QPATHTOF(data\rhs_bala2_duty_co.paa)
+        };
+    };
+    class GVAR(H_6b26_ess_patchless_khaki): rhs_6b26_digi_ess {
+        author = "RHS, Rad";
+        displayName = "[Military] 6B26 (Khaki, Patchless, ESS)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b27_mili_coyote_new_patchless_co.paa)
+        };
+    };
+    class GVAR(H_6b26_ess_bala_patchless_khaki): rhs_6b26_digi_ess_bala
+    {
+        author = "RHS, Rad";
+        displayName = "[Military] 6B26 (Khaki, Patchless, ESS/Balaclava)";
+        hiddenSelections[]=
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b27_mili_coyote_new_patchless_co.paa),
+            QPATHTOF(data\rhs_bala1_duty_co.paa)
+        };
+    };
+    class GVAR(H_6b26_patchless_olive): rhs_6b26_digi
+    {
+        author = "RHS, Rad";
+        displayName = "[Military] 6B26 (Olive, Patchless)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b27_mili_olive_patchless_co.paa)
+        };
+    };
+    class GVAR(H_6b26_bala_patchless_olive): rhs_6b26_digi_bala
+    {
+        author = "RHS, Rad";
+        displayName = "[Military] 6B26 (Olive, Patchless, Balaclava)";
+        hiddenSelections[]=
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b27_mili_olive_patchless_co.paa),
+            QPATHTOF(data\rhs_bala2_duty_co.paa)
+        };
+    };
+    class GVAR(H_6b26_ess_patchless_olive): rhs_6b26_digi_ess
+    {
+        author = "RHS, Rad";
+        displayName = "[Military] 6B26 (Olive, Patchless, ESS)";
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b27_mili_olive_patchless_co.paa)
+        };
+    };
+    class GVAR(H_6b26_ess_bala_patchless_olive): rhs_6b26_digi_ess_bala
+    {
+        author = "RHS, Rad";
+        displayName = "[Military] 6B26 (Olive, Patchless, ESS/Balaclava)";
+        hiddenSelections[]=
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            QPATHTOF(data\6b27_mili_olive_patchless_co.paa),
+            QPATHTOF(data\rhs_bala1_duty_co.paa)
+        };
+    };
 };
